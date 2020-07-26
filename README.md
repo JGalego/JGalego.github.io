@@ -1,4 +1,4 @@
-# ![jgalego.github.io](https://jgalego.github.io)
+# [jgalego.github.io](https://jgalego.github.io)
 
 Personal website using [GitHub pages](https://pages.github.com)
 
