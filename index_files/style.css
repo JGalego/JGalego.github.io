@@ -128,7 +128,7 @@ header {
     height: 800px;
     min-height: 500px;
     width: 100%;
-    background: #161415 url(../index_files/bg1.jpg) no-repeat top center;
+    background: #161415 url(../images/bg1.jpg) no-repeat top center;
     background-size: cover !important;
     -webkit-background-size: cover !important;
     text-align: center;
@@ -355,7 +355,7 @@ ul#nav li a:hover {
 /* ------------------------------------------------------------------ */
 
 #bio {
-    background: url(../index_files/bg2.jpg) no-repeat fixed center center / cover;        
+    background: url(../images/bg2.jpg) no-repeat fixed center center / cover;        
     overflow: hidden;
 }
 
