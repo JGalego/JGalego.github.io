@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class=" js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths" lang="en" style="overflow: hidden;"><!--<![endif]-->
+<html lang="en" style="overflow: hidden;">
 
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -41,6 +41,21 @@
             }
         </style>
 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+        <script>
+            $(function () {
+                count = 0;
+                opsPrefixArray = ["Dev", "DevSec", "Git", "ML", "Data", "No"];
+                setInterval(function () {
+                  count++;
+                  $("#ops-prefix").fadeOut(400, function () {
+                    $(this).text(opsPrefixArray[count % opsPrefixArray.length]).fadeIn(400);
+                  });
+                }, 3000);
+            });
+        </script>
+
         <script src="js/modernizr.js"></script>
 
     </head>
@@ -75,8 +90,7 @@
             <div class="row banner" style="margin-top: 0px;">
                 <div class="banner-text">
                     <h1 class="responsive-headline wow zoomIn animated" style="visibility: visible; animation-name: zoomIn; font-size: 72px;"><span>JOÃO G<span class="upside_down" title="A is ∀"></span>LEGO</span></h1>
-                    <h3 class="wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">I'm a <span>theoretical physicist</span> and <span>PhD candidate</span><br>currently working as a <span>DevOps engineer</span> @ Siemens. </h3>
-                    <h3 class="wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp; font-size: 15px;">Scroll down to learn more <span>about me</span>.</h3>
+                    <h3 class="wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;"><span>PhD student @ <a href="https://www.ulisboa.pt/">ULisboa</a></span> + <span><span id="ops-prefix">Dev</span>Ops engineer</span> @ <a href="https://www.siemens.com/">Siemens</a></h3>
                     <hr>
                 </div>
             </div>
@@ -92,9 +106,9 @@
             <div id="social">
                 <div class="row social-container">                                
                     <ul class="social">
-                        <li><a href="https://www.facebook.com/joao.galego.142#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="https://pt.linkedin.com/in/jgalego#"><i class="fa fa-linkedin"></i></a></li>
-                        <li><a href="https://github.com/JGalego#"><i class="fa fa-github"></i></a></li>
+                        <li><a href="https://www.facebook.com/joao.galego.142"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://pt.linkedin.com/in/jgalego"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="https://github.com/JGalego"><i class="fa fa-github"></i></a></li>
                     </ul>
                 </div>
             </div>
@@ -108,16 +122,15 @@
                     <div class="six columns bio-left"> 
                         <div class="pp-container">
                             <img class="profile-pic wow zoomIn animated" src="./images/avatar.jpg" alt="" style="visibility: visible; animation-name: zoomIn;">
-                            <h2>João Galego</h2>
                             <h3>PhD Candidate | DevOps Engineer @ Siemens Lx Tech Hub</h3>              
                         </div> <!-- Profile Picture -->
                     </div>
                     <div class="six columns main-col wow fadeIn animated" style="visibility: visible; animation-name: fadeIn;">
                         <div class="arrow-left"></div>
-                        <p align="justify">Born and raised in <a href="https://www.google.pt/maps/place/Lisbon/@38.7436057,-9.2302437,12z/data=!3m1!4b1!4m2!3m1!1s0xd19331a61e4f33b:0x400ebbde49036d0">Lisbon (Portugal)</a>, I graduated in 2013 with a MSc degree in Physics from <a href="https://tecnico.ulisboa.pt/en/">Instituto Superior Técnico</a> - the best school of engineering in the country. During my senior year, I was offered a grant for undergraduate students to study at the <a href="http://cftp.ist.utl.pt/">Center for Theoretical Particle Physics (CFTP)</a>, where I did my MSc thesis work under the supervision of <a href="https://tecnico.ulisboa.pt/pt/noticias/2009/1/Gustavo_Castelo_Branco__Fisico_e_Investigador_do_IST__recebe_o_Seed_of_Science_2009">Prof. Gustavo Castelo Branco</a> (prémio Gulbenkian de Ciência 2001, comendador da Ordem de Sant'Iago de Espada 2005, Humboldt Research Award 2005, Seed of Science 2009). Since then I've worked as a data analyst at <a href="http://www.kantarworldpanel.com/global">Kantar Worldpanel</a> - one of the leading Market Research companies in the world - and as a software tester and test automation engineer at <a href="http://www.coriant.com/">Coriant</a> - formerly part of <a href="https://networks.nokia.com/">Nokia Siemens Networks</a> - and as a DevOps engineer at <a href="https://innowave.tech/wintrust/">WinTrust / Innowave</a>. In 2016, I decided to return to academia and completed a post-graduate degree course in Forensic Studies from <a href="http://www.iscsp.ulisboa.pt">Instituto Superior de Ciências Sociais e Políticas (ISCSP/UL)</a>. Currently, I'm working as a DevOps engineer at Siemens while pursuing a <a href="http://www.dout_ciencia_cognitiva.ul.pt/paginas/en/index_en.html">PhD in Cognitive Science</a> at the University of Lisbon, where my dissertation will focus on the application of machine learning algorithms to improve the performance of EEG-based brain-computer interfaces. </p>
+                        <p align="justify">Born and raised in <a href="https://www.google.pt/maps/place/Lisbon/@38.7436057,-9.2302437,12z/data=!3m1!4b1!4m2!3m1!1s0xd19331a61e4f33b:0x400ebbde49036d0">Lisbon (Portugal)</a>, I graduated in 2013 with a <a href="https://fenix.tecnico.ulisboa.pt/cursos/meft">MSc degree in Physics</a> from <a href="https://tecnico.ulisboa.pt/en/">Instituto Superior Técnico</a> - the best school of engineering in the country. In my senior year, I was offered a grant for undergraduate students to study at the <a href="http://cftp.ist.utl.pt/">Center for Theoretical Particle Physics (CFTP)</a>, where I did my MSc thesis work under the supervision of Prof. Gustavo Castelo Branco (prémio Gulbenkian de Ciência 2001, comendador da Ordem de Sant'Iago de Espada 2005, Humboldt Research Award 2005, Seed of Science 2009). Since then I've worked as a data analyst at <a href="http://www.kantarworldpanel.com/global">Kantar Worldpanel</a> - one of the leading Market Research companies in the world - and as a software tester and test automation engineer at <a href="http://www.coriant.com/">Coriant</a> - formerly part of <a href="https://networks.nokia.com/">Nokia Siemens Networks</a> - and as a DevOps engineer at <a href="https://innowave.tech/wintrust/">WinTrust / Innowave</a>. In 2016, I decided to return to academia and completed a post-graduate degree course in Forensic Studies from <a href="http://www.iscsp.ulisboa.pt">Instituto Superior de Ciências Sociais e Políticas (ISCSP/UL)</a>. Currently, I'm working as a DevOps engineer / ML consultant at <a href="https://www.siemens.com/">Siemens</a> while pursuing a <a href="http://www.dout_ciencia_cognitiva.ul.pt/paginas/en/index_en.html">PhD in Cognitive Science</a> at the <a href="https://www.ulisboa.pt/">University of Lisbon</a>. My dissertation will focus on the application of machine learning algorithms to improve the performance of EEG-based brain-computer interfaces.</p>
                         <div class="row">            
                             <div class="six columns download">
-                                <p><a href="./files/cv_en.pdf" class="button" target="_blank"><i class="fa fa-download"></i>Download CV</a></p>
+                                <p><a href="files/cv_en.pdf" class="button" target="_blank"><i class="fa fa-download"></i>Download CV</a></p>
                             </div>
                         </div>
                     </div>
@@ -287,7 +300,7 @@
                                 <div class="timeline-event-copy">
                                     <p class="timeline-event-thumbnail">August 2019 - Present</p>
                                     <h3><a href="https://new.siemens.com/pt/en/company/jobs/jobs/lisbontechhub.html">Siemens</a></h3>
-                                    <h4>DevOps Engineer</h4>
+                                    <h4>DevOps Engineer / ML Consultant</h4>
                                     <p><strong>Tools:</strong>
                                         <a href="https://aws.amazon.com">AWS</a>,
                                         <a href="https://www.ansible.com">Ansible</a>,
@@ -382,53 +395,7 @@
                     </div>
                 </div>
             </div>
-
-
-            <!-- Skills -->
-
-            <div class="row skill">
-
-                <div class="three columns header-col">
-                    <h2>
-                        <span>Skills</span>
-                    </h2>
-                </div>
-
-                <div class="nine columns main-col">
-
-                    <div class="bars">
-
-                        <ul class="skills">
-                            <li>
-                                <span class="bar-expand photoshop wow fadeInLeft animated" style="visibility: visible; animation-name: fadeInLeft;"></span>
-                                <em>C/C++</em>
-                            </li>
-                            <li>
-                                <span class="bar-expand java wow fadeInLeft animated" style="visibility: visible; animation-name: fadeInLeft;"></span>
-                                <em>Java/Scala</em>
-                            </li>
-                            <li>
-                                <span class="bar-expand jquery wow fadeInLeft animated" style="visibility: visible; animation-name: fadeInLeft;"></span>
-                                <em>Lua</em>
-                            </li>
-                            <li>
-                                <span class="bar-expand html5 wow fadeInLeft animated" style="visibility: visible; animation-name: fadeInLeft;"></span>
-                                <em>MATLAB/Octave</em>
-                            </li>
-                            <li>
-                                <span class="bar-expand python wow fadeInLeft animated" style="visibility: visible; animation-name: fadeInLeft;"></span>
-                                <em>Python/Jython</em>
-                            </li>
-                            <li>
-                                <span class="bar-expand wordpress wow fadeInLeft animated" style="visibility: visible; animation-name: fadeInLeft;"></span>
-                                <em>Ruby</em>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
         </section>
-
 
         <!-- Footer -->
 
@@ -445,7 +412,7 @@
                     </ul>
 
                     <ul class="copyright">
-                        <li>João Galego © Copyright 2019, All Rights Reserved</li>
+                        <li>João Galego © Copyright 2020, All Rights Reserved</li>
                     </ul>
 
                 </div>
