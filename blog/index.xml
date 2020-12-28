@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on João Galego</title>
+    <link>https://jgalego.github.io/blog/</link>
+    <description>Recent content in Blogs on João Galego</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 28 Dec 2020 17:50:35 +0000</lastBuildDate><atom:link href="https://jgalego.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Wbme ML Workshop</title>
+      <link>https://jgalego.github.io/blog/wbme-ml-workshop/</link>
+      <pubDate>Mon, 28 Dec 2020 17:50:35 +0000</pubDate>
+      
+      <guid>https://jgalego.github.io/blog/wbme-ml-workshop/</guid>
+      <description>Machine Learning for Medicine and Healthcare  For more information about the event, please visit 12th WBME - Workshop on Biomedical Engineering
+ The ubiquity of algorithms and data is one of the hallmarks of the Information Age. In a world powered by technology, where smartphones have more computing power than all of NASA’s computers during the Apollo missions, algorithms run virtually everything.
+However, in the advent of the 4th Industrial Revolution, data is growing faster than it can be analyzed and classic algorithms have been unable to cope with this Big Data explosion.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -3,7 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://jgalego.github.io/stuff/</loc>
+    <loc>https://jgalego.github.io/blog/</loc>
+    <lastmod>2020-12-28T17:50:35+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jgalego.github.io/blog/wbme-ml-workshop/</loc>
+    <lastmod>2020-12-28T17:50:35+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jgalego.github.io/blog/</loc>
     <lastmod>2020-12-28T16:27:58+00:00</lastmod>
   </url>
   
