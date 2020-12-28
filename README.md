@@ -4,7 +4,7 @@
 
 Personal website using [GitHub pages](https://pages.github.com)
 
-![personal_improvement](images/personal_improvement.jpg)
+![personal_improvement](personal_improvement.jpg)
 
 ## References
 
