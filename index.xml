@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>João Galego</title>
+    <title>About on João Galego</title>
     <link>https://jgalego.github.io/</link>
-    <description>Recent content on João Galego</description>
+    <description>Recent content in About on João Galego</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 10 Feb 2021 16:15:08 +0000</lastBuildDate><atom:link href="https://jgalego.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 28 Dec 2020 10:48:43 +0000</lastBuildDate><atom:link href="https://jgalego.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Defect Detection with Amazon Lookout for Vision</title>
       <link>https://jgalego.github.io/blog/amazon-lookout-for-vision/</link>
@@ -22,15 +22,6 @@
       
       <guid>https://jgalego.github.io/blog/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://jgalego.github.io/about/</link>
-      <pubDate>Mon, 28 Dec 2020 10:48:43 +0000</pubDate>
-      
-      <guid>https://jgalego.github.io/about/</guid>
-      <description>Who am I?  I am a certified Physics nerd and an amateur forensic scientist with a keen interest in solving interesting and demanding problems. I&amp;rsquo;ve worked as a data analyst, software tester, test automation engineer, DevOps engineer and ML consultant for several companies, in areas ranging from market research to fiber optic telecommunications and mobility. Currently, I work as a DevOps engineer and ML consultant at the Siemens Lisbon Tech Hub, while pursuing a PhD degree in Cognitive Science at Universidade de Lisboa.</description>
     </item>
     
     <item>
