@@ -5,7 +5,16 @@
     <link>https://jgalego.github.io/blog/</link>
     <description>Recent content in Blogs on João Galego</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 10 Feb 2021 16:15:08 +0000</lastBuildDate><atom:link href="https://jgalego.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 27 Feb 2021 12:20:20 +0000</lastBuildDate><atom:link href="https://jgalego.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>QHack Recap - PennyLane, Amazon Braket and Beyond 🚀</title>
+      <link>https://jgalego.github.io/blog/qhack-recap/</link>
+      <pubDate>Sat, 27 Feb 2021 12:20:20 +0000</pubDate>
+      
+      <guid>https://jgalego.github.io/blog/qhack-recap/</guid>
+      <description>QHack Recap — PennyLane, Amazon Braket and Beyond 🚀 Now that QHack 2021 is almost over, it&amp;rsquo;s time for a short recap&amp;hellip;</description>
+    </item>
+    
     <item>
       <title>Defect Detection with Amazon Lookout for Vision</title>
       <link>https://jgalego.github.io/blog/amazon-lookout-for-vision/</link>
