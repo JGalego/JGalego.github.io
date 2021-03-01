@@ -1,35 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://jgalego.github.io/blog/</loc>
     <lastmod>2021-02-27T12:20:20+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jgalego.github.io/blog/qhack-recap/</loc>
     <lastmod>2021-02-27T12:20:20+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jgalego.github.io/blog/amazon-lookout-for-vision/</loc>
     <lastmod>2021-02-10T16:15:08+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jgalego.github.io/blog/</loc>
     <lastmod>2020-12-28T16:27:58+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jgalego.github.io/</loc>
     <lastmod>2020-12-28T10:48:43+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jgalego.github.io/blog/wbme-ml-workshop/</loc>
     <lastmod>2020-10-14T00:00:00+00:00</lastmod>
   </url>
-  
 </urlset>
