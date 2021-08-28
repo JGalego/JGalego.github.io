@@ -3,9 +3,11 @@ title: Home
 layout: default
 ---
 
+## About me
+
 <img class="profile-picture" src="assets/images/avatar.jpg">
 
-<sub><sup>📍 [{{ site.data.location.city }}, {{ site.data.location.country }}]({{ site.data.location.maps }})</sup></sub>
+📍 [{{ site.data.location.city }}, {{ site.data.location.country }}]({{ site.data.location.maps }})
 
 I am a certified Physics nerd 🌌 and an amateur forensic scientist 🕵️ with a keen interest in challenging problems with real-world applications 🌍.
 
@@ -15,6 +17,8 @@ I've worked as a data analyst, software tester, DevOps engineer and ML consultan
 {% assign currentEdu = site.data.education | first %}
 
 Currently, I work as a {{ currentJob.role }} at [{{ currentJob.where.name }}]({{ currentJob.where.link }}), while pursuing a {{ currentEdu.degree }} degree in {{ currentEdu.area }} at [{{ currentEdu.where.name }}]({{ currentEdu.where.link }}). My research focuses on the application of ML algorithms to improve the performance of EEG-based brain-computer interfaces 🧠.
+
+When I'm not working, you can usually find me browsing the local bookstore 📚, participating in hackathons 🐱‍💻 or enjoying some quality family time 👪.
 
 ## What's new?
 
