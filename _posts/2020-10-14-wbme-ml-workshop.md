@@ -20,6 +20,6 @@ In this workshop, I give an overview of what ML is, highlighting some of its app
 
 📝 Full content available on [GitHub](https://github.com/JGalego/WBME-ML-Workshop)
 
-> For more information about the event, visit [12th WBME - Workshop on Biomedical Engineering](http://wbme.fc.ul.pt/)
+> For more information about this event, visit [12th WBME - Workshop on Biomedical Engineering](http://wbme.fc.ul.pt/)
 
 <!-- excerpt-end -->

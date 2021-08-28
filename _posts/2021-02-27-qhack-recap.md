@@ -18,27 +18,17 @@ Now that [QHack 2021](https://qhack.ai/) is officially over, it's time for a sho
 
 **Interested in learning more about quantum computing (QC)?**
 
-Here's a list of resources for all ages...
+Here's a short list of resources for all ages...
 
-👶 **Toddlers**
+👶 **Toddlers** - [Quantum Computing for Babies](https://www.amazon.com/Quantum-Computing-Babies-Baby-University/dp/1492671185)
 
-[Quantum Computing for Babies](https://www.amazon.com/Quantum-Computing-Babies-Baby-University/dp/1492671185)
+🧒 **Kids** - [Quantum Computing For Kids: Get Ready for the Future!](https://www.amazon.com/Quantum-Computing-Kids-Introduction-Ilustrated/dp/B0851MB79W)
 
-🧒 **Kids**
+👦 **Teenagers** - [Quantum Computing as a High School Module](https://arxiv.org/abs/1905.00282)
 
-[Quantum Computing For Kids: Get Ready for the Future!](https://www.amazon.com/Quantum-Computing-Kids-Introduction-Ilustrated/dp/B0851MB79W)
+🧑‍🎓 **College Students** - [Learn Quantum Computation using Qiskit](https://qiskit.org/textbook/preface.html)
 
-👦 **Teenagers**
-
-[Quantum Computing as a High School Module](https://arxiv.org/abs/1905.00282)
-
-🧑‍🎓 **College Students**
-
-[Learn Quantum Computation using Qiskit](https://qiskit.org/textbook/preface.html)
-
-👨‍💻 **Computer Scientists**
-
-[Quantum Computing since Democritus](https://www.scottaaronson.com/democritus/)
+👨‍💻 **Computer Scientists** - [Quantum Computing since Democritus](https://www.scottaaronson.com/democritus/)
 
 👥 **Everyone else... including Pets** 🐶🐱
 
