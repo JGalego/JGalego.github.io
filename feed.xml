@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://jgalego.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jgalego.github.io/" rel="alternate" type="text/html" /><updated>2021-08-28T17:28:15+00:00</updated><id>https://jgalego.github.io/feed.xml</id><title type="html">João Galego</title><entry><title type="html">QHack Recap - PennyLane, Amazon Braket and Beyond 🚀</title><link href="https://jgalego.github.io/2021/02/27/qhack-recap.html" rel="alternate" type="text/html" title="QHack Recap - PennyLane, Amazon Braket and Beyond 🚀" /><published>2021-02-27T00:00:00+00:00</published><updated>2021-02-27T00:00:00+00:00</updated><id>https://jgalego.github.io/2021/02/27/qhack-recap</id><content type="html" xml:base="https://jgalego.github.io/2021/02/27/qhack-recap.html">&lt;h2 id=&quot;qhack-recap--pennylane-amazon-braket-and-beyond-&quot;&gt;&lt;a href=&quot;https://medium.com/@joao.galego/qhack-recap-pennylane-amazon-braket-and-beyond-a2c153d50a88&quot;&gt;QHack Recap — PennyLane, Amazon Braket and Beyond 🚀&lt;/a&gt;&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://jgalego.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jgalego.github.io/" rel="alternate" type="text/html" /><updated>2021-08-28T17:32:02+00:00</updated><id>https://jgalego.github.io/feed.xml</id><title type="html">João Galego</title><entry><title type="html">QHack Recap - PennyLane, Amazon Braket and Beyond 🚀</title><link href="https://jgalego.github.io/2021/02/27/qhack-recap.html" rel="alternate" type="text/html" title="QHack Recap - PennyLane, Amazon Braket and Beyond 🚀" /><published>2021-02-27T00:00:00+00:00</published><updated>2021-02-27T00:00:00+00:00</updated><id>https://jgalego.github.io/2021/02/27/qhack-recap</id><content type="html" xml:base="https://jgalego.github.io/2021/02/27/qhack-recap.html">&lt;h2 id=&quot;qhack-recap--pennylane-amazon-braket-and-beyond-&quot;&gt;&lt;a href=&quot;https://medium.com/@joao.galego/qhack-recap-pennylane-amazon-braket-and-beyond-a2c153d50a88&quot;&gt;QHack Recap — PennyLane, Amazon Braket and Beyond 🚀&lt;/a&gt;&lt;/h2&gt;
 
 &lt;!-- excerpt-start --&gt;
 
@@ -12,27 +12,17 @@
 
 &lt;p&gt;&lt;strong&gt;Interested in learning more about quantum computing (QC)?&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Here’s a list of resources for all ages…&lt;/p&gt;
+&lt;p&gt;Here’s a short list of resources for all ages…&lt;/p&gt;
 
-&lt;p&gt;👶 &lt;strong&gt;Toddlers&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;👶 &lt;strong&gt;Toddlers&lt;/strong&gt; - &lt;a href=&quot;https://www.amazon.com/Quantum-Computing-Babies-Baby-University/dp/1492671185&quot;&gt;Quantum Computing for Babies&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://www.amazon.com/Quantum-Computing-Babies-Baby-University/dp/1492671185&quot;&gt;Quantum Computing for Babies&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;🧒 &lt;strong&gt;Kids&lt;/strong&gt; - &lt;a href=&quot;https://www.amazon.com/Quantum-Computing-Kids-Introduction-Ilustrated/dp/B0851MB79W&quot;&gt;Quantum Computing For Kids: Get Ready for the Future!&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;🧒 &lt;strong&gt;Kids&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;👦 &lt;strong&gt;Teenagers&lt;/strong&gt; - &lt;a href=&quot;https://arxiv.org/abs/1905.00282&quot;&gt;Quantum Computing as a High School Module&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://www.amazon.com/Quantum-Computing-Kids-Introduction-Ilustrated/dp/B0851MB79W&quot;&gt;Quantum Computing For Kids: Get Ready for the Future!&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;🧑‍🎓 &lt;strong&gt;College Students&lt;/strong&gt; - &lt;a href=&quot;https://qiskit.org/textbook/preface.html&quot;&gt;Learn Quantum Computation using Qiskit&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;👦 &lt;strong&gt;Teenagers&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://arxiv.org/abs/1905.00282&quot;&gt;Quantum Computing as a High School Module&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;🧑‍🎓 &lt;strong&gt;College Students&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://qiskit.org/textbook/preface.html&quot;&gt;Learn Quantum Computation using Qiskit&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;👨‍💻 &lt;strong&gt;Computer Scientists&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.scottaaronson.com/democritus/&quot;&gt;Quantum Computing since Democritus&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;👨‍💻 &lt;strong&gt;Computer Scientists&lt;/strong&gt; - &lt;a href=&quot;https://www.scottaaronson.com/democritus/&quot;&gt;Quantum Computing since Democritus&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;👥 &lt;strong&gt;Everyone else… including Pets&lt;/strong&gt; 🐶🐱&lt;/p&gt;
 
@@ -69,7 +59,7 @@
 &lt;p&gt;📝 Full content available on &lt;a href=&quot;https://github.com/JGalego/WBME-ML-Workshop&quot;&gt;GitHub&lt;/a&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;For more information about the event, visit &lt;a href=&quot;http://wbme.fc.ul.pt/&quot;&gt;12th WBME - Workshop on Biomedical Engineering&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;For more information about this event, visit &lt;a href=&quot;http://wbme.fc.ul.pt/&quot;&gt;12th WBME - Workshop on Biomedical Engineering&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;!-- excerpt-end --&gt;</content><author><name></name></author><summary type="html">Machine Learning for Medicine and Healthcare 👨‍⚕️ The ubiquity of algorithms and data is one of the hallmarks of the Information Age. In a world powered by technology, where smartphones have more computing power than all of NASA’s computers during the Apollo missions, algorithms run virtually everything. However, in the advent of the 4th Industrial Revolution, data is growing faster than it can be analyzed and classic algorithms have been unable to cope with this Big Data explosion. This is where Artificial Intelligence (AI), and Machine Learning (ML) in particular, really shine. ML systems learn directly from data without being explicitly told to do so, and they have found enormous success in such tasks as email filtering, computer-aided diagnostics (CADx) and autonomous driving. Companies like Facebook, Amazon, Netflix and Google are investing heavily on AI, and ML engineer and data scientist positions are among the highest paid and “sexiest” jobs of the early 21st century. Nonetheless, getting past the hype and putting buzzwords aside is hard when one lacks a basic understanding of how these systems actually work. This is especially relevant in the health sector where transparency and accountability are of paramount importance. In this workshop, I give an overview of what ML is, highlighting some of its applications to the health sector - from the rise of expert systems in the 80s to the diagnosis, prognosis and treatment of SARS‑CoV‑2 - how it is shaping the present and how it may one day decide our future. 📝 Full content available on GitHub For more information about the event, visit 12th WBME - Workshop on Biomedical Engineering</summary></entry></feed>
+&lt;!-- excerpt-end --&gt;</content><author><name></name></author><summary type="html">Machine Learning for Medicine and Healthcare 👨‍⚕️ The ubiquity of algorithms and data is one of the hallmarks of the Information Age. In a world powered by technology, where smartphones have more computing power than all of NASA’s computers during the Apollo missions, algorithms run virtually everything. However, in the advent of the 4th Industrial Revolution, data is growing faster than it can be analyzed and classic algorithms have been unable to cope with this Big Data explosion. This is where Artificial Intelligence (AI), and Machine Learning (ML) in particular, really shine. ML systems learn directly from data without being explicitly told to do so, and they have found enormous success in such tasks as email filtering, computer-aided diagnostics (CADx) and autonomous driving. Companies like Facebook, Amazon, Netflix and Google are investing heavily on AI, and ML engineer and data scientist positions are among the highest paid and “sexiest” jobs of the early 21st century. Nonetheless, getting past the hype and putting buzzwords aside is hard when one lacks a basic understanding of how these systems actually work. This is especially relevant in the health sector where transparency and accountability are of paramount importance. In this workshop, I give an overview of what ML is, highlighting some of its applications to the health sector - from the rise of expert systems in the 80s to the diagnosis, prognosis and treatment of SARS‑CoV‑2 - how it is shaping the present and how it may one day decide our future. 📝 Full content available on GitHub For more information about this event, visit 12th WBME - Workshop on Biomedical Engineering</summary></entry></feed>
