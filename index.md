@@ -21,8 +21,6 @@ Currently, I work as a DevOps engineer and ML consultant at the [Siemens Lisbon 
 
 My research focuses on the application of robust ML algorithms to improve the performance of EEG-based brain-computer interfaces 🧠.
 
-I've worked as a data analyst, software tester, DevOps engineer and ML consultant for several companies, in areas ranging from market research to fiber optic telecommunications and mobility.
-
 ## Work Experience
 
 {% for job in site.data.jobs %}
