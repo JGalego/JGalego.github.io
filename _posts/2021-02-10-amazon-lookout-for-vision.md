@@ -18,4 +18,4 @@ In this article, I give an introduction to the *core tenets* of AWS for Industri
 
 <!-- excerpt-end -->
 
-<img src="/amazon_lookout_for_vision.png" width="700"/>
+<img src="/assets/images/amazon_lookout_for_vision.png" width="700"/>

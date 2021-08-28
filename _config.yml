@@ -15,8 +15,8 @@ sass:
 nav:
  - name: About
    link: /
- - name: CV
-   link: /cv_en.pdf
+ - name: Resume
+   link: /resume
  - name: Blog
    link: /blog
 

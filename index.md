@@ -20,19 +20,3 @@ I've worked as a data analyst, software tester, DevOps engineer and ML consultan
 Currently, I work as a DevOps engineer and ML consultant at the [Siemens Lisbon Tech Hub](https://www.youtube.com/watch?v=kVpoZRwASDU), while pursuing a PhD degree in Cognitive Science at [ULisboa](https://www.ulisboa.pt/en/).
 
 My research focuses on the application of robust ML algorithms to improve the performance of EEG-based brain-computer interfaces 🧠.
-
-## Work Experience
-
-{% for job in site.data.jobs %}
-[**{{ job.where.name }}**]({{ job.where.link }}) <br>
-`{{ job.when }}` <br>
-{{ job.role }}
-{% endfor %}
-
-## Education
-
-{% for degree in site.data.education %}
-[**{{ degree.where.name }}**]({{ degree.where.link }}) <br>
-`{{ degree.when }}` <br>
-{{ degree.name }} {% if degree.graduated %}🎓{% endif %}
-{% endfor %}
