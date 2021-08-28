@@ -5,18 +5,29 @@ layout: default
 
 📄 [**Download CV**](/assets/documents/cv_en.pdf)
 
-### Work Experience
+<img src="/assets/images/dilbert-resume.jpg" width="450px"/>
 
-{% for job in site.data.jobs %}
-[**{{ job.where.name }}**]({{ job.where.link }}) <br>
-`{{ job.when.start }} - {{ job.when.end | default: 'Present' }}` <br>
-<sub><sup>{{ job.role }}</sup></sub>
-{% endfor %}
-
-### Education
-
-{% for course in site.data.education %}
-[**{{ course.where.name }}**]({{ course.where.link }}) <br>
-`{{ course.when.start }} - {{ course.when.end | default: 'Present' }}`<br>
-<sub><sup>{{ course.degree }} {{ course.area }} {% if course.graduated %}🎓{% endif %}<sub><sup>
-{% endfor %}
+<table>
+    <tr>
+        <th>Work Experience</th>
+        <th>Education</th>
+    </tr>
+    <tr>
+        <td>
+            {% for job in site.data.jobs %}
+            <a href="{{ job.where.link }}"><b>{{ job.where.name }}</b></a> <br>
+            <tt>{{ job.when.start }}</tt> - <tt>{{ job.when.end | default: 'Present' }}</tt> <br>
+            {{ job.role }} <br>
+            <br>
+            {% endfor %}
+        </td>
+        <td>
+            {% for course in site.data.education %}
+            <a href="{{ course.where.link }}"><b>{{ course.where.name }}</b></a> <br>
+            <tt>{{ course.when.start }}</tt> - <tt>{{ course.when.end | default: 'Present' }}</tt> <br>
+            {{ course.degree }} {{ course.area }} {% if course.graduated %}🎓{% endif %} <br>
+            <br>
+            {% endfor %}
+        </td>
+    </tr>
+</table>

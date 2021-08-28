@@ -9,16 +9,16 @@ footer_url: https://jekyllrb.com/
 footer_text: © João Galego | Built with ❤️ using Jekyll
 
 sass:
-    style: compressed
-    sass_dir: _sass
+  style: compressed
+  sass_dir: _sass
 
 nav:
- - name: Home
-   link: /
- - name: Resume
-   link: /resume
- - name: Blog
-   link: /blog
+  - name: Home
+    link: /
+  - name: Blog
+    link: /blog
+  - name: Resume
+    link: /resume
 
 kramdown:
   # parse markdown inside block-level HTML tag

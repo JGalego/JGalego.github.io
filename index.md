@@ -9,9 +9,9 @@ layout: default
 
 📍 [{{ site.data.location.city }}, {{ site.data.location.country }}]({{ site.data.location.maps }})
 
-I am a certified Physics nerd 🌌 and an amateur forensic scientist 🕵️ with a keen interest in challenging problems with real-world applications 🌍.
+I am a certified Physics nerd 🌌 and an amateur forensic scientist 🕵️ with a keen interest in solving challenging problems with real-world applications 🌍.
 
-I've worked as a data analyst, software tester, DevOps engineer and ML consultant for several companies, in areas ranging from market research to fiber optic telecommunications and mobility.
+Over the years, I've worked as a data analyst, software tester, DevOps engineer and ML consultant for several companies, in areas ranging from market research to fiber optic telecommunications and mobility.
 
 {% assign currentJob = site.data.jobs | first %}
 {% assign currentEdu = site.data.education | first %}
