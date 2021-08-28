@@ -69,6 +69,9 @@ GEM
       ffi (~> 1.9)
     terminal-table (2.0.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
+    therubyrhino (2.1.2)
+      therubyrhino_jar (>= 1.7.4, < 1.7.9)
+    therubyrhino_jar (1.7.8)
     thread_safe (0.3.6)
     tzinfo (1.2.9)
       thread_safe (~> 0.1)
@@ -86,6 +89,7 @@ DEPENDENCIES
   jekyll-feed (~> 0.12)
   kramdown-math-katex (~> 1.0)
   minima (~> 2.5)
+  therubyrhino (~> 2.1)
   tzinfo (~> 1.2)
   tzinfo-data
   wdm (~> 0.1.1)
