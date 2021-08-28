@@ -1,0 +1,18 @@
+---
+- role: DevOps Engineer / ML Consultant
+  when: 2019 - Present
+  where:
+    name: Siemens
+    link: https://www.siemens.com/
+
+- role: DevOps Engineer
+  when: 2017 - 2019
+  where:
+    name: Innowave
+    link: https://www.innowave.tech/
+
+- role: Software Tester
+  when: 2014 - 2017
+  where:
+    name: Coriant
+    link: https://www.coriant.com/

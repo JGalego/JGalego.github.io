@@ -1,0 +1,28 @@
+title: João Galego
+url: https://jgalego.github.io
+baseurl: ""
+
+markdown: kramdown
+
+footer: true
+footer_url: https://jekyllrb.com/
+footer_text: © João Galego | Built with ❤️ using Jekyll
+
+sass:
+    style: compressed
+    sass_dir: _sass
+
+nav:
+ - name: About
+   link: /
+ - name: CV
+   link: /cv_en.pdf
+ - name: Blog
+   link: /blog
+
+kramdown:
+  # parse markdown inside block-level HTML tag
+  parse_block_html: true
+  # For more information, please visit:
+  # https://gendignoux.com/blog/2020/05/23/katex.html
+  math_engine: katex
