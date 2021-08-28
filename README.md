@@ -42,3 +42,9 @@ Personal website using [Jekyll](https://jekyllrb.com/) and [GitHub pages](https:
     ```bash
     bundle exec jekyll serve
     ```
+
+## References
+
+* (Jekyll) [Documentation](https://jekyllrb.com/docs/)
+* (Moncef Belyamani) [Making GitHub Pages Work with Jekyll 4+ and any Theme and Plugin](https://www.moncefbelyamani.com/making-github-pages-work-with-latest-jekyll/)
+* (GitHub) [GitHub Pages Documentation](https://docs.github.com/en/pages)
