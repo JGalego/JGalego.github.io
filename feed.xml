@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://jgalego.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jgalego.github.io/" rel="alternate" type="text/html" /><updated>2021-08-28T01:37:34+00:00</updated><id>https://jgalego.github.io/feed.xml</id><title type="html">João Galego</title><entry><title type="html">QHack Recap - PennyLane, Amazon Braket and Beyond 🚀</title><link href="https://jgalego.github.io/2021/02/27/qhack-recap.html" rel="alternate" type="text/html" title="QHack Recap - PennyLane, Amazon Braket and Beyond 🚀" /><published>2021-02-27T00:00:00+00:00</published><updated>2021-02-27T00:00:00+00:00</updated><id>https://jgalego.github.io/2021/02/27/qhack-recap</id><content type="html" xml:base="https://jgalego.github.io/2021/02/27/qhack-recap.html">&lt;h2 id=&quot;qhack-recap--pennylane-amazon-braket-and-beyond-&quot;&gt;&lt;a href=&quot;https://medium.com/@joao.galego/qhack-recap-pennylane-amazon-braket-and-beyond-a2c153d50a88&quot;&gt;QHack Recap — PennyLane, Amazon Braket and Beyond 🚀&lt;/a&gt;&lt;/h2&gt;
+
+&lt;!-- excerpt-start --&gt;
+
+&lt;p&gt;Now that &lt;a href=&quot;https://qhack.ai/&quot;&gt;QHack 2021&lt;/a&gt; is officially over, it’s time for a short recap…&lt;/p&gt;
+
+&lt;p&gt;📝 Read the full article on &lt;a href=&quot;https://medium.com/@joao.galego/qhack-recap-pennylane-amazon-braket-and-beyond-a2c153d50a88&quot;&gt;Medium&lt;/a&gt;&lt;/p&gt;
+
+&lt;!-- excerpt-end --&gt;
+
+&lt;iframe src=&quot;https://giphy.com/embed/R3XLsgvTaEm2YulMqM&quot; width=&quot;480&quot; height=&quot;270&quot; frameborder=&quot;0&quot; class=&quot;giphy-embed&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;strong&gt;Interested in learning more about quantum computing (QC)?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Here’s a list of resources for all ages…&lt;/p&gt;
+
+&lt;p&gt;👶 &lt;strong&gt;Toddlers&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.amazon.com/Quantum-Computing-Babies-Baby-University/dp/1492671185&quot;&gt;Quantum Computing for Babies&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;🧒 &lt;strong&gt;Kids&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.amazon.com/Quantum-Computing-Kids-Introduction-Ilustrated/dp/B0851MB79W&quot;&gt;Quantum Computing For Kids: Get Ready for the Future!&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;👦 &lt;strong&gt;Teenagers&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://arxiv.org/abs/1905.00282&quot;&gt;Quantum Computing as a High School Module&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;🧑‍🎓 &lt;strong&gt;College Students&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://qiskit.org/textbook/preface.html&quot;&gt;Learn Quantum Computation using Qiskit&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;👨‍💻 &lt;strong&gt;Computer Scientists&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.scottaaronson.com/democritus/&quot;&gt;Quantum Computing since Democritus&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;👥 &lt;strong&gt;Everyone else… including Pets&lt;/strong&gt; 🐶🐱&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://medium.com/qiskit/how-do-you-explain-quantum-computing-to-your-dog-and-other-important-people-in-your-life-22f5fdacaf11&quot;&gt;How Do You Explain Quantum Computing To Your Dog (And Other Important People in Your Life)?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://quantuminstitute.yale.edu/publications/quantum-computing-explained-5-levels-difficulty&quot;&gt;Quantum computing explained at 5 levels of difficulty&lt;/a&gt; by &lt;a href=&quot;https://www.linkedin.com/in/talia-gershon&quot;&gt;Talia Gershon&lt;/a&gt; (senior manager, Quantum Experiences IBM Research)&lt;/p&gt;</content><author><name></name></author><summary type="html">QHack Recap — PennyLane, Amazon Braket and Beyond 🚀 Now that QHack 2021 is officially over, it’s time for a short recap… 📝 Read the full article on Medium</summary></entry><entry><title type="html">Defect Detection with Amazon Lookout for Vision 🏭</title><link href="https://jgalego.github.io/2021/02/10/amazon-lookout-for-vision.html" rel="alternate" type="text/html" title="Defect Detection with Amazon Lookout for Vision 🏭" /><published>2021-02-10T00:00:00+00:00</published><updated>2021-02-10T00:00:00+00:00</updated><id>https://jgalego.github.io/2021/02/10/amazon-lookout-for-vision</id><content type="html" xml:base="https://jgalego.github.io/2021/02/10/amazon-lookout-for-vision.html">&lt;h2 id=&quot;defect-detection-with-amazon-lookout-for-vision&quot;&gt;&lt;a href=&quot;https://medium.com/@joao.galego/defect-detection-with-amazon-lookout-for-vision-58184badfcb5&quot;&gt;Defect Detection with Amazon Lookout for Vision&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;Last &lt;a href=&quot;https://reinvent.awsevents.com/&quot;&gt;re:Invent&lt;/a&gt;, AWS announced the release of a handful of products and services geared towards helping industrial customers and partners in their journey to digital transformation.&lt;/p&gt;
+
+&lt;p&gt;Under the umbrella term of &lt;a href=&quot;https://aws.amazon.com/industrial/&quot;&gt;AWS for Industrial&lt;/a&gt;, these offerings, which include not only services e.g. &lt;a href=&quot;https://aws.amazon.com/lookout-for-equipment/&quot;&gt;Amazon Lookout for Equipment&lt;/a&gt; but also devices e.g. &lt;a href=&quot;https://aws.amazon.com/monitron/&quot;&gt;Amazon Monitron&lt;/a&gt; and full-blown solutions e.g. &lt;a href=&quot;https://aws.amazon.com/solutions/implementations/predictive-maintenance-using-machine-learning/&quot;&gt;Amazon SageMaker for Predictive Maintenance&lt;/a&gt;, cover a myriad of interesting use-cases and industry-relevant workloads in such areas as &lt;em&gt;Production &amp;amp; Asset Optimization&lt;/em&gt; and &lt;em&gt;Quality Management&lt;/em&gt;.&lt;/p&gt;
+
+&lt;!-- excerpt-start --&gt;
+
+&lt;p&gt;In this article, I give an introduction to the &lt;em&gt;core tenets&lt;/em&gt; of AWS for Industrial through one of its services - &lt;a href=&quot;https://aws.amazon.com/lookout-for-vision/&quot;&gt;Amazon Lookout for Vision&lt;/a&gt; - a service that treats the defect detection problem as a simple binary (image) classification task.&lt;/p&gt;
+
+&lt;p&gt;📝 Read the full article on &lt;a href=&quot;https://medium.com/@joao.galego/defect-detection-with-amazon-lookout-for-vision-58184badfcb5&quot;&gt;Medium&lt;/a&gt;&lt;/p&gt;
+
+&lt;!-- excerpt-end --&gt;
+
+&lt;p&gt;&lt;img src=&quot;/amazon_lookout_for_vision.png&quot; width=&quot;700&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Defect Detection with Amazon Lookout for Vision Last re:Invent, AWS announced the release of a handful of products and services geared towards helping industrial customers and partners in their journey to digital transformation. Under the umbrella term of AWS for Industrial, these offerings, which include not only services e.g. Amazon Lookout for Equipment but also devices e.g. Amazon Monitron and full-blown solutions e.g. Amazon SageMaker for Predictive Maintenance, cover a myriad of interesting use-cases and industry-relevant workloads in such areas as Production &amp;amp; Asset Optimization and Quality Management. In this article, I give an introduction to the core tenets of AWS for Industrial through one of its services - Amazon Lookout for Vision - a service that treats the defect detection problem as a simple binary (image) classification task. 📝 Read the full article on Medium</summary></entry><entry><title type="html">WBME Workshop - Machine Learning for Medicine and Healthcare 👨‍⚕️</title><link href="https://jgalego.github.io/2020/10/14/wbme-ml-workshop.html" rel="alternate" type="text/html" title="WBME Workshop - Machine Learning for Medicine and Healthcare 👨‍⚕️" /><published>2020-10-14T00:00:00+00:00</published><updated>2020-10-14T00:00:00+00:00</updated><id>https://jgalego.github.io/2020/10/14/wbme-ml-workshop</id><content type="html" xml:base="https://jgalego.github.io/2020/10/14/wbme-ml-workshop.html">&lt;h3 id=&quot;machine-learning-for-medicine-and-healthcare-️&quot;&gt;Machine Learning for Medicine and Healthcare 👨‍⚕️&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/wbme.png&quot; width=&quot;300&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The ubiquity of algorithms and data is one of the hallmarks of the &lt;span title=&quot;According to Merriam-Webster, &apos;the modern age regarded as a time in which information has become a commodity that is quickly and widely disseminated and easily available especially through the use of computer technology&apos;&quot;&gt;Information Age&lt;/span&gt;. In a world powered by technology, where smartphones have more computing power than &lt;a href=&quot;https://www.youtube.com/watch?v=BRZz0SVLdso&quot;&gt;all of NASA’s computers during the Apollo missions&lt;/a&gt;, algorithms run virtually everything.&lt;/p&gt;
+
+&lt;p&gt;However, in the advent of the &lt;a href=&quot;https://www.salesforce.com/blog/2018/12/what-is-the-fourth-industrial-revolution-4IR.html&quot;&gt;4th Industrial Revolution&lt;/a&gt;, data is growing faster than it can be analyzed and classic algorithms have been unable to cope with this &lt;a href=&quot;https://www.internetlivestats.com/&quot;&gt;Big Data explosion&lt;/a&gt;. This is where Artificial Intelligence (AI), and Machine Learning (ML) in particular, really shine.&lt;/p&gt;
+
+&lt;p&gt;ML systems learn directly from data without being &lt;em&gt;explicitly&lt;/em&gt; told to do so, and they have found enormous success in such tasks as email filtering, computer-aided diagnostics (CADx) and autonomous driving. Companies like Facebook, Amazon, Netflix and Google are investing heavily on AI, and ML engineer and data scientist positions are among the highest paid and “sexiest” jobs of the early 21st century. Nonetheless, getting past the hype and putting buzzwords aside is hard when one lacks a basic understanding of how these systems actually work. This is especially relevant in the health sector where transparency and accountability are of paramount importance.&lt;/p&gt;
+
+&lt;!-- excerpt-start --&gt;
+
+&lt;p&gt;In this workshop, I give an overview of what ML is, highlighting some of its applications to the health sector - from the rise of expert systems in the 80s to the diagnosis, prognosis and treatment of &lt;a href=&quot;https://www.worldometers.info/coronavirus/&quot;&gt;SARS‑CoV‑2&lt;/a&gt; - how it is shaping the present and how it may one day decide our future.&lt;/p&gt;
+
+&lt;p&gt;📝 Full content available on &lt;a href=&quot;https://github.com/JGalego/WBME-ML-Workshop&quot;&gt;GitHub&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;For more information about the event, visit &lt;a href=&quot;http://wbme.fc.ul.pt/&quot;&gt;12th WBME - Workshop on Biomedical Engineering&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;!-- excerpt-end --&gt;</content><author><name></name></author><summary type="html">Machine Learning for Medicine and Healthcare 👨‍⚕️ The ubiquity of algorithms and data is one of the hallmarks of the Information Age. In a world powered by technology, where smartphones have more computing power than all of NASA’s computers during the Apollo missions, algorithms run virtually everything. However, in the advent of the 4th Industrial Revolution, data is growing faster than it can be analyzed and classic algorithms have been unable to cope with this Big Data explosion. This is where Artificial Intelligence (AI), and Machine Learning (ML) in particular, really shine. ML systems learn directly from data without being explicitly told to do so, and they have found enormous success in such tasks as email filtering, computer-aided diagnostics (CADx) and autonomous driving. Companies like Facebook, Amazon, Netflix and Google are investing heavily on AI, and ML engineer and data scientist positions are among the highest paid and “sexiest” jobs of the early 21st century. Nonetheless, getting past the hype and putting buzzwords aside is hard when one lacks a basic understanding of how these systems actually work. This is especially relevant in the health sector where transparency and accountability are of paramount importance. In this workshop, I give an overview of what ML is, highlighting some of its applications to the health sector - from the rise of expert systems in the 80s to the diagnosis, prognosis and treatment of SARS‑CoV‑2 - how it is shaping the present and how it may one day decide our future. 📝 Full content available on GitHub For more information about the event, visit 12th WBME - Workshop on Biomedical Engineering</summary></entry></feed>
