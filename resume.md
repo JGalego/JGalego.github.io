@@ -16,17 +16,21 @@ layout: default
         <td>
             {% for job in site.data.jobs %}
             <a href="{{ job.where.link }}"><b>{{ job.where.name }}</b></a> <br>
-            <tt>{{ job.when.start }}</tt> - <tt>{{ job.when.end | default: 'Present' }}</tt> <br>
             {{ job.role }} <br>
+            <tt>{{ job.when.start }}</tt> - <tt>{{ job.when.end | default: 'Present' }}</tt> <br>
+            {% if forloop.last == false %}
             <br>
+            {% endif %}
             {% endfor %}
         </td>
         <td>
             {% for course in site.data.education %}
             <a href="{{ course.where.link }}"><b>{{ course.where.name }}</b></a> <br>
-            <tt>{{ course.when.start }}</tt> - <tt>{{ course.when.end | default: 'Present' }}</tt> <br>
             {{ course.degree }} {{ course.area }} {% if course.graduated %}🎓{% endif %} <br>
+            <tt>{{ course.when.start }}</tt> - <tt>{{ course.when.end | default: 'Present' }}</tt> <br>
+            {% if forloop.last == false %}
             <br>
+            {% endif %}
             {% endfor %}
         </td>
     </tr>
