@@ -1,6 +1,7 @@
 ---
 # For more information, please visit:
-# https://jekyllrb.com/docs/continuous-integration/github-actions/
+# (old) https://jekyllrb.com/docs/continuous-integration/github-actions/
+# (new) https://www.moncefbelyamani.com/making-github-pages-work-with-latest-jekyll/
 
 name: Build
 
@@ -13,10 +14,18 @@ jobs:
   github-pages:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/setup-node@v2
+      - name: 📂 Checkout
+        uses: actions/checkout@v2
+      - name: 💎 Setup Ruby
+        uses: ruby/setup-ruby@v1
         with:
-          node-version: '14'
-      - uses: actions/checkout@v2
-      - uses: helaili/jekyll-action@v2
+          ruby-version: 3.0
+      - name: 🔨 Build Site
+        uses: limjh16/jekyll-action-ts@v2
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          enable_cache: true
+      - name: 🚀 Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
