@@ -1,20 +1,28 @@
 ---
-- name: PhD Cognitive Science
-  when: 2017 - Present
+- area: Cognitive Science
+  degree: PhD
+  when:
+    start: 2017
   graduated: false
   where:
     name: Universidade de Lisboa
     link: https://www.ulisboa.pt/en/
 
-- name: PgD Forensic Science
-  when: 2016 - 2017
+- area: Forensic Science
+  degree: PgD
+  when:
+    start: 2016
+    end: 2017
   graduated: true
   where:
     name: Instituto Superior de Ciências Sociais e Políticas
     link: https://www.iscsp.ulisboa.pt/pt
 
-- name: MSc Physics
-  when: 2008 - 2013
+- area: Physics
+  degree: MSc
+  when:
+    start: 2008
+    end: 2013
   graduated: true
   where:
     name: Instituto Superior Técnico

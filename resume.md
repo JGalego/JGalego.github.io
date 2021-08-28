@@ -9,14 +9,14 @@ layout: default
 
 {% for job in site.data.jobs %}
 [**{{ job.where.name }}**]({{ job.where.link }}) <br>
-`{{ job.when }}` <br>
+`{{ job.when.start }} - {{ job.when.end | default: 'Present' }}` <br>
 <sub><sup>{{ job.role }}</sup></sub>
 {% endfor %}
 
 ### Education
 
-{% for degree in site.data.education %}
-[**{{ degree.where.name }}**]({{ degree.where.link }}) <br>
-`{{ degree.when }}` <br>
-<sub><sup>{{ degree.name }} {% if degree.graduated %}🎓{% endif %}<sub><sup>
+{% for course in site.data.education %}
+[**{{ course.where.name }}**]({{ course.where.link }}) <br>
+`{{ course.when.start }} - {{ course.when.end | default: 'Present' }}`<br>
+<sub><sup>{{ course.degree }} {{ course.area }} {% if course.graduated %}🎓{% endif %}<sub><sup>
 {% endfor %}
