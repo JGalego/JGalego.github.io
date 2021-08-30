@@ -3,10 +3,6 @@ title: Resume
 layout: default
 ---
 
-📄 [**Download CV**](/assets/documents/cv_en.pdf)
-
-<img src="/assets/images/dilbert-resume.jpg" width="450px"/>
-
 <table>
     <tr>
         <th>Work Experience</th>
@@ -35,3 +31,7 @@ layout: default
         </td>
     </tr>
 </table>
+
+📄 [**Download CV**](/assets/documents/cv_en.pdf)
+
+<img src="/assets/images/dilbert-resume.jpg" width="450px"/>
