@@ -2,7 +2,7 @@
 
 [![Jekyll](https://github.com/JGalego/JGalego.github.io/actions/workflows/jekyll.yml/badge.svg)](https://github.com/JGalego/JGalego.github.io/actions/workflows/jekyll.yml)
 
-Personal website using [Jekyll](https://jekyllrb.com/) and [GitHub pages](https://pages.github.com/).
+Personal website built on top of [Jekyll](https://jekyllrb.com/) and [GitHub pages](https://pages.github.com/).
 
 <img src="https://thumbs.gfycat.com/BareRespectfulBarasinga-size_restricted.gif" width="200"/>
 
@@ -27,8 +27,7 @@ Personal website using [Jekyll](https://jekyllrb.com/) and [GitHub pages](https:
 3. Install *MSYS2 and MINGW development toolchain*
 
     ```bash
-    # installs *only* option 3
-    ridk install 3
+    ridk install
     ```
 
 4. Install [Jekyll](https://jekyllrb.com/)
@@ -37,9 +36,10 @@ Personal website using [Jekyll](https://jekyllrb.com/) and [GitHub pages](https:
     gem install bundler jekyll
     ```
 
-5. Go to the project directory and start the server
+5. Go to the project directory, install dependencies and start the server
 
     ```bash
+    bundle install
     bundle exec jekyll serve
     ```
 
