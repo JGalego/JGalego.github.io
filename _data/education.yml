@@ -7,6 +7,7 @@
   where:
     name: Universidade de Lisboa
     link: https://www.ulisboa.pt/en/
+  research: ML techniques for noninvasive BCI systems 🧠🔌💻
 
 - area: Forensic Science
   degree: PgD
@@ -27,3 +28,4 @@
   where:
     name: Instituto Superior Técnico
     link: https://tecnico.ulisboa.pt/en/
+  research: Higgs extensions of the Standard Model

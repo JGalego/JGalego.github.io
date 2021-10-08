@@ -1,7 +1,15 @@
 ---
-- role: DevOps Engineer / ML Consultant
+- role: Lead ML Engineer
+  when:
+    start: 2021
+  where:
+    name: Siemens
+    link: https://www.siemens.com/
+
+- role: DevOps Engineer
   when:
     start: 2019
+    end: 2021
   where:
     name: Siemens
     link: https://www.siemens.com/

@@ -1,0 +1,207 @@
+---
+# Disclaimer: This list is neither extensive nor exhaustive by design. 
+# As a firm believer in the “right tool for the right job” mindset,
+# I’ve had the chance to work with hundreds of tools, packages and 
+# frameworks throughout my career. Listing them all here would be 
+# cumbersome and, worse, uninformative.
+#
+# Please contact me directly if you wish to discuss specific technical skills
+
+cloud:
+  - name: AWS
+    url: https://aws.amazon.com/
+  - name: Azure
+    url: https://azure.microsoft.com/en-us/
+  - name: Google Cloud
+    url: https://cloud.google.com/
+
+programming:
+  - level: Proficient
+    languages:
+      - Python
+      - Java
+  - level: Professional Use
+    languages:
+      - C++
+      - C#
+      - Go
+      - Groovy
+      - JavaScript
+      - Lua
+      - MATLAB
+      - Ruby
+  - level: Academic Use
+    languages:
+      - C
+      - Coq
+      - Haskell
+      - Lisp
+      - Prolog
+      - R
+      - Wolfram Mathematica
+
+devops:
+  - area: Automation
+    tools:
+      - name: Ansible
+        url: https://www.redhat.com/en/technologies/management/ansible
+      - name: Packer
+        url: https://www.packer.io/
+      - name: Terraform
+        url: https://www.terraform.io/
+      - name: Vagrant
+        url: https://www.vagrantup.com/
+  - area: CI/CD
+    tools:
+      - name: Azure DevOps
+        url: https://docs.microsoft.com/en-us/azure/devops
+      - name: GitLab CI
+        url: https://docs.gitlab.com/ee/ci/
+      - name: Jenkins
+        url: https://www.jenkins.io/
+  - area: Containerization & Orchestration
+    tools:
+      - name: Docker
+        url: https://www.docker.com/
+      - name: Kubernetes
+        url: https://kubernetes.io/
+  - area: Logging & Monitoring
+    tools:
+      - name: Elastic Stack
+        url: https://www.elastic.co/elastic-stack/
+      - name: Grafana
+        url: https://grafana.com/grafana/
+  - area: Package Management
+    tools:
+      - name: JFrog Artifactory
+        url: https://jfrog.com/artifactory/
+  - area: Secrets Management
+    tools:
+      - name: HashiCorp Vault
+        url: https://www.hashicorp.com/products/vault/
+  - area: Virtualization
+    tools:
+      - name: VirtualBox
+        url: https://www.virtualbox.org/
+      - name: VMware
+        url: https://www.vmware.com/
+
+python:
+  - area: Scientific Computing
+    packages:
+      - name: NumPy
+        url: https://numpy.org/
+      - name: SciPy
+        url: https://www.scipy.org/
+  - area: Data Analysis & Manipulation
+    packages:
+      - name: Pandas
+        url: https://pandas.pydata.org/
+  - area: Differentiable Programming
+    packages:
+      - name: JAX
+        url: https://jax.readthedocs.io/en/latest/index.html
+      - name: MXNet
+        url: https://mxnet.apache.org/versions/1.8.0/
+      - name: PyTorch
+        url: https://pytorch.org/
+      - name: TensorFlow (`1.x` and `2.x`)
+        url: https://www.tensorflow.org/
+  - area: Natural Language Processing (NLP)
+    packages:
+      - name: Gensim
+        url: https://radimrehurek.com/gensim/
+      - name: NLTK
+        url: https://www.nltk.org/
+      - name: spaCy
+        url: https://spacy.io/
+      - name: TextBlob
+        url: https://textblob.readthedocs.io/en/dev/
+  - area: High-level ML frameworks
+    packages:
+      - name: Keras
+        url: https://keras.io/
+      - name: Scikit-Learn
+        url: https://scikit-learn.org/stable/
+      - name: 🤗 Transformers
+        url: https://github.com/huggingface/transformers
+      - name: Trax
+        url: https://github.com/google/trax
+
+mle:
+  - area: Data & Model Versioning
+    tools:
+      - name: DVC
+        url: https://dvc.org/
+  - area: Data Exploration
+    tools:
+      - name: JupyterLab
+        url: https://jupyterlab.readthedocs.io/en/stable/
+      - name: Jupyter Notebook
+        url: https://jupyter.org/
+  - area: Data Processing
+    tools:
+      - name: Airflow
+        url: https://airflow.apache.org/
+      - name: Hadoop
+        url: https://hadoop.apache.org/
+      - name: Spark (`2.x` and `3.x`)
+        url: https://spark.apache.org/
+  - area: Data Visualization
+    tools:
+      - name: Dash
+        url: https://github.com/plotly/dash
+  - area: Feature Storage
+    tools:
+      - name: Amazon SageMaker Feature Store
+        url: https://aws.amazon.com/sagemaker/feature-store/
+      - name: Feast
+        url: https://feast.dev/
+  - area: ML Platforms
+    tools:
+      - name: Dataiku
+        url: https://www.dataiku.com/
+      - name: Kubeflow
+        url: https://www.kubeflow.org/
+  - area: Model Interpretability
+    tools:
+      - name: Alibi
+        url: https://github.com/SeldonIO/alibi
+      - name: Lucid
+        url: https://github.com/tensorflow/lucid
+  - area: Model Lifecycle
+    tools:
+      - name: MLflow
+        url: https://mlflow.org/
+  - area: Model Serving
+    tools:
+      - name: BentoML
+        url: https://docs.bentoml.org/en/latest/
+      - name: TensorFlow Serving
+        url: https://www.tensorflow.org/tfx/guide/serving
+      - name: TorchServe
+        url: https://pytorch.org/serve/
+  - area: Model Monitoring
+    tools:
+      - name: Evidently
+        url: https://github.com/evidentlyai/evidently
+      - name: Neptune
+        url: https://neptune.ai/
+  - area: Optimization Tools
+    tools:
+      - name: Mahout
+        url: https://mahout.apache.org/
+  - area: Simplification Tools
+    tools:
+      - name: Hermione ⚡🧙
+        url: https://github.com/a3data/hermione
+      - name: Ludwig
+        url: https://github.com/ludwig-ai/ludwig
+  - area: Visual Analysis and Debugging
+    tools:
+      - name: Manifold
+        url: https://github.com/uber/manifold
+      - name: Netron
+        url: https://github.com/lutzroeder/netron
+      - name: Yellowbrick
+        url: https://github.com/DistrictDataLabs/yellowbrick
