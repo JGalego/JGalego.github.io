@@ -3,7 +3,7 @@ title: Resume
 layout: default
 ---
 
-📄 [**Download CV**](/assets/documents/cv_en.pdf)
+### 📄 [**Download CV**](/assets/documents/cv_en.pdf)
 
 <img src="/assets/images/dilbert-resume.jpg" width="50%" style="max-width: 450px"/>
 

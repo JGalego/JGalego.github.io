@@ -1,9 +1,5 @@
 ---
 # Disclaimer: This list is neither extensive nor exhaustive by design. 
-# As a firm believer in the “right tool for the right job” mindset,
-# I’ve had the chance to work with hundreds of tools, packages and 
-# frameworks throughout my career. Listing them all here would be 
-# cumbersome and, worse, uninformative.
 #
 # Please contact me directly if you wish to discuss specific technical skills
 
@@ -128,11 +124,16 @@ python:
       - name: Trax
         url: https://github.com/google/trax
 
+# For more awesome MLE and MLOps tools, check out:
+# https://github.com/EthicalML/awesome-production-machine-learning
+# https://github.com/kelvins/awesome-mlops
 mle:
   - area: Data & Model Versioning
     tools:
       - name: DVC
         url: https://dvc.org/
+      - name: Git-LFS
+        url: https://git-lfs.github.com/
   - area: Data Exploration
     tools:
       - name: JupyterLab
@@ -149,8 +150,12 @@ mle:
         url: https://spark.apache.org/
   - area: Data Visualization
     tools:
+      - name: Bokeh
+        url: https://bokeh.org/
       - name: Dash
         url: https://github.com/plotly/dash
+      - name: Facets
+        url: https://github.com/PAIR-code/facets
   - area: Feature Storage
     tools:
       - name: Amazon SageMaker Feature Store
@@ -189,6 +194,8 @@ mle:
         url: https://neptune.ai/
   - area: Optimization Tools
     tools:
+      - name: Dask
+        url: https://dask.org/
       - name: Mahout
         url: https://mahout.apache.org/
   - area: Simplification Tools
