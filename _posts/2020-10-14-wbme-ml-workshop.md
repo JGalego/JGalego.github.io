@@ -16,7 +16,7 @@ ML systems learn directly from data without being *explicitly* told to do so, an
 
 <!-- excerpt-start -->
 
-In this workshop, I give an overview of ML, highlighting some of its applications to the health sector - from the rise of expert systems in the 80s to the diagnosis, prognosis and treatment of [SARS‑CoV‑2](https://www.worldometers.info/coronavirus/) - how it is shaping the present and how it may one day decide our future.
+In this workshop, we give an overview of ML that highlights some of its applications to the health sector - from the rise of expert systems in the 80s to the diagnosis, prognosis and treatment of [SARS‑CoV‑2](https://www.worldometers.info/coronavirus/) - how it is shaping the present and how it may one day decide our future.
 
 📝 Full content available on [GitHub](https://github.com/JGalego/WBME-ML-Workshop)
 
