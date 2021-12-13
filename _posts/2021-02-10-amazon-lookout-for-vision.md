@@ -12,7 +12,7 @@ Under the umbrella term of [AWS for Industrial](https://aws.amazon.com/industria
 
 <!-- excerpt-start -->
 
-In this article, I give an introduction to the *core tenets* of AWS for Industrial through one of its services - [Amazon Lookout for Vision](https://aws.amazon.com/lookout-for-vision/) - a service that treats the defect detection problem as a simple binary (image) classification task.
+In this article, I give an introduction to [AWS for Industrial](https://aws.amazon.com/industrial/) through one of its core services - [Amazon Lookout for Vision](https://aws.amazon.com/lookout-for-vision/) - a service that treats the defect detection problem as a simple binary (image) classification task.
 
 📝 Read the full article on [Medium](https://medium.com/@joao.galego/defect-detection-with-amazon-lookout-for-vision-58184badfcb5)
 

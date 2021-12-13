@@ -8,7 +8,7 @@ excerpt_separator: <!-- excerpt-end -->
 
 <!-- excerpt-start -->
 
-Now that [QHack 2021](https://qhack.ai/) is officially over, it's time for a short recap...
+Now that [QHack 2021](https://qhack.ai/) is *officially* over, it's time for a short recap...
 
 📝 Read the full article on [Medium](https://medium.com/@joao.galego/qhack-recap-pennylane-amazon-braket-and-beyond-a2c153d50a88)
 
