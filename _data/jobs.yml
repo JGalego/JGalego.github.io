@@ -1,7 +1,15 @@
 ---
+- role: Solutions Architect
+  when:
+    start: 2022
+  where:
+    name: Amazon Web Services
+    link: https://aws.amazon.com
+
 - role: Lead ML Engineer
   when:
     start: 2021
+    end: 2022
   where:
     name: Siemens
     link: https://www.siemens.com/
