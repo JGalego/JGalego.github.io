@@ -7,8 +7,9 @@ layout: default
 
 {% assign currentJob = site.data.jobs | first %}
 {% assign currentEdu = site.data.education | first %}
+{% assign currentRole = currentJob.roles | first %}
 
-I am a {{ currentJob.role }} at [{{ currentJob.where.name }}]({{ currentJob.where.link }}){% if currentEdu.when.end == nil %} and a {{ currentEdu.degree }} candidate in {{ currentEdu.area }} at [{{ currentEdu.where.name }}]({{ currentEdu.where.link }}){% if currentEdu.research %}, where my research focuses on {{ currentEdu.research }}{% endif %}{% endif %}.
+I am a {{ currentRole.name }} at [{{ currentJob.where.name }}]({{ currentJob.where.link }}){% if currentEdu.when.end == nil %} and a {{ currentEdu.degree }} candidate in {{ currentEdu.area }} at [{{ currentEdu.where.name }}]({{ currentEdu.where.link }}){% if currentEdu.research %}, where my research focuses on {{ currentEdu.research }}{% endif %}{% endif %}.
 
 I am a *bona fide* Physics nerd 🌌 and an amateur sleuth 🕵️ with a strong proclivity for solving challenging problems with real-world applications 🌍.
 
