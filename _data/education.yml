@@ -5,9 +5,9 @@
     start: 2017
   graduated: false
   where:
-    name: Universidade de Lisboa
+    name: ULisboa
     link: https://www.ulisboa.pt/en/
-  research: ML techniques for noninvasive BCI systems 🧠🔌💻
+  research: motor cognition and ML techniques for noninvasive BCI systems 🧠🔌💻
 
 - area: Forensic Science
   degree: PgD

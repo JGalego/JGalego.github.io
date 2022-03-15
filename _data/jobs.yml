@@ -3,7 +3,7 @@
   when:
     start: 2022
   where:
-    name: Amazon Web Services ☁️
+    name: AWS ☁️
     link: https://aws.amazon.com
 
 - role: Lead ML Engineer
