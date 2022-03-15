@@ -18,8 +18,10 @@ layout: default
         <td>
             {% for job in site.data.jobs %}
             <a href="{{ job.where.link }}"><b>{{ job.where.name }}</b></a> <br>
-            {{ job.role }} <br>
-            <tt>{{ job.when.start }}</tt> - <tt>{{ job.when.end | default: 'Present' }}</tt> <br>
+            {% for role in job.roles %}
+            {{ role.name }} <br>
+            <tt>{{ role.when.start }}</tt> - <tt>{{ role.when.end | default: 'Present' }}</tt> <br>
+            {% endfor %}
             {% if forloop.last == false %}
             <br>
             {% endif %}
