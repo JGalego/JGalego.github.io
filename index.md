@@ -11,7 +11,11 @@ layout: default
 
 I am a bona fide Physics nerd 🌌 and an amateur sleuth 🕵️ with a strong proclivity for solving challenging problems with real-world applications 🌍.
 
-I work as a {{ currentRole.name }} at [{{ currentJob.where.name }}]({{ currentJob.where.link }}){% if currentRole.desc != nil %}, where I {{ currentRole.desc }}{% endif %}{% if currentEdu.when.end == nil %}, while pursuing a {{ currentEdu.degree }} in {{ currentEdu.area }} at [{{ currentEdu.where.name }}]({{ currentEdu.where.link }}){% if currentEdu.research %}, where my research focuses on {{ currentEdu.research }}{% endif %}{% endif %}.
+As a {{ currentRole.name }} at [{{ currentJob.where.name }}]({{ currentJob.where.link }}), I {{ currentRole.desc }}.
+
+{% if currentEdu.when.end == nil %}
+As a {{ currentEdu.degree }} candidate in {{ currentEdu.area }} at [{{ currentEdu.where.name }}]({{ currentEdu.where.link }}), my research focuses on {{ currentEdu.research }}.
+{% endif %}
 
 When I'm not working, you can usually find me browsing the local bookstore 📚, competing in hackathons 🐱‍💻 (both quantum and classical) or enjoying some quality family time 👪.
 
