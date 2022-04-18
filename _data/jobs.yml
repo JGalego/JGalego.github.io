@@ -1,9 +1,10 @@
 ---
 - where:
-    name: AWS ☁️
+    name: AWS
     link: https://aws.amazon.com
   roles:
     - name: Solutions Architect
+      desc: assist Startups in every stage of their cloud journey ☁️
       when:
         start: 2022
 
@@ -12,10 +13,12 @@
     link: https://www.siemens.com/
   roles:
     - name: Lead ML Engineer
+      desc: help bring ML systems into production
       when:
         start: 2021
         end: 2022
     - name: DevOps Engineer
+      desc: help optimize the process from idea to production
       when:
         start: 2019
         end: 2021
@@ -25,6 +28,7 @@
     link: https://www.innowave.tech/
   roles:
     - name: DevOps Engineer
+      desc: help optimize the process from idea to production
       when:
         start: 2017
         end: 2019
@@ -34,6 +38,7 @@
     link: https://www.coriant.com/
   roles:
     - name: Software Tester
+      desc: help find bugs as early as possible and improve software quality
       when:
         start: 2014
         end: 2017

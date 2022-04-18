@@ -7,8 +7,6 @@ layout: default
 
 <img src="/assets/images/dilbert-resume.jpg" width="50%" style="max-width: 450px"/>
 
-### Background
-
 <table>
     <tr>
         <th>Work Experience</th>
