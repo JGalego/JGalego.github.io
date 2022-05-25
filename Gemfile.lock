@@ -43,9 +43,9 @@ GEM
     jekyll-watch (2.2.1)
       listen (~> 3.0)
     json (2.3.1)
-    katex (0.8.0)
+    katex (0.9.0)
       execjs (~> 2.7)
-    kramdown (2.3.2)
+    kramdown (2.4.0)
       rexml
     kramdown-math-katex (1.0.1)
       katex (~> 0.4)
@@ -63,17 +63,17 @@ GEM
       jekyll-seo-tag (~> 2.1)
     msgpack (1.2.10)
     msgpack (1.2.10-x64-mingw32)
-    nokogiri (1.13.4-arm64-darwin)
+    nokogiri (1.13.6-arm64-darwin)
       racc (~> 1.4)
-    nokogiri (1.13.4-x64-mingw32)
+    nokogiri (1.13.6-x64-mingw32)
       racc (~> 1.4)
-    nokogiri (1.13.4-x86_64-darwin)
+    nokogiri (1.13.6-x86_64-darwin)
       racc (~> 1.4)
-    nokogiri (1.13.4-x86_64-linux)
+    nokogiri (1.13.6-x86_64-linux)
       racc (~> 1.4)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
-    polytexnic (1.7.2)
+    polytexnic (1.7.3)
       json (~> 2.3.0)
       kramdown (>= 2.0, < 3.0)
       msgpack (~> 1.2.0)
@@ -120,4 +120,4 @@ DEPENDENCIES
   webrick (~> 1.7)
 
 BUNDLED WITH
-   2.3.9
+   2.3.14
