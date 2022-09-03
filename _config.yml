@@ -19,6 +19,8 @@ nav:
     link: /blog
   - name: Resume
     link: /resume
+  - name: Stuff
+    link: /stuff
 
 kramdown:
   # parse markdown inside block-level HTML tag
