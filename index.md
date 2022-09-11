@@ -11,7 +11,7 @@ layout: default
 
 📍 [{{ site.data.location.city }}, {{ site.data.location.country }}]({{ site.data.location.maps }})
 
-`print('Hi everyone!')` 👋  My name is João Galego.
+`print('Hi everyone!')` 👋 
 
 I am a {{ currentRole.name }} at [{{ currentJob.where.name }}]({{ currentJob.where.link }}), where I {{ currentRole.desc }}.
 
