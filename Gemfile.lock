@@ -64,6 +64,8 @@ GEM
       racc (~> 1.4)
     nokogiri (1.13.10-x86_64-darwin)
       racc (~> 1.4)
+    nokogiri (1.13.10-x86_64-linux)
+      racc (~> 1.4)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     polytexnic (1.8.0)
@@ -90,6 +92,7 @@ GEM
 
 PLATFORMS
   universal-darwin-21
+  x86_64-linux
 
 DEPENDENCIES
   jekyll (~> 4.2.0)
