@@ -17,7 +17,7 @@ layout: default
 
 ## `std::cout << "Hi everyone!\n"; 👋`
 
-My name is ████ ██████, I’m ██ y/o, and I live in ██████, ████████.
+My name is ████ ██████, I’m `0x`██ y/o, and I live in ██████, ████████.
 
 I am a Physics nerd 🌌 and an amateur sleuth 🕵️ with a penchant for solving challenging problems with real-world applications 🌍. I love fixing the ~~un~~fixable.
 
