@@ -18,7 +18,7 @@ My name is ████ ██████, I’m `0x`██ y/o, and I live in 
 
 I love fixing the ~~un~~fixable, building the ~~im~~possible and learning new things along the way.
 
-I live by Richard Feynman's credo that <u>everything</u> is interesting if you go deep enough.
+I live by Feynman's credo that **everything** is interesting if you go deep enough.
 
 ## What's new?
 
