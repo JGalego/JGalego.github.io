@@ -19,7 +19,7 @@ layout: default
 
 My name is ████ ██████, I’m `0x`██ y/o, and I live in ██████, ████████.
 
-I am a Physics nerd 🌌 and an amateur sleuth 🕵️ with a penchant for solving challenging problems with real-world applications 🌍. I love fixing the ~~un~~fixable.
+I am a Physics nerd 🌌 and an amateur sleuth 🕵️ with a penchant for solving challenging problems with real-world applications 🌍. I love fixing the ~~un~~fixable, building the ~~im~~possible and learning new things along the way.
 
 I've worn many hats 🎩 {{ previousRoles | reverse | join: ', ' }}, and god knows what else. On a good day, I see myself as a jack of all trades, master of some 🐙.
 
