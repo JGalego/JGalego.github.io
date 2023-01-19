@@ -45,7 +45,8 @@ For those in a hurry:
 * If you get off on things like `_='_=%r;print(_%%_)';print(_%_)`, then you'll absolutely love [Quine Relay](https://github.com/mame/quine-relay)
     - It's also the nerdiest way to get [ChatGPT](https://openai.com/blog/chatgpt/) into an [infinite loop](https://www.linkedin.com/posts/jgalego_chatgpt-activity-7019613458753011712-Tlsi?utm_source=share&utm_medium=member_desktop) ♾️💥
     
-    ![ChatGPT on Quine Relay](assets/images/chatgpt_on_quine_relay.jpg)
+    <!-- ChatGPT on Quine Relay -->
+    <img src="assets/images/chatgpt_on_quine_relay.jpg" width="75%"/>
 
 * There's an [awesome list](https://github.com/sindresorhus/awesome) of awesome lists of awesome things - smells like [Russell's paradox](https://plato.stanford.edu/entries/russell-paradox/) to me!
 * Few things are as meta as Douglas Hofstadter's [GEB](https://www.amazon.com/G%C3%B6del-Escher-Bach-Eternal-Golden/dp/0465026567), an exploration of self-reference and recursivity featuring a wide ensemble of Carrollian-like characters

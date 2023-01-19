@@ -1,6 +1,6 @@
 ---
 - where:
-    name: AWS
+    name: Amazon Web Services (AWS)
     link: https://aws.amazon.com
   roles:
     - name: Solutions Architect

@@ -17,11 +17,11 @@ layout: default
 
 ## `std::cout << "Hi everyone!\n"; 👋`
 
-My name is `{% raw %}{{ name }}{% endraw %}`, I’m `{% raw %}{{ age }}{% endraw %}` y/o, and I live in `{% raw %}{{ location }}{% endraw %}`.
+My name is ████ ██████, I’m ██ y/o, and I live in ██████, ████████.
 
 I am a Physics nerd 🌌 and an amateur sleuth 🕵️ with a penchant for solving challenging problems with real-world applications 🌍. I love fixing the ~~un~~fixable.
 
-I've worn many hats 🎩  throughout my professional career - {{ previousRoles | reverse | join: ', ' }}, and god knows what else. On a good day, I see myself as a jack of all trades, master of some 🐙.
+I've worn many hats 🎩 {{ previousRoles | reverse | join: ', ' }}, and god knows what else. On a good day, I see myself as a jack of all trades, master of some 🐙.
 
 Currently, I work as a {{ currentRole.name }} at [{{ currentJob.where.name }}]({{ currentJob.where.link }}), {{ currentRole.desc }}.
 
@@ -33,7 +33,7 @@ When I'm not working{% if currentEdu.when.end == nil %} or studying{% endif %}, 
 
 I'm quite liberal about <a href="{{ site.data.contact.linkedin }}" class="fa fa-linkedin"></a> and I occasionally `push` things to <a href="{{ site.data.contact.github }}" class="fa fa-github"></a>.
 
-<div title="If you hovered this far, this pastiche was created using Google's DeepDream (https://github.com/google/deepdream) way back in 2015, not one of those fancy diffusion models - I'm old school like that! 👴">
+<div title="If you hovered this far, this pastiche was created way back in 2015 using Google's DeepDream (https://github.com/google/deepdream), not one of those fancy new diffusion models - I'm old school like that! 👴">
 <img src="assets/images/profile_pastiche.png" width="75%"/>
 </div>
 
