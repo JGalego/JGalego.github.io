@@ -7,16 +7,11 @@ layout: default
 
 For startups:
 
-* AWS sponsors and organizes multiple programs geared towards startups:
-    - [AWS Activate](https://aws.amazon.com/activate/) offers startups, founders and entrepreneurs a wide range of benefits like AWS credits (up to $100k), support plans and expert architectural guidance to help their businesses flourish
-    - [AWS Startup Loft Accelerator](https://aws-startup-lofts.com/emea/program/accelerator) is an equity-free program focused on supporting early stage startups in EMEA
-    - [The Alexa Fund](https://developer.amazon.com/en-US/alexa/alexa-startups/alexa-fund) provides up to $200M in venture capital funding to fuel voice technology innovation
-    - There's a lot more on [AWS Startup Programs](https://aws.amazon.com/startups/startup-programs/) landing page
+* Most AWS-flavored delectables for startups can be found in the [AWS Startups](https://aws.amazon.com/startups) landing page
 * [Y Combinator Startup School](https://www.startupschool.org/) is a *free* 8-week online course on how/why/when to start a Startup
 * [Paul Graham's essays](http://www.paulgraham.com/articles.html) on startups and founders are absolute gems - be sure to check the ones on [how to get startup ideas](http://www.paulgraham.com/startupideas.html) and the [18 mistakes that kill startups](http://www.paulgraham.com/startupmistakes.html)
 * Peter Thiel's [Zero to One: Notes on Startups, or How to Build the Future](https://www.amazon.com/Zero-One-Notes-Startups-Future/dp/0804139296) is a must read - you may not agree with everything he writes (I certainly don't), but you won't stay indifferent
 * [Startup Stash](https://startupstash.com/) has a sizeable collection of tools for startups and entrepreneurs
-* Finally, for more AWS-flavored delectables, visit the [AWS Startups](https://aws.amazon.com/startups) page
 
 For those in a hurry:
 

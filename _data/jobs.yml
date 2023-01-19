@@ -4,7 +4,7 @@
     link: https://aws.amazon.com
   roles:
     - name: Solutions Architect
-      desc: helping Startups in every stage of their cloud journey 💡🎯🚀🦄
+      desc: helping startups in every stage of their cloud journey 💡🎯🚀🦄
       when:
         start: 2022
 
