@@ -3,6 +3,7 @@ title: Home
 layout: default
 ---
 
+{% assign previousJobs = site.data.jobs | shift %}
 {% assign currentJob = site.data.jobs | first %}
 {% assign currentEdu = site.data.education | first %}
 {% assign currentRole = currentJob.roles | first %}
@@ -17,15 +18,17 @@ My name is `{% raw %}{{ name }}{% endraw %}`, I’m `{% raw %}{{ age }}{% endraw
 
 I am a *bona fide* Physics nerd 🌌 and an amateur sleuth 🕵️ with a penchant for solving challenging problems with real-world applications 🌍.
 
-I work as a {{ currentRole.name }} at [{{ currentJob.where.name }}]({{ currentJob.where.link }}), {{ currentRole.desc }}.
+I've worked as a {{ previousJobs | join(', ') }} and god knows what else, for several companies, across multiple industries - I consider myself a jack of all trades, master of some 🐙.
+
+Currently, I work as a {{ currentRole.name }} at [{{ currentJob.where.name }}]({{ currentJob.where.link }}), {{ currentRole.desc }}.
 
 {% if currentEdu.when.end == nil %}
-I lead a double life as a {{ currentEdu.degree }} candidate in {{ currentEdu.area }} at [{{ currentEdu.where.name }}]({{ currentEdu.where.link }}), where my research focuses on {{ currentEdu.research }}.
+I lead a double life as a {{ currentEdu.degree }} candidate in {{ currentEdu.area }} at [{{ currentEdu.where.name }}]({{ currentEdu.where.link }}) 🎓, where my research focuses on {{ currentEdu.research }}.
 {% endif %}
 
-When I'm not working{% if currentEdu.when.end == nil} or studying{% endif %}, you can usually find me browsing the local bookstore 📚, competing in hackathons 🐱‍💻 or enjoying some quality family time 👪.
+When I'm not working{% if currentEdu.when.end == nil %} or studying{% endif %}, you can usually find me browsing the local bookstore 📚, competing in hackathons 🐱‍💻 or enjoying some quality family time 👪.
 
-Feel free to connect with me on <a href="{{ site.data.contact.linkedin }}" class="fa fa-linkedin"></a> or <a href="{{ site.data.contact.github }}" class="fa fa-github"></a>.
+I'm quite liberal about <a href="{{ site.data.contact.linkedin }}" class="fa fa-linkedin"></a> and I occasionally `push` things to <a href="{{ site.data.contact.github }}" class="fa fa-github"></a>.
 
 <div title="If you hovered this far, this pastiche was created using Google's DeepDream (https://github.com/google/deepdream) way back in 2015, not one of those fancy diffusion models - I'm old school like that! 👴">
 	<img src="assets/images/profile_pastiche.png" width="75%"/>
