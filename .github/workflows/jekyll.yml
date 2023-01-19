@@ -24,6 +24,6 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-gems-
       - name: 🔨 Build / 🚀 Publish
-        uses: helaili/jekyll-action@v3
+        uses: helaili/jekyll-action@v2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
