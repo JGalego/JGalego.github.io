@@ -8,6 +8,13 @@ layout: default
 {% assign currentEdu = site.data.education | first %}
 {% assign currentRole = currentJob.roles | first %}
 
+{% assign previousRoles = "" | split: ',' %}
+{% for job in previousJobs %}
+	{% for role in job.roles %}
+		{% assign previousRoles = previousRoles | push: role.name | uniq %}
+	{% endfor %}
+{% endfor %}
+
 ## Who am I?
 
 ```cpp
@@ -18,7 +25,7 @@ My name is `{% raw %}{{ name }}{% endraw %}`, I’m `{% raw %}{{ age }}{% endraw
 
 I am a *bona fide* Physics nerd 🌌 and an amateur sleuth 🕵️ with a penchant for solving challenging problems with real-world applications 🌍.
 
-I've worked as a {{ previousJobs | join(', ') }} and god knows what else, for several companies, across multiple industries - I consider myself a jack of all trades, master of some 🐙.
+I've worked as a {{ previousRoles | reverse | join: ', ' }} and I've wore many different hats 🎩, for several companies, across multiple industries - a veritable jack of all trades, master of some 🐙.
 
 Currently, I work as a {{ currentRole.name }} at [{{ currentJob.where.name }}]({{ currentJob.where.link }}), {{ currentRole.desc }}.
 
