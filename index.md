@@ -15,6 +15,10 @@ layout: default
 	{% endfor %}
 {% endfor %}
 
+<div title="If you hovered this far, this pastiche was created way back in 2015 using Google's DeepDream (https://github.com/google/deepdream), not one of those fancy new diffusion models - I'm old school like that! 👴">
+<img src="assets/images/profile_pastiche.png" width="100%"/>
+</div>
+
 ## `std::cout << "Hi everyone!\n"; 👋`
 
 My name is ████ ██████, I’m `0x`██ y/o, and I live in ██████, ████████.
@@ -32,10 +36,6 @@ I also lead a double life as a {{ currentEdu.degree }} candidate in {{ currentEd
 When I'm not working{% if currentEdu.when.end == nil %} or studying{% endif %}, you can usually find me browsing the local bookstore 📚, competing in hackathons 🐱‍💻 or enjoying some quality family time 👪.
 
 I'm quite liberal about <a href="{{ site.data.contact.linkedin }}" class="fa fa-linkedin"></a> and I occasionally `push` things to <a href="{{ site.data.contact.github }}" class="fa fa-github"></a>.
-
-<div title="If you hovered this far, this pastiche was created way back in 2015 using Google's DeepDream (https://github.com/google/deepdream), not one of those fancy new diffusion models - I'm old school like that! 👴">
-<img src="assets/images/profile_pastiche.png" width="75%"/>
-</div>
 
 ## What's new?
 

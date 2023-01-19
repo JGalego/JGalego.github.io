@@ -3,6 +3,10 @@ title: Stuff
 layout: default
 ---
 
+<div title="If you hovered this far, this pastiche was created way back in 2015 using Google's DeepDream (https://github.com/google/deepdream), not one of those fancy new diffusion models - I'm old school like that! 👴">
+<img src="assets/images/escher.jpg" width="100%"/>
+</div>
+
 ## Useful Links
 
 For startups:
