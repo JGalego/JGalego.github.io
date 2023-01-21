@@ -314,9 +314,13 @@ I'm just not sure what to make of it yet!
 #### Links
 
 * (Builtin) [MLOps: Machine Learning as an Engineering Discipline](https://builtin.com/machine-learning/mlops)
+* (ChristopherGS) [Monitoring Machine Learning Models in Production](https://christophergs.com/machine%20learning/2020/03/14/how-to-monitor-machine-learning-models/)
+* (DeepLearning.AI) [A Chat with Andrew on MLOps: From Model-centric to Data-centric AI](https://www.youtube.com/watch?v=06-AZXmwHjo)
 * (Gartner) [Gartner Survey Reveals 80% of Executives Think Automation Can Be Applied to Any Business Decision](https://www.gartner.com/en/newsroom/press-releases/2022-08-22-gartner-survey-reveals-80-percent-of-executives-think-automation-can-be-applied-to-any-business-decision)
 * (InfoWorld) [Why AI investments fail to deliver](https://www.infoworld.com/article/3639028/why-ai-investments-fail-to-deliver.html)
 * (MartinFowler) [Continuous Delivery for Machine Learning](https://martinfowler.com/articles/cd4ml.html)
+* (Medium) [Andrej Karpathy on Software 2.0](https://karpathy.medium.com/software-2-0-a64152b37c35)
+* (Towards Data Science) [Machine Learning in Production: why you should care about data and concept drift](https://towardsdatascience.com/machine-learning-in-production-why-you-should-care-about-data-and-concept-drift-d96d0bc907fb)
 * (VentureBeat) [Why do 87% of data science projects never make it into production?](https://venturebeat.com/ai/why-do-87-of-data-science-projects-never-make-it-into-production/)
 
 #### Articles
@@ -327,7 +331,7 @@ I'm just not sure what to make of it yet!
 #### Books
 
 * (Burkov, 2020) [Machine Learning Engineering](http://www.mlebook.com/wiki/doku.php)
-* (Lakshmanan, Robinson & Munn, 2021) [Machine Learning Design Patterns: Solutions to Common Challenges in Data Preparation, Model Building, and MLOps](https://www.oreilly.com/library/view/machine-learning-design/9781098115777/)
 * (Graeber, 2011) [Debt: The First 5000 Years](https://www.amazon.com/Debt-First-5-000-Years/dp/1612191290)
+* (Lakshmanan, Robinson & Munn, 2021) [Machine Learning Design Patterns: Solutions to Common Challenges in Data Preparation, Model Building, and MLOps](https://www.oreilly.com/library/view/machine-learning-design/9781098115777/)
 * (Quiñonero-Candela *et al.*, 2009) [Dataset Shift in Machine Learning](https://mitpress.mit.edu/9780262545877/dataset-shift-in-machine-learning/)
 * (Winters, Manshreck & Wright, 2020) [Software Engineering at Google: Lessons Learned from Programming Over Time](https://abseil.io/resources/swe-book)
