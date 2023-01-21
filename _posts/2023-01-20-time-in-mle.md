@@ -10,7 +10,7 @@ excerpt_separator: <!-- excerpt-end -->
 
 <!-- excerpt-start -->
 
-A witty and not-so-rigorous attempt to demonstrate the often-overlooked importance of time in ML projects that will annoy most mathematicians and alienate some physicists!
+A witty and not-so-rigorous attempt to demonstrate the importance of time in ML projects that will annoy most mathematicians and alienate some physicists!
 
 <!-- excerpt-end -->
 
