@@ -16,7 +16,6 @@ gem "minima", "~> 2.5"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
-  gem 'jekyll-katex'
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
@@ -35,3 +34,5 @@ gem "webrick", "~> 1.7"
 gem "kramdown-math-katex", "~> 1.0"
 
 gem 'jekyll-latex'
+
+gem 'jekyll-katex'
