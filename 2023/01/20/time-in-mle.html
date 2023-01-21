@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Time in Machine Learning Engineering ⏳</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="blog, accent, , João Galego, jekyll">
+    <meta name="author" content="">
+    
+    
+    
+    <meta name="description" content="">
+    <link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
+    <link rel="alternate" type="application/rss+xml" title="João Galego RSS" href="/feed.xml" />
+    <link rel="stylesheet" href="/css/main.css">
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    
+    <!-- Facebook Open Graph -->
+    <meta name="og:description" content="">
+    <meta name="og:title" content="João Galego">
+    <meta name="og:url" content="https://jgalego.github.io/2023/01/20/time-in-mle.html">
+    <meta name="og:type" content="article">
+    
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="João Galego">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:url" content="https://jgalego.github.io/2023/01/20/time-in-mle.html">
+    
+        <meta name="twitter:image" content="">
+    
+</head>
+<body>
+    <div class="wrapper">
+        <div class="navbar container">
+            
+            <a id="author-name" class="alignable pull-left" href="https://jgalego.github.io">João Galego</a>
+            <ul id="navlist" class="alignable pull-right navbar-ul">
+                
+                        <li class="alignable pull-left nav-list"><a href="/">Home</a>
+                    
+                        /
+                    
+                        </li>
+                
+                        <li class="alignable pull-left nav-list"><a href="/blog">Blog</a>
+                    
+                        /
+                    
+                        </li>
+                
+                        <li class="alignable pull-left nav-list"><a href="/resume">Resume</a>
+                    
+                        /
+                    
+                        </li>
+                
+                        <li class="alignable pull-left nav-list"><a href="/stuff">Stuff</a>
+                    
+                        </li>
+                
+            </ul>
+        </div>
+        <div style="clear:both"></div>
+        <hr>
+        
+            <div class="container content">
+        
+                <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.css" crossorigin="anonymous" />
+
+<h2 id="time-in-machine-learning-engineering----a-faux-calculus-argument">Time in Machine Learning Engineering ⏳ - A Faux-Calculus Argument</h2>
+
+<!-- excerpt-start -->
+
+<p>A witty and not-so-rigorous attempt to demonstrate the often-overlooked importance of time in ML projects that will annoy most mathematicians and alienate some physicists!</p>
+
+<!-- excerpt-end -->
+
+<div title="Lucy (2014)">
+  <center>
+<img src="https://64.media.tumblr.com/2b5feaa49751740b2d3db53fa76c7de4/56de99839df08a15-ae/s500x750/4c03f53180d11e76555f733db7c69a679a31d59e.gif" />
+</center>
+</div>
+
+<h3 id="time-in-software-engineering">Time in Software Engineering</h3>
+
+<p>There’s a saying at Google (Winters <em>et al.</em>, 2020) that Software Engineering or SWE for short is just</p>
+
+<center>
+<blockquote>
+<i>"programming integrated over time"</i>
+</blockquote>
+</center>
+
+<p>Now, I love taking things <em>too</em> literally and seeing how far I can go. That’s just how I roll, with utter disregard for the consequences of my deductions.</p>
+
+<p>Having said that, we can represent the assertion above using a very simple formula</p>
+
+<p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext mathvariant="monospace">SWE</mtext><mtext> </mtext><mo>=</mo><mtext> </mtext><mo>∫</mo><mtext mathvariant="monospace">Programming</mtext><mtext> </mtext><mi>d</mi><mi>t</mi></mrow><annotation encoding="application/x-tex">
+\texttt{SWE} ~=~ \int \texttt{Programming} ~dt
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:2.22225em;vertical-align:-0.86225em;"></span><span class="mord text"><span class="mord texttt">SWE</span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mspace nobreak"> </span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mspace nobreak"> </span><span class="mop op-symbol large-op" style="margin-right:0.44445em;position:relative;top:-0.0011249999999999316em;">∫</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord text"><span class="mord texttt">Programming</span></span><span class="mspace nobreak"> </span><span class="mord mathdefault">d</span><span class="mord mathdefault">t</span></span></span></span></span></p>
+
+<p>For lack of a better name, I’ll call this method of using calculus (or something close to it) to represent catchy slogans and witty remarks “Faux Calculus”.</p>
+
+<div title="The late Patrick Winston using faux-calculus while delivering his annual talk on 'How to Speak' - an MIT tradition for over 40 years">
+  <center>
+<img src="/assets/images/winston_how_to_speak.png" width="50%" />
+</center>
+</div>
+
+<p>Getting back to the main argument, if there’s one key insight we can take from this is that SWE is more than just writing code – it’s about maintaining that code <em>over time</em>.</p>
+
+<p>In fact, engineering in general is <em>mostly</em> about creating things that will stand the test of time. And we often use expressions like “future-proof”, “long-term” and “reliable” to stress how important it is to build lasting solutions and tools.</p>
+
+<p>In that sense, engineering can be described as a <a href="https://en.wikipedia.org/wiki/Functional_(mathematics)">functional</a> (high-order operator in CS terms) involving a time integral</p>
+
+<p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mo>↦</mo><mtext mathvariant="monospace">E</mtext><mo stretchy="false">[</mo><mi>f</mi><mo stretchy="false">]</mo><mo>=</mo><mo>∫</mo><mi>f</mi><mtext> </mtext><mi>d</mi><mi>t</mi></mrow><annotation encoding="application/x-tex">
+f \mapsto \texttt{E}[f] = \int f ~dt
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.10764em;">f</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">↦</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord text"><span class="mord texttt">E</span></span><span class="mopen">[</span><span class="mord mathdefault" style="margin-right:0.10764em;">f</span><span class="mclose">]</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:2.22225em;vertical-align:-0.86225em;"></span><span class="mop op-symbol large-op" style="margin-right:0.44445em;position:relative;top:-0.0011249999999999316em;">∫</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault" style="margin-right:0.10764em;">f</span><span class="mspace nobreak"> </span><span class="mord mathdefault">d</span><span class="mord mathdefault">t</span></span></span></span></span></p>
+
+<p>which we can represent as <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mtext mathvariant="monospace">E</mtext></mrow><annotation encoding="application/x-tex">f\texttt{E}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8889em;vertical-align:-0.1944em;"></span><span class="mord mathnormal" style="margin-right:0.10764em;">f</span><span class="mord text"><span class="mord texttt">E</span></span></span></span></span> using a <a href="https://en.wikipedia.org/wiki/Reverse_Polish_notation">postfix notation</a>, so that <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext mathvariant="monospace">SWE</mtext></mrow><annotation encoding="application/x-tex">\texttt{SWE}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6111em;"></span><span class="mord text"><span class="mord texttt">SWE</span></span></span></span></span> is really just <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext mathvariant="monospace">E</mtext><mo stretchy="false">[</mo><mtext mathvariant="monospace">SW</mtext><mo stretchy="false">]</mo></mrow><annotation encoding="application/x-tex">\texttt{E}[\texttt{SW}]</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord text"><span class="mord texttt">E</span></span><span class="mopen">[</span><span class="mord text"><span class="mord texttt">SW</span></span><span class="mclose">]</span></span></span></span>.</p>
+
+<p><em>“Ok”</em> I hear you say <em>“These formulas are cool and all”</em> (if you’re a working mathematician, you’re probably shouting at the screen and pulling your own hair at this point) <em>“But why are we making such a big fuss about time? What makes it so important?”</em></p>
+
+<p>Well, I’m glad you asked!</p>
+
+<p>In case you haven’t noticed, time <em>changes</em> everything ⌛ Just read Percy Bysshe Shelley poem <a href="https://www.poetryfoundation.org/poems/46565/ozymandias">Ozymandias</a>!</p>
+
+<div title="'My name is Ozymandias, King of Kings; / Look on my Works, ye Mighty, and despair! / Nothing beside remains. Round the decay / Of that colossal Wreck, boundless and bare / The lone and level sands stretch far away.'">
+  <center>
+<img src="/assets/images/ozymandias.webp" width="50%" />
+</center>
+</div>
+
+<p>In the world of SW development, the effects of the passage of time are especially dire:</p>
+
+<ul>
+  <li>Developers come and go</li>
+  <li>Programming languages go out of style</li>
+  <li>Frameworks go out of date</li>
+  <li>Features turn old and obsolete (or worse, irrelevant)</li>
+  <li>Code begets legacy code</li>
+  <li>Documentation… well, don’t get me started on documentation.</li>
+</ul>
+
+<p>In the midst of all this chaos, the only solutions that thrive and prosper are the ones that react and adapt to change in a <em>timely</em> manner.</p>
+
+<p>The ones that don’t, the ones that choose the easy way, the “road most travelled”, start to accrue debt… of the <a href="http://wiki.c2.com/?WardExplainsDebtMetaphor">technical</a> kind.</p>
+
+<p>Don’t you just love a good economical metaphor, dear reader?</p>
+
+<p>Unlike the Graeberian notion of debt as a <em>“preversion of a promise”</em> (Graeber, 2011), technical debt is non-negotiable and it needs to be repaid in full if a project intends to keep the lights on. This entails keeping up with all the “promises” made by the PM to the stakeholders when writing the <a href="https://www.projectmanager.com/blog/project-charter">project charter</a> and by the SW engineers when documenting their code.</p>
+
+<div title="According to platonic lore, the pre-socratic philosopher Heraclitus (AKA the weeping philosopher 😭) was one of the first to propose the idea that change is the only constant in the Universe (Πάντα ῥεῖ).">
+  <center>
+<img src="/assets/images/heraclitus.jpg" width="50%" />
+</center>
+</div>
+
+<h3 id="time-in-machinelearning-engineering">Time in Machine Learning Engineering</h3>
+
+<p>Technical debt is also lurking behind any ML project.</p>
+
+<p>In a paper presented at NeurIPS and provocatively titled, “Hidden Technical Debt in Machine Learning Systems”, Sculley <em>et al.</em> (2015) argued that there are no “quick wins” in real-world ML systems and that nothing ever comes for “free”.</p>
+
+<p>Their simple representation of a ML system as a disjoint set of “boxes” is probably one of the most used images in the whole MLE and MLOps literature. And for good reasons.</p>
+
+<div title="Real-world ML systems are more than just ML code (Sculley et al., 2015)">
+  <center>
+<img src="/assets/images/sculley_hidden_technical_debt.png" width="50%" />
+</center>
+</div>
+
+<p>It illustrates two very important facts about real-world ML: 1/ how complex ML development really is and 2/ how small the “cool stuff” (ML code) is compared to everything else AKA “plumbing” (data, infrastructure, &amp;c.).</p>
+
+<p>Failing to acknowledge either 1 or 2 (and its consequences) will lead any promising ML endeavour to spiral out of control and crash. According to a <a href="https://www.gartner.com/en/newsroom/press-releases/2022-08-22-gartner-survey-reveals-80-percent-of-executives-think-automation-can-be-applied-to-any-business-decision">recent Gartner report</a>, around 90% of all AI and ML projects fail to deliver, and only half of them make it to production.</p>
+
+<p>Can we invert this tendency? Something needs to change… but what?</p>
+
+<p>In the remainder of this article, I’ll argue, using the same faux-calculus reasoning we applied to SWE, that ML practitioners everywhere should handle time more carefully, and explore what that means for Machine Learning Engineering (MLE).</p>
+
+<p>Let’s start with the basics…</p>
+
+<p>Nowadays, when delivering an ‘Intro to ML’ (ML101) presentation, it has become standard practice to include a slide comparing traditional programming and ML, and stating just how much of a ‘paradigm shift’ it is to go from one to the other (Thomas Kuhn is probably rolling in his grave 🪦).</p>
+
+<p>Something along the lines of</p>
+
+<div title="ML vs Traditional Programming">
+  <center>
+<img src="/assets/images/ml_vs_traditional_programming.png" width="50%" />
+</center>
+</div>
+
+<p>or, focusing only on the ML side of the spectrum</p>
+
+<div title="ML = Code + Data">
+  <center>
+<img src="/assets/images/ml_code_plus_data.png" width="50%" />
+</center>
+</div>
+
+<p>These are often abbreviated as</p>
+
+<p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext mathvariant="monospace">ML</mtext><mtext> </mtext><mo>=</mo><mtext> </mtext><mtext mathvariant="monospace">Code</mtext><mo>+</mo><mtext mathvariant="monospace">Data</mtext></mrow><annotation encoding="application/x-tex">
+\texttt{ML} ~=~ \texttt{Code} + \texttt{Data}
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6944400000000001em;vertical-align:-0.08333em;"></span><span class="mord text"><span class="mord texttt">ML</span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mspace nobreak"> </span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mspace nobreak"> </span><span class="mord text"><span class="mord texttt">Code</span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.61111em;vertical-align:0em;"></span><span class="mord text"><span class="mord texttt">Data</span></span></span></span></span></span></p>
+
+<p>For most ML applications, however, this picture is <em>too</em> simplistic.</p>
+
+<p>A better alternative involves the notion of <strong>3 axis of change</strong> first put forward in <a href="https://martinfowler.com/articles/cd4ml.html">Martin Fowler’s Continuous Delivery for ML (CD4ML)</a> article</p>
+
+<div title="Martin Fowler's 3 axis of change - Data, Model and Code">
+  <center>
+<img src="/assets/images/ml_axis_of_change.png" width="50%" />
+</center>
+</div>
+
+<p>which can be summarized as</p>
+
+<p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext mathvariant="monospace">ML</mtext><mtext> </mtext><mo>=</mo><mtext> </mtext><mtext mathvariant="monospace">Code</mtext><mo>+</mo><mtext mathvariant="monospace">Data</mtext><mo>+</mo><mtext mathvariant="monospace">Model</mtext></mrow><annotation encoding="application/x-tex">
+\texttt{ML} ~=~ \texttt{Code} + \texttt{Data} + \texttt{Model}
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6944400000000001em;vertical-align:-0.08333em;"></span><span class="mord text"><span class="mord texttt">ML</span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mspace nobreak"> </span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mspace nobreak"> </span><span class="mord text"><span class="mord texttt">Code</span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.6944400000000001em;vertical-align:-0.08333em;"></span><span class="mord text"><span class="mord texttt">Data</span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.61111em;vertical-align:0em;"></span><span class="mord text"><span class="mord texttt">Model</span></span></span></span></span></span></p>
+
+<p>You probably see where I’m going with this, right?</p>
+
+<p>Let’s apply the engineering (<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext mathvariant="monospace">E</mtext></mrow><annotation encoding="application/x-tex">\texttt{E}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6111em;"></span><span class="mord text"><span class="mord texttt">E</span></span></span></span></span>) operator we defined above to our new definition</p>
+
+<p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext mathvariant="monospace">MLE</mtext><mtext> </mtext><mo>=</mo><mtext> </mtext><mo>∫</mo><mtext mathvariant="monospace">Code</mtext><mo>+</mo><mtext mathvariant="monospace">Data</mtext><mo>+</mo><mtext mathvariant="monospace">Model</mtext><mtext> </mtext><mi>d</mi><mi>t</mi></mrow><annotation encoding="application/x-tex">
+\texttt{MLE} ~=~ \int \texttt{Code} + \texttt{Data} + \texttt{Model} ~dt
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:2.22225em;vertical-align:-0.86225em;"></span><span class="mord text"><span class="mord texttt">MLE</span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mspace nobreak"> </span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mspace nobreak"> </span><span class="mop op-symbol large-op" style="margin-right:0.44445em;position:relative;top:-0.0011249999999999316em;">∫</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord text"><span class="mord texttt">Code</span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.6944400000000001em;vertical-align:-0.08333em;"></span><span class="mord text"><span class="mord texttt">Data</span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord text"><span class="mord texttt">Model</span></span><span class="mspace nobreak"> </span><span class="mord mathdefault">d</span><span class="mord mathdefault">t</span></span></span></span></span></p>
+
+<p>We can translate this into something more readable</p>
+
+<center>
+<blockquote>
+<i>MLE is just a bunch of stuff summed up together, integrated over time</i>
+</blockquote>
+</center>
+
+<p>Sounds ominous, doesn’t it?</p>
+
+<p>Too bad it’s dead wrong!</p>
+
+<p>As any freshman calculus student knows (and, integration-wise, that’s probably the only thing most of them know by the time they graduate), the <a href="https://www.mathdoubts.com/integral-sum-rule/">sum rule of Integration</a> tells us that</p>
+
+<center>
+<blockquote>
+<i>The integral of the sum is the sum of the integrals</i>
+</blockquote>
+</center>
+
+<div title="xkcd - Differentiation vs Integration">
+  <center>
+<img src="/assets/images/xkcd_differentiation_and_integration.png" width="50%" />
+</center>
+</div>
+
+<p>So, what our formula is telling us is that</p>
+
+<p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext mathvariant="monospace">MLE</mtext><mtext> </mtext><mo>=</mo><mtext> </mtext><mo>∫</mo><mtext mathvariant="monospace">Code</mtext><mtext> </mtext><mi>d</mi><mi>t</mi><mo>+</mo><mo>∫</mo><mtext mathvariant="monospace">Data</mtext><mtext> </mtext><mi>d</mi><mi>t</mi><mo>+</mo><mo>∫</mo><mtext mathvariant="monospace">Model</mtext><mtext> </mtext><mi>d</mi><mi>t</mi></mrow><annotation encoding="application/x-tex">
+\texttt{MLE} ~=~ \int \texttt{Code} ~dt + \int \texttt{Data} ~dt + \int \texttt{Model} ~dt
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:2.22225em;vertical-align:-0.86225em;"></span><span class="mord text"><span class="mord texttt">MLE</span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mspace nobreak"> </span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mspace nobreak"> </span><span class="mop op-symbol large-op" style="margin-right:0.44445em;position:relative;top:-0.0011249999999999316em;">∫</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord text"><span class="mord texttt">Code</span></span><span class="mspace nobreak"> </span><span class="mord mathdefault">d</span><span class="mord mathdefault">t</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:2.22225em;vertical-align:-0.86225em;"></span><span class="mop op-symbol large-op" style="margin-right:0.44445em;position:relative;top:-0.0011249999999999316em;">∫</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord text"><span class="mord texttt">Data</span></span><span class="mspace nobreak"> </span><span class="mord mathdefault">d</span><span class="mord mathdefault">t</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:2.22225em;vertical-align:-0.86225em;"></span><span class="mop op-symbol large-op" style="margin-right:0.44445em;position:relative;top:-0.0011249999999999316em;">∫</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord text"><span class="mord texttt">Model</span></span><span class="mspace nobreak"> </span><span class="mord mathdefault">d</span><span class="mord mathdefault">t</span></span></span></span></span></p>
+
+<p>If we equate <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext mathvariant="monospace">Code</mtext></mrow><annotation encoding="application/x-tex">\texttt{Code}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6111em;"></span><span class="mord text"><span class="mord texttt">Code</span></span></span></span></span> with <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext mathvariant="monospace">Programming</mtext></mrow><annotation encoding="application/x-tex">\texttt{Programming}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.2222em;"></span><span class="mord text"><span class="mord texttt">Programming</span></span></span></span></span> (which is debatable to be sure, but let’s keep with it for now), then we’re basically saying that</p>
+
+<center>
+<blockquote>
+<i>MLE is just good old SWE, data engineering and something we don't yet know what to call or how to handle, summed up together</i>
+</blockquote>
+</center>
+
+<p>which is a gross oversimplification… and a flat out lie.</p>
+
+<p>By the way, just in case you’re wondering about this, I’m assuming that every term in that integral has an explicit time dependence. Schematically, this can be represented as</p>
+
+<p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext mathvariant="monospace">Data</mtext><mtext> </mtext><mo>=</mo><mtext> </mtext><mtext mathvariant="monospace">Data</mtext><mo stretchy="false">(</mo><mi>t</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">
+\texttt{Data} ~=~ \texttt{Data}(t)
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord text"><span class="mord texttt">Data</span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mspace nobreak"> </span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mspace nobreak"> </span><span class="mord text"><span class="mord texttt">Data</span></span><span class="mopen">(</span><span class="mord mathdefault">t</span><span class="mclose">)</span></span></span></span></span></p>
+
+<p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext mathvariant="monospace">Model</mtext><mtext> </mtext><mo>=</mo><mtext> </mtext><mtext mathvariant="monospace">Model</mtext><mo stretchy="false">(</mo><mi>t</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">
+\texttt{Model} ~=~ \texttt{Model}(t)
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord text"><span class="mord texttt">Model</span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mspace nobreak"> </span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mspace nobreak"> </span><span class="mord text"><span class="mord texttt">Model</span></span><span class="mopen">(</span><span class="mord mathdefault">t</span><span class="mclose">)</span></span></span></span></span></p>
+
+<p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext mathvariant="monospace">Code</mtext><mtext> </mtext><mo>=</mo><mtext> </mtext><mtext mathvariant="monospace">Code</mtext><mo stretchy="false">(</mo><mi>t</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">
+\texttt{Code} ~=~ \texttt{Code}(t)
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord text"><span class="mord texttt">Code</span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mspace nobreak"> </span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mspace nobreak"> </span><span class="mord text"><span class="mord texttt">Code</span></span><span class="mopen">(</span><span class="mord mathdefault">t</span><span class="mclose">)</span></span></span></span></span></p>
+
+<p>If this were not the case, then each one of these “terms”, at least with respect to time, would be a trivial matter to solve.</p>
+
+<p>So what’s wrong with this line of reasoning? And how, if at all, can we fix it?</p>
+
+<p>There are two main issues with our initial approach: one is foundational, the other one is holistic.</p>
+
+<p>The first problem is that the definitions given above don’t take into account the close dependencies between the 3 axis of change.</p>
+
+<div title="Interdependencies between the 3 axis of change">
+  <center>
+<img src="/assets/images/ml_axis_of_change_dependencies.png" width="30%" />
+</center>
+</div>
+
+<p><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext mathvariant="monospace">Model</mtext></mrow><annotation encoding="application/x-tex">\texttt{Model}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6111em;"></span><span class="mord text"><span class="mord texttt">Model</span></span></span></span></span> relies heavily on the quality of the <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext mathvariant="monospace">Data</mtext></mrow><annotation encoding="application/x-tex">\texttt{Data}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6111em;"></span><span class="mord text"><span class="mord texttt">Data</span></span></span></span></span> used for training, validation and testing - the old <em>“Garbage In, Garbage Out”</em> (GIGO) dictum. On the other hand, <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext mathvariant="monospace">Code</mtext></mrow><annotation encoding="application/x-tex">\texttt{Code}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6111em;"></span><span class="mord text"><span class="mord texttt">Code</span></span></span></span></span> adapts both to the <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext mathvariant="monospace">Model</mtext></mrow><annotation encoding="application/x-tex">\texttt{Model}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6111em;"></span><span class="mord text"><span class="mord texttt">Model</span></span></span></span></span> used for inference and the <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext mathvariant="monospace">Data</mtext></mrow><annotation encoding="application/x-tex">\texttt{Data}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6111em;"></span><span class="mord text"><span class="mord texttt">Data</span></span></span></span></span> that we feed into it.</p>
+
+<p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext mathvariant="monospace">Data</mtext><mtext> </mtext><mo>=</mo><mtext> </mtext><mtext mathvariant="monospace">Data</mtext><mo stretchy="false">(</mo><mi>t</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">
+\texttt{Data} ~=~ \texttt{Data}(t)
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord text"><span class="mord texttt">Data</span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mspace nobreak"> </span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mspace nobreak"> </span><span class="mord text"><span class="mord texttt">Data</span></span><span class="mopen">(</span><span class="mord mathdefault">t</span><span class="mclose">)</span></span></span></span></span></p>
+
+<p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext mathvariant="monospace">Model</mtext><mtext> </mtext><mo>=</mo><mtext> </mtext><mtext mathvariant="monospace">Model</mtext><mo stretchy="false">(</mo><mtext mathvariant="monospace">Data</mtext><mo separator="true">,</mo><mi>t</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">
+\texttt{Model} ~=~ \texttt{Model}(\texttt{Data}, t)
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord text"><span class="mord texttt">Model</span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mspace nobreak"> </span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mspace nobreak"> </span><span class="mord text"><span class="mord texttt">Model</span></span><span class="mopen">(</span><span class="mord text"><span class="mord texttt">Data</span></span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault">t</span><span class="mclose">)</span></span></span></span></span></p>
+
+<p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext mathvariant="monospace">Code</mtext><mtext> </mtext><mo>=</mo><mtext> </mtext><mtext mathvariant="monospace">Code</mtext><mo stretchy="false">(</mo><mtext mathvariant="monospace">Data</mtext><mo separator="true">,</mo><mtext mathvariant="monospace">Model</mtext><mo separator="true">,</mo><mi>t</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">
+\texttt{Code} ~=~ \texttt{Code}(\texttt{Data}, \texttt{Model}, t)
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord text"><span class="mord texttt">Code</span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mspace nobreak"> </span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mspace nobreak"> </span><span class="mord text"><span class="mord texttt">Code</span></span><span class="mopen">(</span><span class="mord text"><span class="mord texttt">Data</span></span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord text"><span class="mord texttt">Model</span></span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault">t</span><span class="mclose">)</span></span></span></span></span></p>
+
+<p>The question of whether <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext mathvariant="monospace">Model</mtext></mrow><annotation encoding="application/x-tex">\texttt{Model}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6111em;"></span><span class="mord text"><span class="mord texttt">Model</span></span></span></span></span> depends <em>explicitly</em> on time is a matter of philosophical debate.</p>
+
+<p>Using the <a href="https://en.wikipedia.org/wiki/Chain_rule">Chain rule</a> we can start asking some deep questions about any ML system:</p>
+
+<p>1/ How is the <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext mathvariant="monospace">Data</mtext></mrow><annotation encoding="application/x-tex">\texttt{Data}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6111em;"></span><span class="mord text"><span class="mord texttt">Data</span></span></span></span></span> changing over time?</p>
+
+<p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mfrac><mrow><mi>d</mi><mtext> </mtext><mtext mathvariant="monospace">Data</mtext></mrow><mrow><mi>d</mi><mi>t</mi></mrow></mfrac></mrow><annotation encoding="application/x-tex">
+\frac{d~\texttt{Data}}{d t}
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:2.05744em;vertical-align:-0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.37144em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault">d</span><span class="mord mathdefault">t</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault">d</span><span class="mspace nobreak"> </span><span class="mord text"><span class="mord texttt">Data</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span></p>
+
+<p><strong>Food for thought:</strong> Can we distinguish data drift (<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>X</mi></mrow><annotation encoding="application/x-tex">X</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.07847em;">X</span></span></span></span> changes) from concept drift (<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>X</mi><mo>→</mo><mi>y</mi></mrow><annotation encoding="application/x-tex">X \rightarrow y</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.07847em;">X</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.1944em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">y</span></span></span></span> changes) within this framework?</p>
+
+<p>2/ What is the best way to deal with <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext mathvariant="monospace">Model</mtext></mrow><annotation encoding="application/x-tex">\texttt{Model}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6111em;"></span><span class="mord text"><span class="mord texttt">Model</span></span></span></span></span> drift?</p>
+
+<p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mfrac><mrow><mi>d</mi><mtext> </mtext><mtext mathvariant="monospace">Model</mtext></mrow><mrow><mi>d</mi><mi>t</mi></mrow></mfrac><mo>=</mo><mfrac><mrow><mi mathvariant="normal">∂</mi><mtext> </mtext><mtext mathvariant="monospace">Model</mtext></mrow><mrow><mi mathvariant="normal">∂</mi><mtext> </mtext><mtext mathvariant="monospace">Data</mtext></mrow></mfrac><mfrac><mrow><mi>d</mi><mtext> </mtext><mtext mathvariant="monospace">Data</mtext></mrow><mrow><mi>d</mi><mi>t</mi></mrow></mfrac><mo>+</mo><mfrac><mrow><mi mathvariant="normal">∂</mi><mtext> </mtext><mtext mathvariant="monospace">Model</mtext></mrow><mrow><mi mathvariant="normal">∂</mi><mi>t</mi></mrow></mfrac></mrow><annotation encoding="application/x-tex">
+\frac{d~\texttt{Model}}{d t} = \frac{\partial~\texttt{Model}}{\partial~\texttt{Data}} \frac{d~\texttt{Data}}{d t} + \frac{\partial~\texttt{Model}}{\partial t}
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:2.05744em;vertical-align:-0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.37144em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault">d</span><span class="mord mathdefault">t</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault">d</span><span class="mspace nobreak"> </span><span class="mord text"><span class="mord texttt">Model</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:2.05744em;vertical-align:-0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.37144em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord" style="margin-right:0.05556em;">∂</span><span class="mspace nobreak"> </span><span class="mord text"><span class="mord texttt">Data</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord" style="margin-right:0.05556em;">∂</span><span class="mspace nobreak"> </span><span class="mord text"><span class="mord texttt">Model</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.37144em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault">d</span><span class="mord mathdefault">t</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault">d</span><span class="mspace nobreak"> </span><span class="mord text"><span class="mord texttt">Data</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:2.05744em;vertical-align:-0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.37144em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord" style="margin-right:0.05556em;">∂</span><span class="mord mathdefault">t</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord" style="margin-right:0.05556em;">∂</span><span class="mspace nobreak"> </span><span class="mord text"><span class="mord texttt">Model</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span></p>
+
+<p>3/ Can <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext mathvariant="monospace">Code</mtext></mrow><annotation encoding="application/x-tex">\texttt{Code}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6111em;"></span><span class="mord text"><span class="mord texttt">Code</span></span></span></span></span> be decoupled from <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext mathvariant="monospace">Model</mtext></mrow><annotation encoding="application/x-tex">\texttt{Model}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6111em;"></span><span class="mord text"><span class="mord texttt">Model</span></span></span></span></span> changes?</p>
+
+<p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mfrac><mrow><mi>d</mi><mtext> </mtext><mtext mathvariant="monospace">Code</mtext></mrow><mrow><mi>d</mi><mi>t</mi></mrow></mfrac><mo>=</mo><mfrac><mrow><mi mathvariant="normal">∂</mi><mtext> </mtext><mtext mathvariant="monospace">Code</mtext></mrow><mrow><mi mathvariant="normal">∂</mi><mtext> </mtext><mtext mathvariant="monospace">Data</mtext></mrow></mfrac><mfrac><mrow><mi>d</mi><mtext> </mtext><mtext mathvariant="monospace">Data</mtext></mrow><mrow><mi>d</mi><mi>t</mi></mrow></mfrac><mo>+</mo><menclose notation="updiagonalstrike"><mfrac><mrow><mi mathvariant="normal">∂</mi><mtext> </mtext><mtext mathvariant="monospace">Code</mtext></mrow><mrow><mi mathvariant="normal">∂</mi><mtext> </mtext><mtext mathvariant="monospace">Model</mtext></mrow></mfrac></menclose><mfrac><mrow><mi>d</mi><mtext> </mtext><mtext mathvariant="monospace">Model</mtext></mrow><mrow><mi>d</mi><mi>t</mi></mrow></mfrac><mo>+</mo><mfrac><mrow><mi mathvariant="normal">∂</mi><mtext> </mtext><mtext mathvariant="monospace">Code</mtext></mrow><mrow><mi mathvariant="normal">∂</mi><mi>t</mi></mrow></mfrac></mrow><annotation encoding="application/x-tex">
+\frac{d~\texttt{Code}}{d t} = \frac{\partial~\texttt{Code}}{\partial~\texttt{Data}} \frac{d~\texttt{Data}}{d t} + \cancel{\frac{\partial~\texttt{Code}}{\partial~\texttt{Model}}} \frac{d~\texttt{Model}}{d t} + \frac{\partial~\texttt{Code}}{\partial t}
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:2.05744em;vertical-align:-0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.37144em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault">d</span><span class="mord mathdefault">t</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault">d</span><span class="mspace nobreak"> </span><span class="mord text"><span class="mord texttt">Code</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:2.05744em;vertical-align:-0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.37144em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord" style="margin-right:0.05556em;">∂</span><span class="mspace nobreak"> </span><span class="mord text"><span class="mord texttt">Data</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord" style="margin-right:0.05556em;">∂</span><span class="mspace nobreak"> </span><span class="mord text"><span class="mord texttt">Code</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.37144em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault">d</span><span class="mord mathdefault">t</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault">d</span><span class="mspace nobreak"> </span><span class="mord text"><span class="mord texttt">Data</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:2.05744em;vertical-align:-0.686em;"></span><span class="mord cancel-lap"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3714400000000002em;"><span style="top:-4.05744em;"><span class="pstrut" style="height:4.05744em;"></span><span class="mord cancel-pad"><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.37144em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord" style="margin-right:0.05556em;">∂</span><span class="mspace nobreak"> </span><span class="mord text"><span class="mord texttt">Model</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord" style="margin-right:0.05556em;">∂</span><span class="mspace nobreak"> </span><span class="mord text"><span class="mord texttt">Code</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span><span class="svg-align" style="top:-3.3714399999999998em;"><span class="pstrut" style="height:4.05744em;"></span><span style="height:2.05744em;"><svg width="100%" height="2.05744em"><line x1="0" y1="100%" x2="100%" y2="0" stroke-width="0.046em"></line></svg></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.37144em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault">d</span><span class="mord mathdefault">t</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault">d</span><span class="mspace nobreak"> </span><span class="mord text"><span class="mord texttt">Model</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:2.05744em;vertical-align:-0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.37144em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord" style="margin-right:0.05556em;">∂</span><span class="mord mathdefault">t</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord" style="margin-right:0.05556em;">∂</span><span class="mspace nobreak"> </span><span class="mord text"><span class="mord texttt">Code</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span></p>
+
+<p>Finally, there’s the (erroneous) assumption that we can just <em>sum everything up</em> and call it a day.</p>
+
+<p>Reality is probably closer to something closer to this</p>
+
+<p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext mathvariant="monospace">MLE</mtext><mtext> </mtext><mo>=</mo><mtext> </mtext><msubsup><mo>∫</mo><mrow><mi>i</mi><mi>d</mi><mi>e</mi><mi>a</mi></mrow><mrow><mi>E</mi><mi>O</mi><mi>L</mi></mrow></msubsup><mi>L</mi><mo stretchy="false">(</mo><mtext mathvariant="monospace">Data</mtext><mo separator="true">,</mo><mtext mathvariant="monospace">Model</mtext><mo separator="true">,</mo><mtext mathvariant="monospace">Code</mtext><mo separator="true">,</mo><msup><mtext mathvariant="monospace">Data</mtext><mo mathvariant="normal" lspace="0em" rspace="0em">′</mo></msup><mo separator="true">,</mo><msup><mtext mathvariant="monospace">Model</mtext><mo mathvariant="normal" lspace="0em" rspace="0em">′</mo></msup><mo separator="true">,</mo><msup><mtext mathvariant="monospace">Code</mtext><mo mathvariant="normal" lspace="0em" rspace="0em">′</mo></msup><mo separator="true">,</mo><mi>t</mi><mo stretchy="false">)</mo><mtext> </mtext><mi>d</mi><mi>t</mi></mrow><annotation encoding="application/x-tex">
+\texttt{MLE} ~=~ \int^{EOL}_{idea} L(\texttt{Data}, \texttt{Model}, \texttt{Code}, \texttt{Data}&#x27;, \texttt{Model}&#x27;, \texttt{Code}&#x27;, t) ~dt
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:2.503181em;vertical-align:-0.9119499999999999em;"></span><span class="mord text"><span class="mord texttt">MLE</span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mspace nobreak"> </span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mspace nobreak"> </span><span class="mop"><span class="mop op-symbol large-op" style="margin-right:0.44445em;position:relative;top:-0.0011249999999999316em;">∫</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.591231em;"><span style="top:-1.7880500000000001em;margin-left:-0.44445em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">i</span><span class="mord mathdefault mtight">d</span><span class="mord mathdefault mtight">e</span><span class="mord mathdefault mtight">a</span></span></span></span><span style="top:-3.8129000000000004em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.05764em;">E</span><span class="mord mathdefault mtight" style="margin-right:0.02778em;">O</span><span class="mord mathdefault mtight">L</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.9119499999999999em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault">L</span><span class="mopen">(</span><span class="mord text"><span class="mord texttt">Data</span></span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord text"><span class="mord texttt">Model</span></span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord text"><span class="mord texttt">Code</span></span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord"><span class="mord text"><span class="mord texttt">Data</span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.801892em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">′</span></span></span></span></span></span></span></span></span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord"><span class="mord text"><span class="mord texttt">Model</span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.801892em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">′</span></span></span></span></span></span></span></span></span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord"><span class="mord text"><span class="mord texttt">Code</span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.801892em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">′</span></span></span></span></span></span></span></span></span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault">t</span><span class="mclose">)</span><span class="mspace nobreak"> </span><span class="mord mathdefault">d</span><span class="mord mathdefault">t</span></span></span></span></span></p>
+
+<p>where the prime (‘) represents a derivative w.r.t. time (<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>t</mi></mrow><annotation encoding="application/x-tex">t</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6151em;"></span><span class="mord mathnormal">t</span></span></span></span>) and EOL (end-of-life) indicates the inevitable demise of the ML system, hopefully at a point far into the future.</p>
+
+<p>The actual form of <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>L</mi></mrow><annotation encoding="application/x-tex">L</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal">L</span></span></span></span> is usually unknown, most likely problem-dependent.</p>
+
+<p>The takeaway message is that the <em>dynamics</em> of MLE is something really tricky, not to be triffled with.</p>
+
+<div title="Burkov's MLE lifecycle">
+  <center>
+<img src="/assets/images/burkov_mle_lifecycle.png" width="75%" />
+</center>
+</div>
+
+<p>If you’re a physics nerd like me, you probably noticed that I called that function <a href="https://en.wikipedia.org/wiki/Lagrangian_mechanics"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>L</mi></mrow><annotation encoding="application/x-tex">L</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal">L</span></span></span></span></a> (*wink *wink *nudge *nudge).</p>
+
+<p>Without getting into <a href="https://en.wikipedia.org/wiki/Calculus_of_variations">variational calculus</a>, a clear analogy can be made between <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext mathvariant="monospace">MLE</mtext></mrow><annotation encoding="application/x-tex">\texttt{MLE}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6111em;"></span><span class="mord text"><span class="mord texttt">MLE</span></span></span></span></span> and the <a href="https://en.wikipedia.org/wiki/Stationary-action_principle">principle of stationary action</a></p>
+
+<p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>δ</mi><mtext> </mtext><mtext mathvariant="monospace">MLE</mtext><mo>=</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">
+\delta~\texttt{MLE} = 0
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.03785em;">δ</span><span class="mspace nobreak"> </span><span class="mord text"><span class="mord texttt">MLE</span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">0</span></span></span></span></span></p>
+
+<p>I’m just not sure what to make of it yet!</p>
+
+<p><strong>To be continued…</strong></p>
+
+<div title="Mind blown!!!">
+  <center>
+<img src="/assets/images/mind_blown_explosion.gif" width="50%" />
+</center>
+</div>
+
+<h3 id="references">References</h3>
+
+<h4 id="links">Links</h4>
+
+<ul>
+  <li>(Builtin) <a href="https://builtin.com/machine-learning/mlops">MLOps: Machine Learning as an Engineering Discipline</a></li>
+  <li>(Gartner) <a href="https://www.gartner.com/en/newsroom/press-releases/2022-08-22-gartner-survey-reveals-80-percent-of-executives-think-automation-can-be-applied-to-any-business-decision">Gartner Survey Reveals 80% of Executives Think Automation Can Be Applied to Any Business Decision</a></li>
+  <li>(InfoWorld) <a href="https://www.infoworld.com/article/3639028/why-ai-investments-fail-to-deliver.html">Why AI investments fail to deliver</a></li>
+  <li>(MartinFowler) <a href="https://martinfowler.com/articles/cd4ml.html">Continuous Delivery for Machine Learning</a></li>
+  <li>(VentureBeat) <a href="https://venturebeat.com/ai/why-do-87-of-data-science-projects-never-make-it-into-production/">Why do 87% of data science projects never make it into production?</a></li>
+</ul>
+
+<h4 id="articles">Articles</h4>
+
+<ul>
+  <li>(Paleyes, Urma &amp; Lawrence, 2020) <a href="https://arxiv.org/abs/2011.09926">Challenges in deploying machine learning: a survey of case studies</a></li>
+  <li>(Sculley <em>et al.</em>, 2015) <a href="https://papers.nips.cc/paper/2015/file/86df7dcfd896fcaf2674f757a2463eba-Paper.pdf">Hidden technical debt in machine learning systems</a></li>
+</ul>
+
+<h4 id="books">Books</h4>
+
+<ul>
+  <li>(Burkov, 2020) <a href="http://www.mlebook.com/wiki/doku.php">Machine Learning Engineering</a></li>
+  <li>(Lakshmanan, Robinson &amp; Munn, 2021) <a href="https://www.oreilly.com/library/view/machine-learning-design/9781098115777/">Machine Learning Design Patterns: Solutions to Common Challenges in Data Preparation, Model Building, and MLOps</a></li>
+  <li>(Graeber, 2011) <a href="https://www.amazon.com/Debt-First-5-000-Years/dp/1612191290">Debt: The First 5000 Years</a></li>
+  <li>(Quiñonero-Candela <em>et al.</em>, 2009) <a href="https://mitpress.mit.edu/9780262545877/dataset-shift-in-machine-learning/">Dataset Shift in Machine Learning</a></li>
+  <li>(Winters, Manshreck &amp; Wright, 2020) <a href="https://abseil.io/resources/swe-book">Software Engineering at Google: Lessons Learned from Programming Over Time</a></li>
+</ul>
+
+                
+                    <hr />
+                    <p style="text-align: center; margin-bottom: 10px">
+                    <a href="https://jekyllrb.com/" style="color: black"><small>© João Galego | Built with ❤️ using Jekyll</small></a>
+                    </p>
+                
+            </div>
+    </div>
+    
+</body>
+<footer>
+</footer>
