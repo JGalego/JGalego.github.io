@@ -30,4 +30,4 @@ kramdown:
   math_engine: katex
 
 plugins:
-  - jekyll-katex
+  - jekyll-latex

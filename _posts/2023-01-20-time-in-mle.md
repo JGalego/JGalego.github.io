@@ -34,9 +34,7 @@ Now, I love taking things *too* literally and seeing how far I can go. That's ju
 
 Having said that, we can represent the assertion above using a very simple formula
 
-{% katex display center %}
-\texttt{SWE} ~=~ \int \texttt{Programming} ~dt
-{% endkatex %}
+$$\texttt{SWE} ~=~ \int \texttt{Programming} ~dt$$
 
 For lack of a better name, I'll call this method of using calculus (or something close to it) to represent catchy slogans and witty remarks "Faux Calculus".
 
@@ -52,9 +50,7 @@ In fact, engineering in general is *mostly* about creating things that will stan
 
 In that sense, engineering can be described as a [functional](https://en.wikipedia.org/wiki/Functional_(mathematics)) (high-order operator in CS terms) involving a time integral
 
-{% katex display center %}
-f \mapsto \texttt{E}[f] = \int f ~dt
-{% endkatex %}
+$$f \mapsto \texttt{E}[f] = \int f ~dt$$
 
 which we can represent as $$f\texttt{E}$$ using a [postfix notation](https://en.wikipedia.org/wiki/Reverse_Polish_notation), so that $$\texttt{SWE}$$ is really just $$\texttt{E}[\texttt{SW}]$$.
 
@@ -137,9 +133,7 @@ or, focusing only on the ML side of the spectrum
 
 These are often abbreviated as
 
-{% katex display center %}
-\texttt{ML} ~=~ \texttt{Code} + \texttt{Data}
-{% endkatex %}
+$$\texttt{ML} ~=~ \texttt{Code} + \texttt{Data}$$
 
 For most ML applications, however, this picture is *too* simplistic.
 
@@ -153,17 +147,13 @@ A better alternative involves the notion of **3 axis of change** first put forwa
 
 which can be summarized as
 
-{% katex display center %}
-\texttt{ML} ~=~ \texttt{Code} + \texttt{Data} + \texttt{Model}
-{% endkatex %}
+$$\texttt{ML} ~=~ \texttt{Code} + \texttt{Data} + \texttt{Model}$$
 
 You probably see where I'm going with this, right?
 
 Let's apply the engineering ($$\texttt{E}$$) operator we defined above to our new definition
 
-{% katex display center %}
-\texttt{MLE} ~=~ \int \texttt{Code} + \texttt{Data} + \texttt{Model} ~dt
-{% endkatex %}
+$$\texttt{MLE} ~=~ \int \texttt{Code} + \texttt{Data} + \texttt{Model} ~dt$$
 
 We can translate this into something more readable
 
@@ -193,9 +183,7 @@ As any freshman calculus student knows (and, integration-wise, that's probably t
 
 So, what our formula is telling us is that
 
-{% katex display center %}
-\texttt{MLE} ~=~ \int \texttt{Code} ~dt + \int \texttt{Data} ~dt + \int \texttt{Model} ~dt
-{% endkatex %}
+$$\texttt{MLE} ~=~ \int \texttt{Code} ~dt + \int \texttt{Data} ~dt + \int \texttt{Model} ~dt$$
 
 If we equate $$\texttt{Code}$$ with $$\texttt{Programming}$$ (which is debatable to be sure, but let's keep with it for now), then we're basically saying that
 
@@ -209,17 +197,11 @@ which is a gross oversimplification... and a flat out lie.
 
 By the way, just in case you're wondering about this, I'm assuming that every term in that integral has an explicit time dependence. Schematically, this can be represented as
 
-{% katex display center %}
-\texttt{Data} ~=~ \texttt{Data}(t)
-{% endkatex %}
+$$\texttt{Data} ~=~ \texttt{Data}(t)$$
 
-{% katex display center %}
-\texttt{Model} ~=~ \texttt{Model}(t)
-{% endkatex %}
+$$\texttt{Model} ~=~ \texttt{Model}(t)$$
 
-{% katex display center %}
-\texttt{Code} ~=~ \texttt{Code}(t)
-{% endkatex %}
+$$\texttt{Code} ~=~ \texttt{Code}(t)$$
 
 If this were not the case, then each one of these "terms", at least with respect to time, would be a trivial matter to solve.
 
@@ -237,17 +219,11 @@ The first problem is that the definitions given above don't take into account th
 
 $$\texttt{Model}$$ relies heavily on the quality of the $$\texttt{Data}$$ used for training, validation and testing - the old *"Garbage In, Garbage Out"* (GIGO) dictum. On the other hand, $$\texttt{Code}$$ adapts both to the $$\texttt{Model}$$ used for inference and the $$\texttt{Data}$$ that we feed into it. 
 
-{% katex display center %}
-\texttt{Data} ~=~ \texttt{Data}(t)
-{% endkatex %}
+$$\texttt{Data} ~=~ \texttt{Data}(t)$$
 
-{% katex display center %}
-\texttt{Model} ~=~ \texttt{Model}(\texttt{Data}, t)
-{% endkatex %}
+$$\texttt{Model} ~=~ \texttt{Model}(\texttt{Data}, t)$$
 
-{% katex display center %}
-\texttt{Code} ~=~ \texttt{Code}(\texttt{Data}, \texttt{Model}, t)
-{% endkatex %}
+$$\texttt{Code} ~=~ \texttt{Code}(\texttt{Data}, \texttt{Model}, t)$$
 
 The question of whether $$\texttt{Model}$$ depends *explicitly* on time is a matter of philosophical debate.
 
@@ -255,31 +231,23 @@ Using the [Chain rule](https://en.wikipedia.org/wiki/Chain_rule) we can start as
 
 1/ How is the $$\texttt{Data}$$ changing over time?
 
-{% katex display center %}
-\frac{d~\texttt{Data}}{d t}
-{% endkatex %}
+$$\frac{d~\texttt{Data}}{d t}$$
 
 **Food for thought:** Can we distinguish data drift ($$X$$ changes) from concept drift ($$X \rightarrow y$$ changes) within this framework?
 
 2/ What is the best way to deal with $$\texttt{Model}$$ drift?
 
-{% katex display center %}
-\frac{d~\texttt{Model}}{d t} = \frac{\partial~\texttt{Model}}{\partial~\texttt{Data}} \frac{d~\texttt{Data}}{d t} + \frac{\partial~\texttt{Model}}{\partial t}
-{% endkatex %}
+$$\frac{d~\texttt{Model}}{d t} = \frac{\partial~\texttt{Model}}{\partial~\texttt{Data}} \frac{d~\texttt{Data}}{d t} + \frac{\partial~\texttt{Model}}{\partial t}$$
 
 3/ Can $$\texttt{Code}$$ be decoupled from $$\texttt{Model}$$ changes?
 
-{% katex display center %}
-\frac{d~\texttt{Code}}{d t} = \frac{\partial~\texttt{Code}}{\partial~\texttt{Data}} \frac{d~\texttt{Data}}{d t} + \cancel{\frac{\partial~\texttt{Code}}{\partial~\texttt{Model}}} \frac{d~\texttt{Model}}{d t} + \frac{\partial~\texttt{Code}}{\partial t}
-{% endkatex %}
+$$\frac{d~\texttt{Code}}{d t} = \frac{\partial~\texttt{Code}}{\partial~\texttt{Data}} \frac{d~\texttt{Data}}{d t} + \cancel{\frac{\partial~\texttt{Code}}{\partial~\texttt{Model}}} \frac{d~\texttt{Model}}{d t} + \frac{\partial~\texttt{Code}}{\partial t}$$
 
 Finally, there's the (erroneous) assumption that we can just *sum everything up* and call it a day.
 
 Reality is probably closer to something closer to this
 
-{% katex display center %}
-\texttt{MLE} ~=~ \int^{EOL}_{idea} L(\texttt{Data}, \texttt{Model}, \texttt{Code}, \texttt{Data}', \texttt{Model}', \texttt{Code}', t) ~dt
-{% endkatex %}
+$$\texttt{MLE} ~=~ \int^{EOL}_{idea} L(\texttt{Data}, \texttt{Model}, \texttt{Code}, \texttt{Data}', \texttt{Model}', \texttt{Code}', t) ~dt$$
 
 where the prime (') represents a derivative w.r.t. time ($$t$$) and EOL (end-of-life) indicates the inevitable demise of the ML system, hopefully at a point far into the future.
 
@@ -297,9 +265,7 @@ If you're a physics nerd like me, you probably noticed that I called that functi
 
 Without getting into [variational calculus](https://en.wikipedia.org/wiki/Calculus_of_variations), a clear analogy can be made between $$\texttt{MLE}$$ and the [principle of stationary action](https://en.wikipedia.org/wiki/Stationary-action_principle)
 
-{% katex display center %}
-\delta~\texttt{MLE} = 0
-{% endkatex %}
+$$\delta~\texttt{MLE} = 0$$
 
 I'm just not sure what to make of it yet!
 
