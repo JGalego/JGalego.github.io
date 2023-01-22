@@ -10,7 +10,7 @@ excerpt_separator: <!-- excerpt-end -->
 
 <!-- excerpt-start -->
 
-A witty and not-so-rigorous attempt to demonstrate the importance of time in ML projects that will annoy most mathematicians and alienate some physicists!
+This article started out as a joke and didn't wander very far. It is a witty and not-so-rigorous attempt to demonstrate the importance of time in ML projects that will annoy most mathematicians and alienate some physicists. There's some truth in it... it's just hard to find!
 
 <!-- excerpt-end -->
 
@@ -22,19 +22,27 @@ A witty and not-so-rigorous attempt to demonstrate the importance of time in ML 
 
 ### Time in Software Engineering
 
-There's a saying at Google (Winters *et al.*, 2020) that Software Engineering or SWE for short is just
+There's a saying at Google that goes something like this (Winters, Manshreck & Wright, 2020)
 
 <center>
 <blockquote>
-<i>"programming integrated over time"</i>
+<i>"Software engineering is programming integrated over time."</i>
 </blockquote>
 </center>
 
-Now, I love taking things *too* literally and seeing how far I can go. That's just how I roll, with utter disregard for the consequences of my deductions.
+Now, in case you don't know this about me, I love taking things *too* literally and seeing how far I can go - that's just how I roll, with utter disregard for the consequences of my deductions.
 
 Having said that, we can represent the assertion above using a very simple formula
 
 $$\texttt{SWE} ~=~ \int \texttt{Programming} ~dt$$
+
+<div title="Software engineering is programming integrated over time">
+<center>
+<img src="/assets/images/swe_integral.png" width="50%"/>
+</center>
+</div>
+
+The original quote doesn't specify start and end values for the integration, so we'll leave it [indefinite](https://mathworld.wolfram.com/IndefiniteIntegral.html) for now.
 
 For lack of a better name, I'll call this method of using calculus (or something close to it) to represent catchy slogans and witty remarks "Faux Calculus".
 
@@ -44,17 +52,17 @@ For lack of a better name, I'll call this method of using calculus (or something
 </center>
 </div>
 
-Getting back to the main argument, if there's one key insight we can take from this is that SWE is more than just writing code -- it's about maintaining that code *over time*.
+Returning to the main argument, if there's one key insight we can take from all of this is that SWE is more than just writing code -- it's about maintaining that code *over time*.
 
-In fact, engineering in general is *mostly* about creating things that will stand the test of time. And we often use expressions like "future-proof", "long-term" and "reliable" to stress how important it is to build lasting solutions and tools. 
+In fact, engineering in general is *mostly* about creating things that will stand the test of time. And we often use expressions like "future-proof", "long-term" and "reliable" to stress how important it is to build lasting solutions. 
 
-In that sense, engineering can be described as a [functional](https://en.wikipedia.org/wiki/Functional_(mathematics)) (high-order operator in CS terms) involving a time integral
+In that sense, engineering can be described as a [functional](https://en.wikipedia.org/wiki/Functional_(mathematics)) (high-order operator, in CS terms) that integrates whatever you're building over time
 
 {% katex display center %}
 f \mapsto \texttt{E}[f] = \int f ~dt
 {% endkatex %}
 
-which we can represent as $$f\texttt{E}$$ using a [postfix notation](https://en.wikipedia.org/wiki/Reverse_Polish_notation), so that $$\texttt{SWE}$$ is really just $$\texttt{E}[\texttt{SW}]$$.
+Using a [postfix notation](https://en.wikipedia.org/wiki/Reverse_Polish_notation), this can be represented as $$f\texttt{E}$$, so that $$\texttt{SWE}$$ is really just $$\texttt{E}[\texttt{SW}]$$.
 
 *"Ok"* I hear you say *"These formulas are cool and all"* (if you're a working mathematician, you're probably shouting at the screen and pulling your own hair at this point) *"But why are we making such a big fuss about time? What makes it so important?"*
 
@@ -77,13 +85,13 @@ In the world of SW development, the effects of the passage of time are especiall
 * Code begets legacy code
 * Documentation... well, don't get me started on documentation.
 
-In the midst of all this chaos, the only solutions that thrive and prosper are the ones that react and adapt to change in a *timely* manner.
+In this constant flow of change, the only solutions that thrive and prosper are the ones that react and adapt to change in a *timely* manner.
 
 The ones that don't, the ones that choose the easy way, the "road most travelled", start to accrue debt… of the [technical](http://wiki.c2.com/?WardExplainsDebtMetaphor) kind.
 
-Don't you just love a good economical metaphor, dear reader?
+Don't you just love a good economical metaphor, dear reader? 📈
 
-Unlike the Graeberian notion of debt as a *"preversion of a promise"* (Graeber, 2011), technical debt is non-negotiable and it needs to be repaid in full if a project intends to keep the lights on. This entails keeping up with all the "promises" made by the PM to the stakeholders when writing the [project charter](https://www.projectmanager.com/blog/project-charter) and by the SW engineers when documenting their code.
+Unlike the Graeberian notion of debt as a *"preversion of a promise"* (Graeber, 2011), technical debt is non-negotiable. If a project intends to keep the proverbial lights on, it needs to be repaid in full. This entails keeping up with all the "promises" made by the PM to the stakeholders when writing the [project charter](https://www.projectmanager.com/blog/project-charter) and by the SW engineers when documenting their code.
 
 <div title="According to platonic lore, the pre-socratic philosopher Heraclitus (AKA the weeping philosopher 😭) was one of the first to propose the idea that change is the only constant in the Universe (Πάντα ῥεῖ).">
 <center>
@@ -93,11 +101,13 @@ Unlike the Graeberian notion of debt as a *"preversion of a promise"* (Graeber, 
 
 ### Time in Machine Learning Engineering
 
-Technical debt is also lurking behind any ML project.
+It probably won't come as a surprise that ML projects also accumulate technical debt.
 
-In a paper presented at NeurIPS and provocatively titled, "Hidden Technical Debt in Machine Learning Systems", Sculley *et al.* (2015) argued that there are no "quick wins" in real-world ML systems and that nothing ever comes for "free".
+However, and therein lies the big difference to *vanilla* SW projects: much like cultural onions and icebergs or the dark sector of our Universe, most of this debt is just lurking behind the scenes, virtually invisible to uninitiated and untrained eyes.
 
-Their simple representation of a ML system as a disjoint set of "boxes" is probably one of the most used images in the whole MLE and MLOps literature. And for good reasons.
+In a paper presented at NeurIPS, provocatively titled "Hidden Technical Debt in Machine Learning Systems", Sculley *et al.* (2015) argued that there are no "quick wins" in real-world ML systems and that nothing ever comes for "free".
+
+Their simple representation of a ML system as a disjoint set of "boxes" is probably one of the most iconic and used images in the whole MLOps literature. And for good reasons.
 
 <div title="Real-world ML systems are more than just ML code (Sculley et al., 2015)">
 <center>
@@ -105,19 +115,23 @@ Their simple representation of a ML system as a disjoint set of "boxes" is proba
 </center>
 </div>
 
-It illustrates two very important facts about real-world ML: 1/ how complex ML development really is and 2/ how small the "cool stuff" (ML code) is compared to everything else AKA "plumbing" (data, infrastructure, &c.).
+It illustrates two very important yet often dismissed facts about real-world ML: 
 
-Failing to acknowledge either 1 or 2 (and its consequences) will lead any promising ML endeavour to spiral out of control and crash. According to a [recent Gartner report](https://www.gartner.com/en/newsroom/press-releases/2022-08-22-gartner-survey-reveals-80-percent-of-executives-think-automation-can-be-applied-to-any-business-decision), around 90% of all AI and ML projects fail to deliver, and only half of them make it to production.
+1/ How complex ML development can be and 
 
-Can we invert this tendency? Something needs to change... but what?
+2/ How small the "cool stuff" (ML code) is compared to everything else AKA "plumbing" (data, infrastructure, &c.).
+
+Failing to acknowledge either 1 or 2 and their consequences will lead any promising ML endeavour to spiral out of control and crash. According to a [recent Gartner report](https://www.gartner.com/en/newsroom/press-releases/2022-08-22-gartner-survey-reveals-80-percent-of-executives-think-automation-can-be-applied-to-any-business-decision), around 90% of all AI and ML projects fail to deliver, and only half of them ever make it to production.
+
+Can we reverse this tendency? Something needs to change... but what?
 
 In the remainder of this article, I'll argue, using the same faux-calculus reasoning we applied to SWE, that ML practitioners everywhere should handle time more carefully, and explore what that means for Machine Learning Engineering (MLE).
 
 Let's start with the basics...
 
-Nowadays, when delivering an 'Intro to ML' (ML101) presentation, it has become standard practice to include a slide comparing traditional programming and ML, and stating just how much of a 'paradigm shift' it is to go from one to the other (Thomas Kuhn is probably rolling in his grave 🪦). 
+Nowadays, when delivering an ML 101 presentation, it has become standard practice to include a slide comparing traditional programming and ML, and stating just how much of a 'paradigm shift' it is to go from one to the other (Thomas Kuhn is probably rolling in his grave 🪦).
 
-Something along the lines of
+This often translates to something along the lines of
 
 <div title="ML vs Traditional Programming">
 <center>
@@ -141,7 +155,7 @@ These are often abbreviated as
 
 For most ML applications, however, this picture is *too* simplistic.
 
-A better alternative involves the notion of **3 axis of change** first put forward in [Martin Fowler's Continuous Delivery for ML (CD4ML)](https://martinfowler.com/articles/cd4ml.html) article
+A better alternative, put forward in Martin Fowler's [Continuous Delivery for ML (CD4ML)](https://martinfowler.com/articles/cd4ml.html) article, involves the notion of **3 axis of change**
 
 <div title="Martin Fowler's 3 axis of change - Data, Model and Code">
 <center>
@@ -157,7 +171,7 @@ which can be summarized as
 
 You probably see where I'm going with this, right?
 
-Let's apply the engineering ($$\texttt{E}$$) operator we defined above to our new definition
+Let's apply the engineering ($$\texttt{E}$$) operator to our new definition
 
 {% katex display center %}
 \texttt{MLE} ~=~ \int \texttt{Code} + \texttt{Data} + \texttt{Model} ~dt
@@ -171,11 +185,9 @@ We can translate this into something more readable
 </blockquote>
 </center>
 
-Sounds ominous, doesn't it? 
+Sounds ominous, doesn't it? Too bad it's dead wrong!
 
-Too bad it's dead wrong!
-
-As any freshman calculus student knows (and, integration-wise, that's probably the only thing most of them know by the time they graduate), the [sum rule of Integration](https://www.mathdoubts.com/integral-sum-rule/) tells us that
+As any freshman calculus student knows (integration-wise, that's probably the only thing most of them know by the time they graduate), the [sum rule of Integration](https://www.mathdoubts.com/integral-sum-rule/) tells us that
 
 <center>
 <blockquote>
@@ -189,7 +201,7 @@ As any freshman calculus student knows (and, integration-wise, that's probably t
 </center>
 </div>
 
-So, what our formula is telling us is that
+In simple terms, our formula is telling us is that
 
 {% katex display center %}
 \texttt{MLE} ~=~ \int \texttt{Code} ~dt + \int \texttt{Data} ~dt + \int \texttt{Model} ~dt
@@ -203,9 +215,9 @@ If we equate $$\texttt{Code}$$ with $$\texttt{Programming}$$ (which is debatable
 </blockquote>
 </center>
 
-which is a gross oversimplification... and a flat out lie.
+which is a gross oversimplification.
 
-By the way, just in case you're wondering about this, I'm assuming that every term in that integral has an explicit time dependence. Schematically, this can be represented as
+By the way, just in case you're wondering about this, I'm assuming that every term in that integral has an explicit time dependence. This can be represented as
 
 {% katex display center %}
 \texttt{Data} ~=~ \texttt{Data}(t)
@@ -219,13 +231,13 @@ By the way, just in case you're wondering about this, I'm assuming that every te
 \texttt{Code} ~=~ \texttt{Code}(t)
 {% endkatex %}
 
-If this were not the case, then each one of these "terms", at least with respect to time, would be a trivial matter to solve.
+If this were not the case, then each one of these "terms", at least w. r. t. time, would be a trivial matter to solve.
 
 So what's wrong with this line of reasoning? And how, if at all, can we fix it?
 
-There are two main issues with our initial approach: one is foundational, the other one is holistic.
+There are two main issues with our initial approach.
 
-The first problem is that the definitions given above don't take into account the close dependencies between the 3 axis of change.
+The first problem is that the definitions above don't take into account the close dependencies between the 3 axis of change.
 
 <div title="Interdependencies between the 3 axis of change">
 <center>
@@ -233,7 +245,11 @@ The first problem is that the definitions given above don't take into account th
 </center>
 </div>
 
-$$\texttt{Model}$$ relies heavily on the quality of the $$\texttt{Data}$$ used for training, validation and testing - the old *"Garbage In, Garbage Out"* (GIGO) dictum. On the other hand, $$\texttt{Code}$$ adapts both to the $$\texttt{Model}$$ used for inference and the $$\texttt{Data}$$ that we feed into it. 
+$$\texttt{Model}$$ relies heavily on the quality of the $$\texttt{Data}$$ used for training, validation and testing - the old *"Garbage In, Garbage Out"* (GIGO) dictum.
+
+On the other hand, $$\texttt{Code}$$ needs to adapt both to the $$\texttt{Model}$$ used for inference and the $$\texttt{Data}$$ that is fed into it.
+
+In faux calculus, we can easily represent these relations by adding a few more arguments
 
 {% katex display center %}
 \texttt{Data} ~=~ \texttt{Data}(t)
@@ -249,17 +265,17 @@ $$\texttt{Model}$$ relies heavily on the quality of the $$\texttt{Data}$$ used f
 
 The question of whether $$\texttt{Model}$$ depends *explicitly* on time is a matter of philosophical debate.
 
-Using the [Chain rule](https://en.wikipedia.org/wiki/Chain_rule) we can start asking some deep questions about any ML system:
+Making copious use of the [chain rule](https://en.wikipedia.org/wiki/Chain_rule), we can start asking some deep questions about *any* ML system:
 
-1/ How is the $$\texttt{Data}$$ changing over time?
+1/ How does the $$\texttt{Data}$$ change over time?
 
 {% katex display center %}
 \frac{d~\texttt{Data}}{d t}
 {% endkatex %}
 
-**Food for thought:** Can we distinguish data drift ($$X$$ changes) from concept drift ($$X \rightarrow y$$ changes) within this framework?
+And, if you're feeling fanciful, if $$(X, y)$$ is a dataset containing input variables $$X$$ and target values $$y$$, how can we distinguish data drift ($$X$$ changes) from concept drift ($$X \rightarrow y$$ changes) within the faux calculus framework?
 
-2/ What is the best way to deal with $$\texttt{Model}$$ drift?
+2/ Is there an effective way to deal with $$\texttt{Model}$$ drift?
 
 {% katex display center %}
 \frac{d~\texttt{Model}}{d t} = \frac{\partial~\texttt{Model}}{\partial~\texttt{Data}} \frac{d~\texttt{Data}}{d t} + \frac{\partial~\texttt{Model}}{\partial t}
@@ -273,17 +289,17 @@ Using the [Chain rule](https://en.wikipedia.org/wiki/Chain_rule) we can start as
 
 Finally, there's the (erroneous) assumption that we can just *sum everything up* and call it a day.
 
-Reality is probably closer to something closer to this
+As any ML engineer will tell you, reality is probably closer to something like this
 
 {% katex display center %}
 \texttt{MLE} ~=~ \int^{EOL}_{idea} L(\texttt{Data}, \texttt{Model}, \texttt{Code}, \texttt{Data}', \texttt{Model}', \texttt{Code}', t) ~dt
 {% endkatex %}
 
-where the prime (') represents a derivative w.r.t. time ($$t$$) and EOL (end-of-life) indicates the inevitable demise of the ML system, hopefully at a point far into the future.
+where the prime (') represents a derivative w.r.t. time and $$EOL$$ (end-of-life) indicates the inevitable demise of the ML system - hopefully, at a point far into the future.
 
-The actual form of $$L$$ is usually unknown, most likely problem-dependent.
+$$L$$ is problem- and system-dependent, and it's actual form is usually unknown - sometimes even unknowable.
 
-The takeaway message is that the *dynamics* of MLE is something really tricky, not to be triffled with.
+The takeaway message, if there's one, is that the *dynamics* of applying engineering principles to ML systems of any kind is something really tricky, not to be triffled with.
 
 <div title="Burkov's MLE lifecycle">
 <center>
@@ -291,15 +307,36 @@ The takeaway message is that the *dynamics* of MLE is something really tricky, n
 </center>
 </div>
 
-If you're a physics nerd like me, you probably noticed that I called that function [$$L$$](https://en.wikipedia.org/wiki/Lagrangian_mechanics) (*wink *wink *nudge *nudge). 
+If you're a physics nerd like me, you probably noticed that I called that function [$$L$$](https://en.wikipedia.org/wiki/Lagrangian_mechanics) (*wink *wink *nudge *nudge).
 
-Without getting into [variational calculus](https://en.wikipedia.org/wiki/Calculus_of_variations), a clear analogy can be made between $$\texttt{MLE}$$ and the [principle of stationary action](https://en.wikipedia.org/wiki/Stationary-action_principle)
+Without getting into [variational calculus](https://en.wikipedia.org/wiki/Calculus_of_variations) (which is well beyond the scope of this essay) or defining exactly what $$L$$ is (pssst, it involves the kinetic and potential energies of the ML system, whatever those are), then there seems to be a link between the [Principle of Stationary Action](https://www.damtp.cam.ac.uk/user/nsm10/PrincLeaAc.pdf)
+
+{% katex display center %}
+\delta S = 0
+{% endkatex %}
+
+<div title="Feynman lecturing on the principle of least action">
+<center>
+<img src="/assets/images/feynman_action_principle.jpg" width="75%"/>
+</center>
+</div>
+
+which states that, in some sense, nature always finds an "optimal way", and $$\texttt{MLE}$$
 
 {% katex display center %}
 \delta~\texttt{MLE} = 0
 {% endkatex %}
 
-I'm just not sure what to make of it yet!
+This connection is probably deep and insightful, but since I'm not really sure what to make of it (yet!), this is probably a good place to stop.
+
+As Wittegenstein famously wrote in his *[Tractatus Logico-Philosophicus](https://www.gutenberg.org/ebooks/5740)* (1921):
+
+<center>
+<blockquote>
+<i>"Wovon man nicht sprechen kann, darüber muss man schweigen"</i><br>
+(Whereof one cannot speak, thereof one must be silent)
+</blockquote>
+</center>
 
 **To be continued...**
 
