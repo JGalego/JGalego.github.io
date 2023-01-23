@@ -85,17 +85,25 @@ In the world of SW development, the effects of the passage of time are especiall
 * Code begets legacy code
 * Documentation... well, don't get me started on documentation.
 
+<div title="According to platonic lore, the pre-socratic philosopher Heraclitus (AKA the weeping philosopher 😭) was one of the first to propose the idea that change is the only constant in the Universe (Πάντα ῥεῖ).">
+<center>
+<img src="/assets/images/heraclitus.jpg" width="50%"/>
+</center>
+</div>
+
 In this constant flow of change (pun intended), the only solutions that thrive and prosper are the ones that react and adapt to change in a *timely* manner.
 
 The ones that don't, the ones that choose the easy way, the "road most travelled", start to accrue debt… of the [technical](http://wiki.c2.com/?WardExplainsDebtMetaphor) kind.
 
 Don't you just love a good economical metaphor, dear reader? 📈
 
-Unlike the Graeberian notion of debt as a *"preversion of a promise"* (Graeber, 2011), technical debt is non-negotiable. If a project intends to keep the proverbial lights on, it needs to be repaid... in full. This entails keeping up with all the "promises" made by the PM to the stakeholders when writing the [project charter](https://www.projectmanager.com/blog/project-charter) and by the SW engineers when documenting their code.
+Unlike the Graeberian notion of debt as a *"preversion of a promise"* (Graeber, 2011), technical debt is non-negotiable. If a project intends to keep the proverbial lights on, it needs to be repaid... in full (\*). This entails keeping up with all the "promises" made by the PM to the stakeholders when writing the [project charter](https://www.projectmanager.com/blog/project-charter) and by the SW engineers when documenting their code.
 
-<div title="According to platonic lore, the pre-socratic philosopher Heraclitus (AKA the weeping philosopher 😭) was one of the first to propose the idea that change is the only constant in the Universe (Πάντα ῥεῖ).">
+(\*) There's also the vaguely keynesian "keep throwing spaghetti at the wall until it sticks" approach - as long as the headcount is [strictly increasing](https://mathworld.wolfram.com/StrictlyIncreasingFunction.html) and the technical debt *per capita* is [decreasing](https://mathworld.wolfram.com/DecreasingFunction.html), we should be fine. Not sure if [The Mythical Man-Month](https://en.wikipedia.org/wiki/Brooks%27s_law) crew would agree with this though.
+
+<div title="Dilbert on the old 'keep throwing spaghetti at the wall until it sticks' approach">
 <center>
-<img src="/assets/images/heraclitus.jpg" width="50%"/>
+<img src="/assets/images/dilbert_spaghetti.png" width="50%"/>
 </center>
 </div>
 
