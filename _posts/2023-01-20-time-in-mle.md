@@ -93,7 +93,7 @@ In the world of SW development, the effects of the passage of time are especiall
 
 In this constant flow of change (pun intended), the only solutions that thrive and prosper are the ones that react and adapt to change in a *timely* manner.
 
-The ones that don't, the ones that choose the easy way, the "road most travelled", start to accrue debt… of the [technical](http://wiki.c2.com/?WardExplainsDebtMetaphor) kind.
+The ones that don't, the ones that choose the easy way, the "road most traveled", start to accrue debt… of the [technical](http://wiki.c2.com/?WardExplainsDebtMetaphor) kind.
 
 Don't you just love a good economical metaphor, dear reader? 📈
 
@@ -129,7 +129,7 @@ It illustrates two very important yet often dismissed facts about real-world ML:
 
 2/ How small the "cool stuff" (ML code) is compared to everything else AKA "plumbing" (data, infrastructure, &c.).
 
-Failing to acknowledge either 1 or 2 and their consequences will lead any promising ML endeavour to spiral out of control and crash. According to a [recent Gartner report](https://www.gartner.com/en/newsroom/press-releases/2022-08-22-gartner-survey-reveals-80-percent-of-executives-think-automation-can-be-applied-to-any-business-decision), around 90% of all AI and ML projects fail to deliver, and only half of them ever make it to production.
+Failing to acknowledge either 1 or 2 and their consequences will lead any promising ML endeavor to spiral out of control and crash. According to a [recent Gartner report](https://www.gartner.com/en/newsroom/press-releases/2022-08-22-gartner-survey-reveals-80-percent-of-executives-think-automation-can-be-applied-to-any-business-decision), around 90% of all AI and ML projects fail to deliver, and only half of them ever make it to production.
 
 Can we reverse this tendency? Something needs to change... but what?
 
@@ -305,9 +305,15 @@ As any ML engineer will tell you, reality is probably closer to something like t
 
 where the prime (') represents a derivative w.r.t. time and $$EOL$$ (end-of-life) indicates the inevitable demise of the ML system - hopefully, at a point far into the future.
 
-$$L$$ is problem- and system-dependent, and it's actual form is usually unknown - sometimes even unknowable.
+Using Winstonian notation, we can easily produce a [data-centric](https://www.youtube.com/watch?v=06-AZXmwHjo) version
 
-The takeaway message, if there's one, is that the *dynamics* of applying engineering principles to ML systems of any kind is something really tricky, not to be triffled with.
+{% katex display center %}
+\texttt{MLE} ~=~ \int^{EOL}_{idea} L({\huge\texttt{Data}}, {\tiny\texttt{Model}}, \texttt{Code}, {\huge\texttt{Data}'}, {\tiny\texttt{Model}'}, \texttt{Code}', t) ~dt
+{% endkatex %}
+
+The $$L$$ function is mostly problem- and system-dependent, and it's actual form is usually unknown - sometimes even unknowable.
+
+The takeaway message, if there's one, is that the *dynamics* of applying engineering principles to ML systems of any kind is something really tricky, not to be trifled with.
 
 <div title="Burkov's MLE lifecycle">
 <center>
