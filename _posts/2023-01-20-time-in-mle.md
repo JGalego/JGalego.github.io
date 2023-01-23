@@ -10,19 +10,19 @@ excerpt_separator: <!-- excerpt-end -->
 
 <!-- excerpt-start -->
 
-This article started out as a joke and didn't wander very far. It is a witty and not-so-rigorous attempt to demonstrate the importance of time in ML projects that will annoy most mathematicians and alienate some physicists. There's some truth in it... it's just hard to find!
+This article started out as a joke and didn't wander very far in state space. It is a witty and not-so-rigorous attempt to demonstrate the importance of time in ML projects that will annoy most mathematicians and alienate some physicists. There's some truth in it... it's just really hard to find. Enjoy! 😛
 
 <!-- excerpt-end -->
 
 <div title="Lucy (2014)">
 <center>
-<img src="https://64.media.tumblr.com/2b5feaa49751740b2d3db53fa76c7de4/56de99839df08a15-ae/s500x750/4c03f53180d11e76555f733db7c69a679a31d59e.gif">
+<img src="https://64.media.tumblr.com/2b5feaa49751740b2d3db53fa76c7de4/56de99839df08a15-ae/s500x750/4c03f53180d11e76555f733db7c69a679a31d59e.gif" width="50%"/>
 </center>
 </div>
 
 ### Time in Software Engineering
 
-There's a saying at Google that goes something like this (Winters, Manshreck & Wright, 2020)
+There's a saying at Google about software engineering that goes something like this (Winters, Manshreck & Wright, 2020):
 
 <center>
 <blockquote>
@@ -30,9 +30,9 @@ There's a saying at Google that goes something like this (Winters, Manshreck & W
 </blockquote>
 </center>
 
-Now, in case you don't know this about me, I love taking things *too* literally and seeing how far I can go - that's just how I roll, with utter disregard for the consequences of my deductions.
+Now, in case you don't know this about me, I love taking things *too* literally and seeing how far I can go - that's just how I roll, with utter disregard for the consequences of my deductions. So consider yourself warned! ⚠️
 
-Having said that, we can represent the assertion above using a very simple formula
+We can represent the assertion above in a nice, compact way using a very simple formula
 
 $$\texttt{SWE} ~=~ \int \texttt{Programming} ~dt$$
 
@@ -54,7 +54,7 @@ For lack of a better name, I'll call this method of using calculus (or something
 
 Returning to the main argument, if there's one key insight we can take from all of this is that SWE is more than just writing code -- it's about maintaining that code *over time*.
 
-In fact, engineering in general is *mostly* about creating things that will stand the test of time. And we often use expressions like "future-proof", "long-term" and "reliable" to stress how important it is to build lasting solutions. 
+In fact, engineering in general is *mostly* about creating things that will stand the test of time. We often use expressions like "future-proof", "long-term" and "reliable" to stress how important it is to build lasting solutions. 
 
 In that sense, engineering can be described as a [functional](https://en.wikipedia.org/wiki/Functional_(mathematics)) (high-order operator, in CS terms) that integrates whatever you're building over time
 
@@ -85,13 +85,13 @@ In the world of SW development, the effects of the passage of time are especiall
 * Code begets legacy code
 * Documentation... well, don't get me started on documentation.
 
-In this constant flow of change, the only solutions that thrive and prosper are the ones that react and adapt to change in a *timely* manner.
+In this constant flow of change (pun intended), the only solutions that thrive and prosper are the ones that react and adapt to change in a *timely* manner.
 
 The ones that don't, the ones that choose the easy way, the "road most travelled", start to accrue debt… of the [technical](http://wiki.c2.com/?WardExplainsDebtMetaphor) kind.
 
 Don't you just love a good economical metaphor, dear reader? 📈
 
-Unlike the Graeberian notion of debt as a *"preversion of a promise"* (Graeber, 2011), technical debt is non-negotiable. If a project intends to keep the proverbial lights on, it needs to be repaid in full. This entails keeping up with all the "promises" made by the PM to the stakeholders when writing the [project charter](https://www.projectmanager.com/blog/project-charter) and by the SW engineers when documenting their code.
+Unlike the Graeberian notion of debt as a *"preversion of a promise"* (Graeber, 2011), technical debt is non-negotiable. If a project intends to keep the proverbial lights on, it needs to be repaid... in full. This entails keeping up with all the "promises" made by the PM to the stakeholders when writing the [project charter](https://www.projectmanager.com/blog/project-charter) and by the SW engineers when documenting their code.
 
 <div title="According to platonic lore, the pre-socratic philosopher Heraclitus (AKA the weeping philosopher 😭) was one of the first to propose the idea that change is the only constant in the Universe (Πάντα ῥεῖ).">
 <center>
@@ -101,7 +101,7 @@ Unlike the Graeberian notion of debt as a *"preversion of a promise"* (Graeber, 
 
 ### Time in Machine Learning Engineering
 
-It probably won't come as a surprise that ML projects also accumulate technical debt.
+It probably won't come as a surprise that ML projects are also prone to technical debt.
 
 However, and therein lies the big difference to *vanilla* SW projects: much like cultural onions and icebergs or the dark sector of our Universe, most of this debt is just lurking behind the scenes, virtually invisible to uninitiated and untrained eyes.
 
@@ -329,7 +329,7 @@ which states that, in some sense, nature always finds an "optimal way", and $$\t
 
 This connection is probably deep and insightful, but since I'm not really sure what to make of it (yet!), this is probably a good place to stop.
 
-As Wittegenstein famously wrote in his *[Tractatus Logico-Philosophicus](https://www.gutenberg.org/ebooks/5740)* (1921):
+As Wittgenstein famously wrote in his *[Tractatus Logico-Philosophicus](https://www.gutenberg.org/ebooks/5740)* (1921):
 
 <center>
 <blockquote>
@@ -338,7 +338,7 @@ As Wittegenstein famously wrote in his *[Tractatus Logico-Philosophicus](https:/
 </blockquote>
 </center>
 
-**To be continued...**
+**To be continued... or not (whatever)**
 
 <div title="Mind blown!!!">
 <center>
