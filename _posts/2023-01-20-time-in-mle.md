@@ -104,7 +104,7 @@ Don't you just love a good economical metaphor, dear reader? 📈
 
 Unlike the Graeberian notion of debt as a *"perversion of a promise"* (Graeber, 2011), technical debt is non-negotiable. If a project intends to keep the proverbial lights on, it needs to be repaid... in full (\*). This entails keeping up with all the "promises" made by the PM to the stakeholders when writing the [project charter](https://www.projectmanager.com/blog/project-charter) and by the SW engineers when documenting their code.
 
-(\*) There's also the vaguely keynesian "keep throwing spaghetti at the wall until it sticks" approach - as long as the headcount is [strictly increasing](https://mathworld.wolfram.com/StrictlyIncreasingFunction.html) and the technical debt *per capita* is [decreasing](https://mathworld.wolfram.com/DecreasingFunction.html), we should be fine. [The Mythical Man-Month](https://en.wikipedia.org/wiki/Brooks%27s_law) crew probably wouldn't agree with this. But, to be honest, when it comes to finding economical solutions to technical debt, [there are probably goats behind every door](https://www.youtube.com/watch?v=4Lb-6rxZxx0) 🚪 $\rightarrow$ 🐐.
+(\*) There's also the vaguely keynesian "keep throwing spaghetti at the wall until it sticks" approach - as long as the headcount is [strictly increasing](https://mathworld.wolfram.com/StrictlyIncreasingFunction.html) and the technical debt *per capita* is [decreasing](https://mathworld.wolfram.com/DecreasingFunction.html), we should be fine. [The Mythical Man-Month](https://en.wikipedia.org/wiki/Brooks%27s_law) crew probably wouldn't agree with this. But, to be honest, when it comes to finding economical solutions to technical debt, [there are probably goats behind every door](https://www.youtube.com/watch?v=4Lb-6rxZxx0) 🚪 $$\rightarrow$$ 🐐.
 
 <center>
 <figure>
@@ -117,7 +117,7 @@ Unlike the Graeberian notion of debt as a *"perversion of a promise"* (Graeber, 
 
 It probably won't come as a surprise that ML projects are also prone to technical debt.
 
-However, and therein lies the big difference to *vanilla* SW projects: much like [cultural onions](https://www.hyperkulturell.de/cultural-onion/) and [icebergs](https://www.peacecorps.gov/educators/resources/culture-iceberg/) or the [dark sector of our Universe](https://science.nasa.gov/astrophysics/focus-areas/what-is-dark-energy), most of this debt is just lurking behind the scenes, virtually invisible to uninitiated and untrained eyes.
+However, and therein lies the big difference to *vanilla* SW projects: much like [cultural onions](https://www.hyperkulturell.de/cultural-onion/) 🧅 and [icebergs](https://www.peacecorps.gov/educators/resources/culture-iceberg/) 🧊 or the [dark sector of our Universe](https://science.nasa.gov/astrophysics/focus-areas/what-is-dark-energy) 🌌, most of this debt is just lurking behind the scenes, virtually invisible to uninitiated and untrained eyes.
 
 In a paper presented at NeurIPS, provocatively titled "Hidden Technical Debt in Machine Learning Systems" (AKA "Machine Learning: The High Interest Credit Card of Technical Debt" 💳), Sculley *et al.* (2015) argued that there are no "quick wins" in real-world ML systems and that nothing ever comes for "free".
 
