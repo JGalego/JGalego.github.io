@@ -336,7 +336,7 @@ The $$L$$ function is mostly problem- and system-dependent, and it's actual form
 
 The takeaway message, if there's one, is that the *dynamics* of applying engineering principles to ML systems of any kind is something really tricky (Paleyes, Urma & Lawrence, 2020), not to be trifled with.
 
-Mind you, some problems do have solutions (Lakshmanan, Robinson & Munn, 2021), but those only cover edge cases and require reading a bunch of O'Reilly books.
+Mind you, some problems do have solutions (Lakshmanan, Robinson & Munn, 2021), but those only cover edge cases and require reading a bunch of [O RLY books](https://dev.to/rly).
 
 <center>
 <figure>
