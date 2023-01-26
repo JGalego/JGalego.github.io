@@ -3,6 +3,14 @@ title: Home
 layout: default
 ---
 
+<!-- Personal Info -->
+{% assign firstName = site.data.personal.name.first %}
+{% assign lastName = site.data.personal.name.last %}
+{% assign dob = site.data.personal.date_of_birth | date: '%Y-%m-%d' %}
+{% assign city = site.data.personal.residence.city %}
+{% assign country = site.data.personal.residence.country %}
+
+<!-- Professional Info -->
 {% assign previousJobs = site.data.jobs | shift %}
 {% assign currentJob = site.data.jobs | first %}
 {% assign currentEdu = site.data.education | first %}
@@ -14,11 +22,11 @@ layout: default
 
 ## `std::cout << "Hi everyone!\n"; 👋`
 
-My name is ████ ██████, I’m `0x`██ y/o, and I live in ██████, ████████.
+My name is {{ firstName | redact }} {{ lastName | redact }}, I’m `0x`{{ dob | age | hex }} y/o, and I live in {{ city | redact }}, {{ country | redact }}.
 
 I love fixing the ~~un~~fixable, building the ~~im~~possible and learning new things along the way.
 
-I live by Feynman's credo that **everything** is interesting if you go deep enough.
+I live by Feynman's credo: **everything** is interesting if you go deep enough 🐇 🕳️.
 
 ## What's new?
 
