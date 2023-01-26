@@ -22,7 +22,7 @@ layout: default
 
 ## `std::cout << "Hi everyone!\n"; 👋`
 
-My name is {{ firstName | redact }} {{ lastName | redact }}, I’m `0x`{{ dob | age | hex }} y/o, and I live in {{ city | redact }}, {{ country | redact }}.
+My name is {% redact %}{{ firstName }} {{ lastName }}{% endredact %}, I’m `0x`{{ dob | age | hex }} y/o, and I live in {% redact %}{{ city }}{% endredact %}, {% redact %}{{ country }}{% endredact %}.
 
 I love fixing the ~~un~~fixable, building the ~~im~~possible and learning new things along the way.
 
