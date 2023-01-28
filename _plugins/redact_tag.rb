@@ -1,10 +1,14 @@
 module Jekyll
     class RedactTagBlock < Liquid::Block
-
         def render(context)
             text = super
-            redacted_text = text.split.map{|word| "█" * word.length}.join(" ")
-            "<span onmouseover=\"this.innerHTML='#{text}';\" onmouseout=\"this.innerHTML='#{redacted_text}';\">#{redacted_text}</span>"
+            text.chars.map do |c| 
+                if c != " " then
+                    "<span onmouseover=\"this.innerHTML='#{c}';\" onmouseout=\"this.innerHTML='█';\">█</span>" 
+                else
+                    c
+                end
+            end.join("")
         end
     end
 end
