@@ -9,15 +9,15 @@ layout: default
 
 ## Useful Links
 
-For startups:
+For startups 🐣
 
-* Most AWS-flavored delectables for startups can be found in the [AWS Startups](https://aws.amazon.com/startups) landing page
 * [Y Combinator Startup School](https://www.startupschool.org/) is a *free* 8-week online course on how/why/when to start a Startup
 * [Paul Graham's essays](http://www.paulgraham.com/articles.html) on startups and founders are absolute gems - be sure to check the ones on [how to get startup ideas](http://www.paulgraham.com/startupideas.html) and the [18 mistakes that kill startups](http://www.paulgraham.com/startupmistakes.html)
 * Peter Thiel's [Zero to One: Notes on Startups, or How to Build the Future](https://www.amazon.com/Zero-One-Notes-Startups-Future/dp/0804139296) is a must read - you may not agree with everything he writes (I certainly don't), but you won't stay indifferent
 * [Startup Stash](https://startupstash.com/) has a sizeable collection of tools for startups and entrepreneurs
+* Perhaps not surprisingly, most AWS-flavored delectables for startups can be found in the [AWS Startups](https://aws.amazon.com/startups) landing page
 
-For those in a hurry:
+For those in a hurry 🏃 💨
 
 * [Learn X in Y minutes](https://learnxinyminutes.com/) offers a quick tour of ([almost](https://github.com/adambard/learnxinyminutes-docs/issues)) every programming language
 * Feeling too lazy to implement a classic algorithm? Check out [The Algorithms](https://the-algorithms.com/), GitHub's largest open-source algorithm library (or so they say)
