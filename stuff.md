@@ -23,6 +23,12 @@ For those in a hurry 🏃 💨
 * Feeling too lazy to implement a classic algorithm? Check out [The Algorithms](https://the-algorithms.com/), GitHub's largest open-source algorithm library (or so they say)
 * Fastest way to use ML models? Try out [Hugging Face 🤗 Models](https://huggingface.co/models) online for *free*
 * Need an API for a project? This [list of publicly available APIs](https://github.com/public-apis/public-apis) may come in handy
+* Having a hard time debugging your code? Consider buying a [rubber duck](https://rubberduckdebugging.com/) (of the bathtub persuasion)
+
+<div align="center">
+<!-- Ernie rubber duck debugging -->
+<img src="https://media2.giphy.com/media/CGMcKCEy4Dct2/giphy.gif" width="25%"/>
+</div>
 
 ## (Supposedly) Fun Things
 
@@ -44,11 +50,17 @@ For those in a hurry 🏃 💨
 * If you get off on things like `_='_=%r;print(_%%_)';print(_%_)`, then you'll absolutely love [Quine Relay](https://github.com/mame/quine-relay)
     - It's also the nerdiest way to get [ChatGPT](https://openai.com/blog/chatgpt/) into an [infinite loop](https://www.linkedin.com/posts/jgalego_chatgpt-activity-7019613458753011712-Tlsi?utm_source=share&utm_medium=member_desktop) ♾️💥
     
-    <!-- ChatGPT on Quine Relay -->
-    <img src="assets/images/chatgpt_on_quine_relay.jpg" width="75%"/>
+<div align="center">
+<!-- ChatGPT on Quine Relay -->
+<img src="assets/images/chatgpt_on_quine_relay.jpg" width="75%"/>
+</div>
 
 * There's an [awesome list](https://github.com/sindresorhus/awesome) of awesome lists of awesome things - smells like [Russell's paradox](https://plato.stanford.edu/entries/russell-paradox/) to me!
 * Few things are as meta as Douglas Hofstadter's [GEB](https://www.amazon.com/G%C3%B6del-Escher-Bach-Eternal-Golden/dp/0465026567), an exploration of self-reference and recursivity featuring a wide ensemble of Carrollian-like characters
-* Finally, a recent (meta-)piece for *The Atlantic* on why [`meta` doesn't mean what you thing it does](https://www.theatlantic.com/newsletters/archive/2022/06/meta-origin-irony/661191/)
+* A recent (meta-)piece for *The Atlantic* on why [`meta` doesn't mean what you thing it does](https://www.theatlantic.com/newsletters/archive/2022/06/meta-origin-irony/661191/)
+* Finally, a warning sign warning you about warning signs - consider yourself warned
 
-![Warning sign warning you about warning signs](https://64.media.tumblr.com/tumblr_lphraa31Hk1qkg7s3o1_400.jpg)
+<div align="center">
+<!-- Meta Warning Sign -->
+<img src="https://64.media.tumblr.com/tumblr_lphraa31Hk1qkg7s3o1_400.jpg" width="30%"/>
+</div>
