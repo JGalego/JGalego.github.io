@@ -12,7 +12,7 @@ excerpt_separator: <!-- excerpt-end -->
 
 This article started out as a joke and didn't wander very far in state space. It is a witty and not-so-rigorous attempt to demonstrate the importance of time in ML projects that will annoy most mathematicians and alienate some physicists. There's some truth in it... it's just really hard to find. Enjoy! 😛
 
-**Update (24-01-2023):** This article is now available on [Medium](https://medium.com/@joao.galego/time-in-machine-learning-engineering-a-faux-calculus-argument-90e197bfd17e)
+**Update:** This article is now available on [Medium](https://medium.com/@joao.galego/time-in-machine-learning-engineering-a-faux-calculus-argument-90e197bfd17e)
 
 <!-- excerpt-end -->
 
