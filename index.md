@@ -17,7 +17,7 @@ layout: default
 {% assign currentRole = currentJob.roles | first %}
 
 <div title="If you hovered this far, this pastiche was created way back in 2015 using Google's DeepDream (https://github.com/google/deepdream), not one of those fancy new diffusion models - I'm old school like that! 👴">
-<img src="assets/images/profile_pastiche.png" width="100%"/>
+<img src="assets/images/profile_pastiche.png" width="100%" height="200px"/>
 </div>
 
 ## `std::cout << "Hi everyone!\n"; 👋`
