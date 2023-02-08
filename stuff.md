@@ -4,7 +4,7 @@ layout: default
 ---
 
 <div title="Panel from Metamorphosis II (1939-1940) by M. C. Escher">
-<img src="assets/images/escher.jpg" width="100%" height="200px"/>
+<img src="assets/images/escher.jpg" width="100%" height="175px"/>
 </div>
 
 ## Useful Links

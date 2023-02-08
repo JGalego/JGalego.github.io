@@ -15,6 +15,10 @@ layout: default
 	{% endfor %}
 {% endfor %}
 
+<div title="In memoriam of John Conway (1937-2020)">
+<img src="assets/images/conway_gol.jpg" width="100%" height="175px"/>
+</div>
+
 ## About Me
 
 I am a Physics nerd 🌌 and an amateur sleuth 🕵️ with a penchant for solving challenging problems with real-world applications 🌍.

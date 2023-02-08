@@ -4,7 +4,7 @@ layout: default
 ---
 
 <div title="Meet the BOSS, the Largest Structure in the Universe (https://www.smithsonianmag.com/smart-news/meet-boss-largest-structure-universe-180958378/) 🤯 Talk about fullest feeling of the sublime!">
-<img src="assets/images/boss.jpg" width="100%" height="200px"/>
+<img src="assets/images/boss.jpg" width="100%" height="175px"/>
 </div>
 
 {% for post in site.posts %}
