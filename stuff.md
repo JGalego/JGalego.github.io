@@ -1,5 +1,5 @@
 ---
-title: Stuff
+title: Stuff 💡
 layout: default
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Resume
+title: Resume 📄
 layout: default
 ---
 

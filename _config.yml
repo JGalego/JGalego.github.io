@@ -14,13 +14,13 @@ sass:
   sass_dir: _sass
 
 nav:
-  - name: Home
+  - name: Home 🏠
     link: /
-  - name: Blog
+  - name: Blog ✍️
     link: /blog
-  - name: Resume
+  - name: Resume 📄
     link: /resume
-  - name: Stuff
+  - name: Stuff 💡
     link: /stuff
 
 kramdown:
