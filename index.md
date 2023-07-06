@@ -17,7 +17,7 @@ layout: default
 {% assign currentRole = currentJob.roles | first %}
 
 <div title="If you hovered this far, this pastiche was created way back in 2015 using Google's DeepDream (https://github.com/google/deepdream), not one of those fancy new diffusion models - I'm old school like that! 👴">
-<img src="assets/images/profile_pastiche.png" width="100%" height="175px"/>
+<img src="assets/images/profile_pastiche.png" width="100%"/>
 </div>
 
 ## `std::cout << "Hi everyone!\n"; 👋`
@@ -26,7 +26,7 @@ My name is {% redact %}{{ firstName }} {{ lastName }}{% endredact %}, I’m `0x`
 
 I love fixing the ~~un~~fixable, building the ~~im~~possible and learning new things along the way.
 
-I live by Feynman's credo: **everything** is interesting if you go deep enough 🐇 🕳️.
+I live by Feynman's credo: 🅴🆅🅴🆁🆈🆃🅷🅸🅽🅶 is interesting if you go deep enough 🐇 🕳️.
 
 ## What's new?
 

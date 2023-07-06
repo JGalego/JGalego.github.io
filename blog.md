@@ -4,7 +4,7 @@ layout: default
 ---
 
 <div title="In memoriam of John Conway (1937-2020)">
-<img src="assets/images/conway_gol.jpg" width="100%" height="175px"/>
+<img src="assets/images/conway_gol.jpg" width="100%"/>
 </div>
 
 {% for post in site.posts %}
