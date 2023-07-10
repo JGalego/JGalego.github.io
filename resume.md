@@ -37,7 +37,7 @@ I'm quite liberal about <a href="{{ site.data.contact.linkedin }}" class="fa fa-
 
 <button name="download_cv" onclick="/assets/documents/cv_en.pdf">📄 Download CV</button>
 
-<!--img src="/assets/images/dilbert-resume.jpg" width="50%" style="max-width: 450px"/-->
+<img src="/assets/images/sonic.gif" width="10%"/>
 
 <!--
 <table>
