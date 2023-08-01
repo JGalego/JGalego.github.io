@@ -35,7 +35,7 @@ When I'm not working{% if currentEdu.when.end == nil %} or studying{% endif %}, 
 
 I'm quite liberal about <a href="{{ site.data.contact.linkedin }}" class="fa fa-linkedin"></a> and I occasionally `git push` things to <a href="{{ site.data.contact.github }}" class="fa fa-github"></a>.
 
-<button name="download_cv" onclick="/assets/documents/cv_en.pdf">📄 Download CV</button>
+[📄 Download CV](/assets/documents/cv_en.pdf){: .btn}
 
 <img src="/assets/images/sonic.gif" width="10%"/>
 

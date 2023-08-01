@@ -10,7 +10,13 @@ excerpt_separator: <!-- excerpt-end -->
 
 My take on the GenAI narrative. *No hype, no hubris, no hogwash*.
 
-**Update:** Now available at [jgalego.github.io/GenAI](https://jgalego.github.io/GenAI)
+**Update:** Now available at [jgalego.github.io/GenAI](https://jgalego.github.io/GenAI)!
+
+<div align="center">
+<iframe width="70%" height="300px" src="https://jgalego.github.io/GenAI">
+Your browser doesn't support iframes? Really?!
+</iframe>
+</div>
 
 <!-- excerpt-end -->
 
