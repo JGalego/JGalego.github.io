@@ -36,6 +36,7 @@ For those in a hurry 🏃 💨
 * The new edition of [Code: The Hidden Language of Computer Hardware and Software](https://www.codehiddenlanguage.com/) by Charles Petzold is an absolute treasure - it covers everything from playing with flashlights 🔦 with your best friend to the *"worldwide hum of the internet"* 🌐
 * Erik Demaine's [lectures on data structures, algorithms and programming](https://erikdemaine.org/classes/) are mind-blowing - be sure to watch the lectures on [models of computation and document distance](https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011/resources/lecture-2-models-of-computation-document-distance/) (I guarantee you'll never look at your Python scripts the same way) and [temporal data structures](http://courses.csail.mit.edu/6.851/spring21/lectures/L01.html) (expect time travel analogies 🕓🚀 and movie references)
 * Kevin Zurawel's [Game Development in 8bits or... stupid NES tricks](https://www.youtube.com/watch?v=TPbroUDHG0s) is a lesson on creative limitation
+* Terry Tao's [attempts to formalize a paper](https://terrytao.wordpress.com/2023/11/18/formalizing-the-proof-of-pfr-in-lean4-using-blueprint-a-short-tour/) on a [conjecture by Katalin Marton](https://terrytao.wordpress.com/2023/11/13/on-a-conjecture-of-marton/) in [Lean4](https://lean-lang.org/)
 * [MinutePhysics](https://www.youtube.com/c/minutephysics) uses whiteboard animation to explain all kinds of physics-related topics - the video on [boat wakes](https://www.youtube.com/watch?v=95sQcSulRFM) is a personal favourite
 * If brown paper math derivations tickle your fancy, check out [Numberphile](https://www.youtube.com/user/Numberphile)
 
@@ -58,7 +59,8 @@ For those in a hurry 🏃 💨
 * There's an [awesome list](https://github.com/sindresorhus/awesome) of awesome lists of awesome things - smells like [Russell's paradox](https://plato.stanford.edu/entries/russell-paradox/) to me!
 * Few things are as meta as Douglas Hofstadter's [GEB](https://www.amazon.com/G%C3%B6del-Escher-Bach-Eternal-Golden/dp/0465026567), an exploration of self-reference and recursivity featuring a wide ensemble of Carrollian-like characters
 * A recent (meta-)piece for *The Atlantic* on why [`meta` doesn't mean what you thing it does](https://www.theatlantic.com/newsletters/archive/2022/06/meta-origin-irony/661191/)
-* Finally, a warning sign warning you about warning signs - consider yourself warned
+* An [implementation of PartyRock](https://partyrock.aws/u/mza/pDK3iF1kb/PartyRocket-build-web-apps-with-gen-AI) by Matt Wood (VP @ AWS) in [PartyRock](https://partyrock.aws/), an [Amazon Bedrock](https://aws.amazon.com/bedrock/) playground
+* Finally, a warning sign warning you about warning signs - consider yourself warned!
 
 <div align="center">
 <!-- Meta Warning Sign -->
