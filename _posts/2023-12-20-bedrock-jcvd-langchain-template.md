@@ -1,10 +1,10 @@
 ---
-title: Bedrock JCVD LangChain Template
+title: Bedrock JCVD 🕺🥋 on LangChain templates
 layout: default
 excerpt_separator: <!-- excerpt-end -->
 ---
 
-## Bringing 🤗 Text Embeddings Inference to Amazon SageMaker
+## Bedrock JCVD 🕺🥋 on LangChain templates
 
 <!-- excerpt-start -->
 
