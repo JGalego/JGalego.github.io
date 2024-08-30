@@ -1,0 +1,12 @@
+---
+- position: Invited Assistant Professor
+  when:
+    start: 2024
+  where:
+    name: ISEG
+    link: https://isegexecutive.education/pt/
+  what:
+    - name: Applied AI/ML
+      link: https://isegexecutive.education/pt/cursos/pos-graduacoes/applied-artificial-intelligence-machine-learning/
+    - name: AI for Value Creation
+      link: https://isegexecutive.education/pt/cursos/programas-executivos/artificial-intelligence-for-value-creation-inovar-e-desenvolver-negocios/

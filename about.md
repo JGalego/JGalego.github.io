@@ -1,11 +1,12 @@
 ---
-title: Resume 📄
+title: About ✨
 layout: default
 ---
 
 {% assign previousJobs = site.data.jobs | shift %}
 {% assign currentJob = site.data.jobs | first %}
 {% assign currentEdu = site.data.education | first %}
+{% assign currentTeaching = site.data.teaching | first %}
 {% assign currentRole = currentJob.roles | first %}
 
 {% assign previousRoles = "" | split: ',' %}
@@ -19,19 +20,21 @@ layout: default
 <img src="assets/images/boss.jpg" width="100%"/>
 </div>
 
-## About Me
+{I am a non-empty set of things}
 
 I am a Physics nerd 🌌 and an amateur sleuth 🕵️ with a penchant for solving challenging problems with real-world applications 🌍.
 
-I've worn many hats 🎩 {{ previousRoles | reverse | join: ', ' }}, and god knows what else. On a good day, I see myself as a jack of all trades, master of some 🐙.
+I've worn many hats 🎩 {{ previousRoles | reverse | join: ', ' }} and <small>god</small> knows what else.
 
-Currently, I work as a {{ currentRole.name }} at [{{ currentJob.where.name }}]({{ currentJob.where.link }}), {{ currentRole.desc }}.
+On a good day, I see myself as a jack of all trades, master of some 🐙.
+
+Currently, I work as a {{ currentRole.name }} at [{{ currentJob.where.name }}]({{ currentJob.where.link }}), {{ currentRole.desc }}{% if currentTeaching.when.end == nil %}, and I teach a few classes on {% for course in currentTeaching.what %}{% if forloop.last %} and {% endif -%}[{{ course.name }}]({{ course.link }}){% if forloop.rindex > 2 %}, {% endif -%}{% endfor %} at [{{ currentTeaching.where.name }}]({{ currentTeaching.where.link }}){% endif %}.
 
 {% if currentEdu.when.end == nil %}
 I also lead a double life as a {{ currentEdu.degree }} candidate in {{ currentEdu.area }} at [{{ currentEdu.where.name }}]({{ currentEdu.where.link }}) 🎓, where my research focuses on {{ currentEdu.research }}.
 {% endif %}
 
-When I'm not working{% if currentEdu.when.end == nil %} or studying{% endif %}, you can usually find me browsing the local bookstore 📚, competing in hackathons 🐱‍💻 or enjoying some quality family time 👪.
+When I'm not working{% if currentEdu.when.end == nil %} or studying{% endif %}{% if currentTeaching.when.end == nil %} or teaching{% endif %}, you can usually find me browsing the local bookstore 📚, contributing to open source 🐱‍💻 or enjoying some quality family time 👪.
 
 I'm quite liberal about <a href="{{ site.data.contact.linkedin }}" class="fa fa-linkedin"></a> and I occasionally `git push` things to <a href="{{ site.data.contact.github }}" class="fa fa-github"></a>.
 
