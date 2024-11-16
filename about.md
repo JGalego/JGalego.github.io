@@ -16,11 +16,11 @@ layout: default
 	{% endfor %}
 {% endfor %}
 
-<div title="Meet the BOSS, the Largest Structure in the Universe (https://www.smithsonianmag.com/smart-news/meet-boss-largest-structure-universe-180958378/) 🤯 Talk about fullest feeling of the sublime!">
-<img src="assets/images/boss.jpg" width="100%"/>
+<div title="If you hovered this far, this pastiche was created way back in 2015 using Google's DeepDream (https://github.com/google/deepdream), not one of those fancy new diffusion models - I'm old school like that! 👴">
+<img src="assets/images/profile_pastiche.png" width="100%"/>
 </div>
 
-{I am a non-empty set of things}
+tl;dr I am a non-empty set of things.
 
 I am a Physics nerd 🌌 and an amateur sleuth 🕵️ with a penchant for solving challenging problems with real-world applications 🌍.
 

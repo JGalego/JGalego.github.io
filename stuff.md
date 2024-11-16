@@ -17,7 +17,7 @@ For startups 🐣
 * [Startup Stash](https://startupstash.com/) has a sizeable collection of tools for startups and entrepreneurs
 * Perhaps not surprisingly, most AWS-flavored delectables for startups can be found in the [AWS Startups](https://aws.amazon.com/startups) landing page
 
-For those in a hurry 🏃 💨
+For people in a hurry 🏃 💨
 
 * [Learn X in Y minutes](https://learnxinyminutes.com/) offers a quick tour of ([almost](https://github.com/adambard/learnxinyminutes-docs/issues)) every programming language
 * Feeling too lazy to implement a classic algorithm? Check out [The Algorithms](https://the-algorithms.com/), GitHub's largest open-source algorithm library (or so they say)

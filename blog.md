@@ -3,8 +3,8 @@ title: Blog ✍️
 layout: default
 ---
 
-<div title="In memoriam of John Conway (1937-2020)">
-<img src="assets/images/conway_gol.jpg" width="100%"/>
+<div title="Meet the BOSS, the Largest Structure in the Universe (https://www.smithsonianmag.com/smart-news/meet-boss-largest-structure-universe-180958378/) 🤯 Talk about fullest feeling of the sublime!">
+<img src="assets/images/boss.jpg" width="100%"/>
 </div>
 
 {% for post in site.posts %}

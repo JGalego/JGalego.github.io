@@ -16,8 +16,8 @@ layout: default
 {% assign currentEdu = site.data.education | first %}
 {% assign currentRole = currentJob.roles | first %}
 
-<div title="If you hovered this far, this pastiche was created way back in 2015 using Google's DeepDream (https://github.com/google/deepdream), not one of those fancy new diffusion models - I'm old school like that! 👴">
-<img src="assets/images/profile_pastiche.png" width="100%"/>
+<div title="Did you know? 🧐 The developers of the 'Dinosaur Game' chose the dinosaur theme as a reference to the game's function, a joke that not having an internet connection is equivalent to living in the 'prehistoric ages'.">
+<img src="assets/images/dinosaur.gif" width="100%"/>
 </div>
 
 ## `std::cout << "Hi everyone!\n"; 👋`
