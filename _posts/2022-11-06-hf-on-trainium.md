@@ -10,7 +10,7 @@ excerpt_separator: <!-- excerpt-end -->
 
 A (not so deep) exploration of [🤗 Transformers](https://huggingface.co/docs/transformers/index) training on [AWS Trainium](https://aws.amazon.com/machine-learning/trainium/).
 
-**Update:** [🤗  on Trainium](https://github.com/JGalego/HF-on-Trainium) is now part of the [AWS Iberia AI/ML workshops](https://ml.aws-iberia.cloud)
+**Update:** [🤗 on Trainium](https://github.com/JGalego/HF-on-Trainium) is now part of the [AWS Iberia AI/ML workshops](https://ml.aws-iberia.cloud)
 
 <!-- excerpt-end -->
 

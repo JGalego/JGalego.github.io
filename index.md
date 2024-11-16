@@ -20,9 +20,7 @@ layout: default
 <img src="assets/images/dinosaur.gif" width="100%"/>
 </div>
 
-## `std::cout << "Hi everyone!\n"; 👋`
-
-My name is {% redact %}{{ firstName }} {{ lastName }}{% endredact %}, I’m `0x`{{ dob | age | hex }} y/o, and I live in {% redact %}{{ city }}{% endredact %}, {% redact %}{{ country }}{% endredact %}.
+My name is {% redact %}{{ firstName }} {{ lastName }}{% endredact %}, I’m `0x`{{ dob | age | hex }} y/o and I live in {% redact %}{{ city }}{% endredact %}, {% redact %}{{ country }}{% endredact %}.
 
 I love fixing the ~~un~~fixable, building the ~~im~~possible and learning new things along the way.
 
@@ -31,5 +29,5 @@ I live by Feynman's credo: 🅴🆅🅴🆁🆈🆃🅷🅸🅽🅶 is interesti
 ## What's new?
 
 {% for post in site.posts limit:5 %}
-[{{ post.title }}]({{ post.url }})
+{{ post.date | date: "%Y-%m-%d" }} [{{ post.title }}]({{ post.url }})
 {% endfor %}
