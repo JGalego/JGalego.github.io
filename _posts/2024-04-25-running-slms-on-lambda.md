@@ -12,6 +12,6 @@ In this post, I'm going to show you a neat way to deploy small languages models 
 
 📝 Read the full article on [AWS Community](https://community.aws/content/2eoCtgociSBhGfirRM0Tk0PSgxH/https://community.aws/content/2fTJuxaxuSwl64cVakqtuEK4tnl/running-small-language-models-on-aws-lambda).
 
-<!-- excerpt-end -->
+👨‍💻 All code and documentation is available at [github.com/JGalego/SLaMbda](https://github.com/JGalego/SLaMbda).
 
-> 👨‍💻 All code and documentation is available on [GitHub](https://github.com/JGalego/SLaMbda).
+<!-- excerpt-end -->

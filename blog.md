@@ -13,4 +13,5 @@ layout: default
 {% assign excerptParts = post.excerpt | split: "<!-- excerpt-start -->" %}
 {{ excerptParts[1] }}
 
+---
 {% endfor %}

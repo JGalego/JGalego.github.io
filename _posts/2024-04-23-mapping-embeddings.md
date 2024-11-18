@@ -12,7 +12,7 @@ My adventures with RAGmap 🗺️🔍 and RAGxplorer 🦙🦺 with a light intro
 
 📝 Read the full article on [AWS Community](https://community.aws/content/2eoCtgociSBhGfirRM0Tk0PSgxH/mapping-embeddings-from-meaning-to-vectors-and-back).
 
-📢 **Update:** a new interactive and extended version of this article is available [here](https://jgalego.github.io/MappingEmbeddings/).
+📢 **UPDATE:** A new interactive and extended version of this article is available [here](https://jgalego.github.io/MappingEmbeddings/).
 
 <div align="center">
 <iframe width="70%" height="300px" src="https://jgalego.github.io/MappingEmbeddings">
@@ -21,5 +21,3 @@ Your browser doesn't support iframes? Really?!
 </div>
 
 <!-- excerpt-end -->
-
-> 👨‍💻 All code and documentation is available on [GitHub](https://github.com/JGalego/YOLambda).

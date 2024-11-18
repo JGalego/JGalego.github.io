@@ -20,9 +20,9 @@ layout: default
 <img src="assets/images/profile_pastiche.png" width="100%"/>
 </div>
 
-**tl;dr I am a non-empty set of things.**
+**tl;dr {I am a non-empty set of things.}**
 
-I am a Physics nerd 🌌 and an amateur sleuth 🕵️ with a fondness for solving challenging problems with real-world applications 🌍.
+I am a Physics nerd 🌌 and amateur sleuth 🕵️ with a soft spot for [<big>big</big> h͛͛͛a͛͛͛i͛͛͛r͛͛͛y͛͛͛ **audacious** problems](https://www.investopedia.com/terms/b/big-hairy-audacious-goal-bhag.asp).
 
 I've worn many hats 🎩 {{ previousRoles | reverse | join: ', ' }} and <small>god</small> knows what else.
 

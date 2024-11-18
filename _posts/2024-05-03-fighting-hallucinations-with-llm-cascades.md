@@ -12,8 +12,8 @@ Learn how to implement FrugalGPT-style LLM cascades on top of Amazon Bedrock usi
 
 📝 Read the full article on [AWS Community](https://community.aws/content/2fu6jEdwd8cbrDJPEUQjlSWX7ZD/fighting-hallucinations-with-llm-cascades).
 
-<!-- excerpt-end -->
+👨‍💻 All code and documentation is available at [github.com/JGalego/FrugalBedrock](https://github.com/JGalego/FrugalBedrock).
 
-👨‍💻 All code and documentation is available on [GitHub](https://github.com/JGalego/FrugalBedrock).
+<!-- excerpt-end -->
 
 > "I think frugality drives innovation, just like other constraints do. <br>One of the only ways to get out of a tight box is to invent your way out." <br><br>― Jeff Bezos
