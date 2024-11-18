@@ -14,6 +14,8 @@ LLM proxy application powered by [AWS Chalice](https://aws.github.io/chalice/) a
 
 <!-- excerpt-end -->
 
+<img src="https://github.com/JGalego/LLM-Goblet/raw/main/assets/goblet.jpg" width="50%"/>
+
 ## Prerequisites
 
 * [Conda](https://conda.io/projects/conda/en/latest/user-guide/install/index.html) (*preferred*) or [Python](https://www.python.org/) (version `>=3.9`) 🐍
@@ -67,5 +69,3 @@ just destroy
 ```
 
 **Want to learn more about just?** Check out the [Just Programmer's Manual](https://just.systems/man/en/) 📖
-
-<img src="https://github.com/JGalego/LLM-Goblet/raw/main/assets/goblet.jpg" width="50%"/>
