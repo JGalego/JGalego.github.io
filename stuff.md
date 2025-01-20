@@ -65,7 +65,7 @@ For people in a hurry 🏃 💨
 * There's a GitHub repo with an [awesome list](https://github.com/sindresorhus/awesome) of awesome lists - smells like [Russell's paradox](https://plato.stanford.edu/entries/russell-paradox/) to me!
 * Few things are as meta as Douglas Hofstadter's [GEB](https://www.amazon.com/G%C3%B6del-Escher-Bach-Eternal-Golden/dp/0465026567), an exploration of self-reference and recursivity featuring a wide ensemble of Carrollian-like characters
 * A recent (meta-)piece for *The Atlantic* on why [`meta` doesn't mean what you thing it does](https://www.theatlantic.com/newsletters/archive/2022/06/meta-origin-irony/661191/)
-* An [implementation of PartyRock](https://partyrock.aws/u/mza/pDK3iF1kb/PartyRocket-build-web-apps-with-gen-AI) by Matt Wood (VP @ AWS) in [PartyRock](https://partyrock.aws/), an [Amazon Bedrock](https://aws.amazon.com/bedrock/) playground
+* An [implementation of PartyRock](https://partyrock.aws/u/mza/pDK3iF1kb/PartyRocket-build-web-apps-with-gen-AI) by Matt Wood (former VP of AI @ AWS) in [PartyRock](https://partyrock.aws/), an [Amazon Bedrock](https://aws.amazon.com/bedrock/) playground
 * Finally, here's a warning sign warning you about warning signs - consider yourself warned! 🚨
 
 <div align="center">

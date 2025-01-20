@@ -1,5 +1,14 @@
 ---
 - where:
+    name: Critical Software
+    link: https://criticalsoftware.com/en
+  roles:
+    - name: Principal AI Engineer
+      desc: building reliable solutions for a better and safer world 🧠🤝🌍
+      when:
+        start: 2025
+
+- where:
     name: Amazon Web Services (AWS)
     link: https://aws.amazon.com
   roles:
@@ -7,6 +16,7 @@
       desc: helping startups in every stage of their cloud journey 💡🎯🚀🦄
       when:
         start: 2022
+        end: 2025
 
 - where:
     name: Siemens
