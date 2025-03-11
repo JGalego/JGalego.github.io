@@ -3,8 +3,8 @@
     name: Critical Software
     link: https://criticalsoftware.com/en
   roles:
-    - name: Principal AI Engineer
-      desc: building reliable solutions for a better and safer world 🧠🤝🌍
+    - name: Principal AI Engineer / Head of AIOps
+      desc: building dependable AI solutions for a better and safer world 🧠🤝🌍
       when:
         start: 2025
 
@@ -13,7 +13,7 @@
     link: https://aws.amazon.com
   roles:
     - name: Solutions Architect
-      desc: helping startups in every stage of their cloud journey 💡🎯🚀🦄
+      desc: helping startups at every stage of their cloud journey 💡🎯🚀🦄
       when:
         start: 2022
         end: 2025
