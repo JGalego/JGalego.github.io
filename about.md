@@ -24,11 +24,11 @@ layout: default
 	{% endfor %}
 {% endfor %}
 
-TL;DR I am a non-empty set of things.
-
 <div title="If you hovered this far, you may like to know that this pastiche was created way back in 2015 using Google's DeepDream (https://github.com/google/deepdream), not one of those fancy new diffusion models - I'm old school like that! 👴">
 <img src="assets/images/profile_pastiche.png" width="100%"/>
 </div>
+
+**TL;DR I am a non-empty set of things.**
 
 My name is {% redact %}{{ firstName }} {{ lastName }}{% endredact %}, I’m `0x`{{ dob | age | hex }} y/o and I live in {% redact %}{{ city }}{% endredact %}, {% redact %}{{ country }}{% endredact %}.
 
