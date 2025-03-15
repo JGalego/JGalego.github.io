@@ -66,6 +66,9 @@ For people in a hurry 🏃 💨
 * Kevin Zurawel's [Game Development in 8bits or... stupid NES tricks](https://www.youtube.com/watch?v=TPbroUDHG0s) is a lesson on creative limitation
 * [Choose Boring Technology](https://boringtechnology.club/) or *"how to be old, for young people"*
 * Terry Tao's [attempts to formalize a paper](https://terrytao.wordpress.com/2023/11/18/formalizing-the-proof-of-pfr-in-lean4-using-blueprint-a-short-tour/) on a [conjecture by Katalin Marton](https://terrytao.wordpress.com/2023/11/13/on-a-conjecture-of-marton/) in [Lean4](https://lean-lang.org/)
+* Peter Norvig's [pytudes](https://github.com/norvig/pytudes), delightful in both size and form
+* Bartosz Ciechanowski's [interactive articles](https://ciechanow.ski/) will make you look at ordinary things in a whole different way
+* Evan Miller's [awesome A/B testing tools](https://www.evanmiller.org/ab-testing/), ideal for planning and analyzing A/B tests
 * [MinutePhysics](https://www.youtube.com/c/minutephysics) uses whiteboard animation to explain all kinds of physics-related topics - the video on [boat wakes](https://www.youtube.com/watch?v=95sQcSulRFM) is a personal favourite
 * Anything by [3blue1brow](https://www.youtube.com/@3blue1brown)... [here](https://www.youtube.com/watch?v=rbu7Zu5X1zI)'s how he does the animations using [Manim](https://github.com/3b1b/manim)
 * If brown paper math derivations tickle your fancy, check out [Numberphile](https://www.youtube.com/user/Numberphile)
