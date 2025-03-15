@@ -11,7 +11,13 @@ layout: default
 
 For AI practitioners 🧠
 
-* [Awesome Safety-Critical AI](https://jgalego.github.io/awesome-safety-critical-ai/) is a curated list of references on the role of AI in safety-critical systems
+* Here's a short list of papers every AI practitioner should read (but most won't)
+    - [A Few Useful Things to Know about Machine Learning](https://dl.acm.org/doi/10.1145/2347736.2347755) by Domingos
+    - [Machine Learning that Matters](https://arxiv.org/abs/1206.4656) by Wagstaff
+    - [Tidy Data](https://vita.had.co.nz/papers/tidy-data.html) by Wickham
+    - [Hidden Technical Debt](https://papers.nips.cc/paper_files/paper/2015/hash/86df7dcfd896fcaf2674f757a2463eba-Abstract.html) (yes, that one!) by Sculley & Co.
+* A [curated list](https://jgalego.github.io/awesome-safety-critical-ai/) of references on the role of AI in critical systems
+* Some old articles on [AWS Community](https://community.aws/@jgalego)
 
 <div align="center">
 <iframe width="70%" height="300px" src="https://jgalego.github.io/GenAI">
@@ -41,6 +47,7 @@ For startups 🐣
 For people in a hurry 🏃 💨
 
 * [Learn X in Y minutes](https://learnxinyminutes.com/) offers a quick tour of ([almost](https://github.com/adambard/learnxinyminutes-docs/issues)) every programming language
+* [Icons](https://thenounproject.com/) and [emojis](https://emojidb.org/) for every occasion
 * Feeling too lazy to implement a classic algorithm? Check out [The Algorithms](https://the-algorithms.com/), GitHub's largest open-source algorithm library
 * Fastest way to use ML models? Try out [Hugging Face 🤗 Models](https://huggingface.co/models) online for *free*
 * Need an API for a project? This [list of publicly available APIs](https://github.com/public-apis/public-apis) may come in handy
@@ -57,10 +64,12 @@ For people in a hurry 🏃 💨
 * The new edition of [Code: The Hidden Language of Computer Hardware and Software](https://www.codehiddenlanguage.com/) by Charles Petzold is an absolute treasure - it covers everything from playing with flashlights 🔦 with your best friend to the *"worldwide hum of the internet"* 🌐
 * Erik Demaine's [lectures on data structures, algorithms and programming](https://erikdemaine.org/classes/) are mind-blowing - be sure to watch the lectures on [models of computation and document distance](https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011/resources/lecture-2-models-of-computation-document-distance/) (I guarantee you'll never look at your Python scripts the same way again) and [temporal data structures](http://courses.csail.mit.edu/6.851/spring21/lectures/L01.html) (expect time travel analogies 🕓🚀 and movie references)
 * Kevin Zurawel's [Game Development in 8bits or... stupid NES tricks](https://www.youtube.com/watch?v=TPbroUDHG0s) is a lesson on creative limitation
+* [Choose Boring Technology](https://boringtechnology.club/) or *"how to be old, for young people"*
 * Terry Tao's [attempts to formalize a paper](https://terrytao.wordpress.com/2023/11/18/formalizing-the-proof-of-pfr-in-lean4-using-blueprint-a-short-tour/) on a [conjecture by Katalin Marton](https://terrytao.wordpress.com/2023/11/13/on-a-conjecture-of-marton/) in [Lean4](https://lean-lang.org/)
 * [MinutePhysics](https://www.youtube.com/c/minutephysics) uses whiteboard animation to explain all kinds of physics-related topics - the video on [boat wakes](https://www.youtube.com/watch?v=95sQcSulRFM) is a personal favourite
-* Anything by [3Blue1Brow](https://www.youtube.com/@3blue1brown)... [here](https://www.youtube.com/watch?v=rbu7Zu5X1zI)'s how he does the animations using [Manim](https://github.com/3b1b/manim)
+* Anything by [3blue1brow](https://www.youtube.com/@3blue1brown)... [here](https://www.youtube.com/watch?v=rbu7Zu5X1zI)'s how he does the animations using [Manim](https://github.com/3b1b/manim)
 * If brown paper math derivations tickle your fancy, check out [Numberphile](https://www.youtube.com/user/Numberphile)
+* [Imagine calling someone on the phone, going hello! then putting them on hold... 🤦‍♀️](https://nohello.net/en/) please don't say just hello in chat
 
 ## (Actually) Fun Things
 
