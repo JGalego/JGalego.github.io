@@ -3,7 +3,7 @@
     name: Critical Software
     link: https://criticalsoftware.com/en
   roles:
-    - name: Principal AI Engineer / Head of AIOps
+    - name: Head of AI
       desc: building dependable AI solutions for a better and safer world 🧠🤝🌍
       when:
         start: 2025

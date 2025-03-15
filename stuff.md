@@ -9,6 +9,22 @@ layout: default
 
 ## Useful Links
 
+For AI practitioners 🧠
+
+* [Awesome Safety-Critical AI](https://jgalego.github.io/awesome-safety-critical-ai/) is a curated list of references on the role of AI in safety-critical systems
+
+<div align="center">
+<iframe width="70%" height="300px" src="https://jgalego.github.io/GenAI">
+Your browser doesn't support iframes? Really?!
+</iframe>
+</div>
+
+<div align="center">
+<iframe width="70%" height="300px" src="https://jgalego.github.io/MappingEmbeddings">
+Your browser doesn't support iframes? Really?!
+</iframe>
+</div>
+
 For startups 🐣
 
 * [Y Combinator Startup School](https://www.startupschool.org/) is a *free* 8-week online course on how/why/when to start a Startup
