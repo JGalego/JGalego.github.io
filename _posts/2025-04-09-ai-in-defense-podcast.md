@@ -1,16 +1,16 @@
 ---
-title: Critical Software >>> Liga dos Inovadores 💡
+title: Critical Software @ Liga dos Inovadores 💡
 layout: default
 excerpt_separator: <!-- excerpt-end -->
 ---
 
-## Critical Software >>> Liga dos Inovadores 💡
+## Critical Software @ Liga dos Inovadores 💡
 
 <!-- excerpt-start -->
 
 The podcast [Liga dos Inovadores](https://expresso.pt/podcasts/liga-dos-inovadores) launched a new episode featuring yours truly, where I talk about our work at Critical Software and the challenges of using AI in Security & Defense (OVERSEE) and Space (Karvel).
 
-🎧 Listen to the episode: [Barcos a andar a par, a mudar a rota ou a afastarem-se rapidamente da costa: como um "mapa dos mares" deteta atividades ilícitas](https://expresso.pt/podcasts/liga-dos-inovadores/2025-04-09-barcos-a-andar-a-par-a-mudar-a-rota-ou-a-afastarem-se-rapidamente-da-costa-como-um-mapa-dos-mares-deteta-atividades-ilicitas-56dd1f57)
+🎧 Listen to the episode now: [Barcos a andar a par, a mudar a rota ou a afastarem-se rapidamente da costa: como um "mapa dos mares" deteta atividades ilícitas](https://expresso.pt/podcasts/liga-dos-inovadores/2025-04-09-barcos-a-andar-a-par-a-mudar-a-rota-ou-a-afastarem-se-rapidamente-da-costa-como-um-mapa-dos-mares-deteta-atividades-ilicitas-56dd1f57)
 
 <!-- excerpt-end -->
 
