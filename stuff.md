@@ -16,17 +16,17 @@ For AI practitioners 🧠
     - [Machine Learning that Matters](https://arxiv.org/abs/1206.4656) by Wagstaff
     - [Tidy Data](https://vita.had.co.nz/papers/tidy-data.html) by Wickham
     - [Hidden Technical Debt](https://papers.nips.cc/paper_files/paper/2015/hash/86df7dcfd896fcaf2674f757a2463eba-Abstract.html) (yes, that one!) by Sculley & Co.
-* A [curated list](https://jgalego.github.io/awesome-safety-critical-ai/) of references on the role of AI in critical systems
+* [Awesome Safety-Critical AI](https://awesome.critical-ai.dev) is a curated list of resources on the use of AI in high-stakes domains
 * Some old articles on [AWS Community](https://community.aws/@jgalego)
 
 <div align="center">
-<iframe width="70%" height="300px" src="https://jgalego.github.io/GenAI">
+<iframe width="70%" height="300px" src="https://critical-ai.dev/GenAI">
 Your browser doesn't support iframes? Really?!
 </iframe>
 </div>
 
 <div align="center">
-<iframe width="70%" height="300px" src="https://jgalego.github.io/MappingEmbeddings">
+<iframe width="70%" height="300px" src="https://critical-ai.dev/MappingEmbeddings">
 Your browser doesn't support iframes? Really?!
 </iframe>
 </div>
