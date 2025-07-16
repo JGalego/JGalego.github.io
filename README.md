@@ -1,4 +1,4 @@
-# [JGalego.github.io](https://jgalego.github.io)
+# [JGalego.github.io](https://critical-ai.dev)
 
 [![Jekyll](https://github.com/JGalego/JGalego.github.io/actions/workflows/jekyll.yml/badge.svg)](https://github.com/JGalego/JGalego.github.io/actions/workflows/jekyll.yml)
 

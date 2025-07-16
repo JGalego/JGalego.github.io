@@ -10,10 +10,10 @@ excerpt_separator: <!-- excerpt-end -->
 
 My take on the GenAI narrative. *No hype, no hubris, no hogwash*.
 
-📢 **UPDATE:** Now available at [jgalego.github.io/GenAI](https://jgalego.github.io/GenAI)!
+📢 **UPDATE:** Now available at [critical-ai.dev/GenAI](https://critical-ai.dev/GenAI)!
 
 <div align="center">
-<iframe width="70%" height="300px" src="https://jgalego.github.io/GenAI">
+<iframe width="70%" height="300px" src="https://critical-ai.dev/GenAI">
 Your browser doesn't support iframes? Really?!
 </iframe>
 </div>
@@ -22,7 +22,7 @@ Your browser doesn't support iframes? Really?!
 
 A while ago, I had this crazy idea of building an interactive presentation to introduce generative AI (GenAI for short) to a wider audience.
 
-I've been using and testing [reveal.js](https://revealjs.com/) for quite some time now with different audiences and the feedback has been great, so I figured I'd create some cool slides, chain them together in a nice way, sprinkle some references and easter eggs, then find a quick method to host them on [GitHub Pages](https://danielabaron.me/blog/build-and-publish-presentation-with-html-and-css/). [👉 Here](https://jgalego.github.io/GenAI) is the result.
+I've been using and testing [reveal.js](https://revealjs.com/) for quite some time now with different audiences and the feedback has been great, so I figured I'd create some cool slides, chain them together in a nice way, sprinkle some references and easter eggs, then find a quick method to host them on [GitHub Pages](https://danielabaron.me/blog/build-and-publish-presentation-with-html-and-css/). [👉 Here](https://critical-ai.dev/GenAI) is the result.
 
 You can read it as the story of what came 'before', as in before GenAI became the big, explosive 'thing' it is today, what we have now (warts and all) and how we can use it to build incredible stuff, and what is coming (tbh this part still needs some work).
 

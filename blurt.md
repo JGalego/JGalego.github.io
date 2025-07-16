@@ -1,5 +1,5 @@
 ---
-title: Blog ✍️
+title: Blurt 🗣️
 layout: default
 ---
 

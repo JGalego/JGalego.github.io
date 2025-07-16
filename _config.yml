@@ -1,6 +1,6 @@
 title: João Galego
 author: João Galego
-url: https://jgalego.github.io
+url: https://critical-ai.dev
 baseurl: ""
 
 markdown: kramdown
@@ -16,8 +16,8 @@ sass:
 nav:
   - name: Home 🏠
     link: /
-  - name: Blog ✍️
-    link: /blog
+  - name: Blurt ✍️
+    link: /blurt
   - name: About ✨
     link: /about
   - name: Stuff 💡
