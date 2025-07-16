@@ -30,7 +30,7 @@ layout: default
 
 **I am a non-empty set of things...**
 
-My name is {% redact %}{{ firstName }} {{ lastName }}{% endredact %}, I’m `0x`{{ dob | age | hex }} y/o and I live in {% redact %}{{ city }}{% endredact %}, {% redact %}{{ country }}{% endredact %}.
+My name is {% redact %}{{ firstName }} {{ lastName }}{% endredact %} and I live in {% redact %}{{ city }}{% endredact %}, {% redact %}{{ country }}{% endredact %}.
 
 I am a Physics nerd and amateur sleuth with a soft spot for <big>BIG</big>, h͛͛͛a͛͛͛i͛͛͛r͛͛͛y͛͛͛ problems.
 

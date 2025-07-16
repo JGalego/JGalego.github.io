@@ -1,5 +1,5 @@
 ---
-title: HuggingFace 🤗 on Trainium: A (Not So Deep) Exploration
+title: HuggingFace 🤗 on Trainium
 layout: default
 excerpt_separator: <!-- excerpt-end -->
 ---
