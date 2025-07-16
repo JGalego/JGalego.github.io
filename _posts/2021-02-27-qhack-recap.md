@@ -30,7 +30,7 @@ Here's a short list of resources for all ages...
 
 👨‍💻 **Computer Scientists** - [Quantum Computing since Democritus](https://www.scottaaronson.com/democritus/)
 
-👥 **Everyone else... including Pets** 🐶🐱
+👥🐶🐱 **Everyone else... Including Pets**
 
 [How Do You Explain Quantum Computing To Your Dog (And Other Important People in Your Life)?](https://medium.com/qiskit/how-do-you-explain-quantum-computing-to-your-dog-and-other-important-people-in-your-life-22f5fdacaf11)
 

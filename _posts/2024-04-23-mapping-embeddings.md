@@ -8,7 +8,7 @@ excerpt_separator: <!-- excerpt-end -->
 
 <!-- excerpt-start -->
 
-My adventures with RAGmap 🗺️🔍 and RAGxplorer 🦙🦺 with a light introduction to embeddings, vector databases, dimensionality reduction and advanced retrieval mechanisms.
+My adventures with RAGmap 🗺️🔍 and RAGxplorer 🦙🦺 with a light introduction to embeddings, vector databases, dimensionality reduction techniques and advanced retrieval mechanisms.
 
 📝 Read the full article on [AWS Community](https://community.aws/content/2eoCtgociSBhGfirRM0Tk0PSgxH/mapping-embeddings-from-meaning-to-vectors-and-back).
 

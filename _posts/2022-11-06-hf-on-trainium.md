@@ -1,10 +1,10 @@
 ---
-title: HuggingFace 🤗  on Trainium - A (Not So Deep) Exploration
+title: HuggingFace 🤗 on Trainium: A (Not So Deep) Exploration
 layout: default
 excerpt_separator: <!-- excerpt-end -->
 ---
 
-## [HuggingFace 🤗  on Trainium](https://github.com/JGalego/HF-on-Trainium)
+## [HuggingFace 🤗 on Trainium](https://github.com/JGalego/HF-on-Trainium)
 
 <!-- excerpt-start -->
 

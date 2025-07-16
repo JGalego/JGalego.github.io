@@ -8,7 +8,7 @@ excerpt_separator: <!-- excerpt-end -->
 
 <!-- excerpt-start -->
 
-The podcast [Liga dos Inovadores](https://expresso.pt/podcasts/liga-dos-inovadores) launched a new episode featuring yours truly, where I talk about our work at Critical Software and the challenges of using AI in Security & Defense (OVERSEE) and Space (Karvel).
+The podcast [Liga dos Inovadores](https://expresso.pt/podcasts/liga-dos-inovadores) just launched a new episode featuring yours truly, where I talk about our work at Critical Software and the challenges of using AI in Defense (OVERSEE) and Space (Karvel).
 
 🎧 Listen to the episode now: [Barcos a andar a par, a mudar a rota ou a afastarem-se rapidamente da costa: como um "mapa dos mares" deteta atividades ilícitas](https://expresso.pt/podcasts/liga-dos-inovadores/2025-04-09-barcos-a-andar-a-par-a-mudar-a-rota-ou-a-afastarem-se-rapidamente-da-costa-como-um-mapa-dos-mares-deteta-atividades-ilicitas-56dd1f57)
 
@@ -18,6 +18,6 @@ The podcast [Liga dos Inovadores](https://expresso.pt/podcasts/liga-dos-inovador
 
 🛰️🌌 [Karvel](https://criticalsoftware.com/en/industries/space): a cost-effective way to develop and manage mission software designed for space exploration and scientific research
 
-Thanks to [Expresso](https://expresso.pt/) and the team behind the podcast [Liga dos Inovadores](https://expresso.pt/podcasts/liga-dos-inovadores) (Elisabete Miranda, Pedro Lima, Gustavo Carvalho and José Fonseca Fernandes) for the invitation to talk openly about the role of AI in critical systems.
+Special thanks to [Expresso](https://expresso.pt/) and the team behind the podcast (Elisabete Miranda, Pedro Lima, Gustavo Carvalho and José Fonseca Fernandes) for inviting me to talk openly about the role of AI in high-stakes domains.
 
 <img src="/assets/images/ldi_podcast.png" width="50%"/>

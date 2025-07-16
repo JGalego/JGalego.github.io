@@ -8,7 +8,7 @@ excerpt_separator: <!-- excerpt-end -->
 
 <!-- excerpt-start -->
 
-Learn how to implement FrugalGPT-style LLM cascades on top of Amazon Bedrock using LangChain and LangGraph without breaking the bank.
+Learn how to implement [FrugalGPT](https://arxiv.org/abs/2305.05176)-style LLM cascades on top of Amazon Bedrock using LangChain and LangGraph without breaking the bank.
 
 📝 Read the full article on [AWS Community](https://community.aws/content/2fu6jEdwd8cbrDJPEUQjlSWX7ZD/fighting-hallucinations-with-llm-cascades).
 

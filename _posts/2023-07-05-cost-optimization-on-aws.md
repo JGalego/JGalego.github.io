@@ -8,7 +8,7 @@ excerpt_separator: <!-- excerpt-end -->
 
 <!-- excerpt-start -->
 
-New video on [cost optimization](https://aws.amazon.com/aws-cost-management/cost-optimization/) with "the" Jonas Ferreira. The first one of the series in Portuguese for the [AWS Iberia](https://www.youtube.com/@amazonwebservicesiberiaesp6595) YouTube channel.
+New video on [cost optimization](https://aws.amazon.com/aws-cost-management/cost-optimization/) with Jonas Ferreira. The first one of the series in PT-PT for the [AWS Iberia](https://www.youtube.com/@amazonwebservicesiberiaesp6595) YouTube channel.
 
 <!-- excerpt-end -->
 
