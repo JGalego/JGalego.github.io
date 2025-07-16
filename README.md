@@ -8,61 +8,29 @@ Personal website built on top of [Jekyll](https://jekyllrb.com/) and [GitHub pag
 
 ## Setup
 
-### Windows
+### Prerequisites
 
-0. [Install Chocolatey](https://chocolatey.org/install)
+The only requirement is to have Ruby installed.
 
-1. Install [Ruby](https://www.ruby-lang.org/en/)
+We recommend using [RVM](https://github.com/rvm/rvm) to manage different Rubu versions, but you can use package managers like [Homebrew](https://brew.sh) or [Chocolatey](https://chocolatey.org/install) to set it up.
 
-    ```bash
-    choco install ruby
-    ```
+## Run Locally
 
-2. Install [MSYS2](https://www.msys2.org/)
-
-    ```bash
-    choco install msys2
-    ```
-
-3. Install *MSYS2 and MINGW development toolchain*
-
-    ```bash
-    ridk install
-    ```
-
-4. Install [Bundler](https://bundler.io) and [Jekyll](https://jekyllrb.com/)
+1. Install [Bundler](https://bundler.io) and [Jekyll](https://jekyllrb.com/)
 
     ```bash
     gem install bundler jekyll
     ```
 
-5. Go to the project directory, install dependencies and start the server
+2. Install dependencies
 
     ```bash
     bundle install
-    bundle exec jekyll serve
     ```
 
-### Mac
-
-0. Install [Homebrew](https://brew.sh)
-
-1. Install Ruby
+3. Start the server
 
     ```bash
-    brew install ruby
-    ```
-
-2. Install [Bundler](https://bundler.io) and [Jekyll](https://jekyllrb.com/)
-
-    ```bash
-    gem install bundler jekyll
-    ```
-
-3. Go to the project directory, install dependencies and start the server
-
-    ```bash
-    bundle install
     bundle exec jekyll serve
     ```
 
