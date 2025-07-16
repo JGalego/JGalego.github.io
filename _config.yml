@@ -16,8 +16,8 @@ sass:
 nav:
   - name: Home 🏠
     link: /
-  - name: Blurt ✍️
-    link: /blurt
+  - name: Blog ✍️
+    link: /blog
   - name: About ✨
     link: /about
   - name: Stuff 💡
