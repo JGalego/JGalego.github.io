@@ -4,7 +4,7 @@ layout: default
 excerpt_separator: <!-- excerpt-end -->
 ---
 
-## [QHack Recap — PennyLane, Amazon Braket and Beyond 🚀](https://medium.com/@joao.galego/qhack-recap-pennylane-amazon-braket-and-beyond-a2c153d50a88)
+## [QHack Recap  -  PennyLane, Amazon Braket and Beyond 🚀](https://medium.com/@joao.galego/qhack-recap-pennylane-amazon-braket-and-beyond-a2c153d50a88)
 
 <!-- excerpt-start -->
 

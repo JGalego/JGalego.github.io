@@ -30,21 +30,21 @@ layout: default
 
 **I am a non-empty set of things...**
 
-My name is {% redact %}{{ firstName }} {{ lastName }}{% endredact %}, I’m `0x`{{ dob | age | hex }} y/o and I live in {% redact %}{{ city }}{% endredact %}, {% redact %}{{ country }}{% endredact %}.
+My name is {% redact %}{{ firstName }} {{ lastName }}{% endredact %}, I'm `0x`{{ dob | age | hex }} years old, and I live in {% redact %}{{ city }}{% endredact %}, {% redact %}{{ country }}{% endredact %}.
 
-I am a Physics nerd and amateur sleuth with a soft spot for <big>BIG</big>, h͛͛͛a͛͛͛i͛͛͛r͛͛͛y͛͛͛ problems.
+I'm a physics nerd and amateur sleuth with a soft spot for <big>BIG</big>, h͛͛͛a͛͛͛i͛͛͛r͛͛͛y͛͛͛ problems.
 
-I love fixing the ~~un~~fixable, building the ~~im~~possible and learning new things along the way.
+I love tackling the ~~un~~fixable, building the ~~im~~possible, and discovering new things along the way.
 
 <!-- I've worn many hats 🎩 {{ previousRoles | reverse | join: ', ' }} and <small>god</small> knows what else. -->
 
-Currently, I am **{{ currentRole.name }}** at [{{ currentJob.where.name }}]({{ currentJob.where.link }}), {{ currentRole.desc }}{% if currentTeaching.when.end == nil %}, and I teach a few classes on {% for course in currentTeaching.what %}{% if forloop.last %} and {% endif -%}[{{ course.name }}]({{ course.link }}){% if forloop.rindex > 2 %}, {% endif -%}{% endfor %} at [{{ currentTeaching.where.name }}]({{ currentTeaching.where.link }}){% endif %}.
+I work as **{{ currentRole.name }}** at [{{ currentJob.where.name }}]({{ currentJob.where.link }}), where I'm {{ currentRole.desc }}{% if currentTeaching.when.end == nil %}. I also teach several courses on {% for course in currentTeaching.what %}{% if forloop.last %} and {% endif -%}[{{ course.name }}]({{ course.link }}){% if forloop.rindex > 2 %}, {% endif -%}{% endfor %} at [{{ currentTeaching.where.name }}]({{ currentTeaching.where.link }}){% endif %}.
 
 {% if currentEdu.when.end == nil %}
 I also lead a double life as a {{ currentEdu.degree }} candidate in {{ currentEdu.area }} at [{{ currentEdu.where.name }}]({{ currentEdu.where.link }}) 🎓, where my research focuses on {{ currentEdu.research }}.
 {% endif %}
 
-When I'm not working{% if currentTeaching.when.end == nil %} or teaching{% endif %}, you can usually find me browsing the local bookstore 📚, contributing to <a href="{{ site.data.contact.github }}">open source</a> 🐱‍💻 or enjoying some quality family time 👪.
+When I'm not working{% if currentTeaching.when.end == nil %} or teaching{% endif %}, you can usually find me browsing the local bookstore 📚, contributing to <a href="{{ site.data.contact.github }}">open source projects</a> 🐱‍💻, or enjoying quality time with my family 👪.
 
 [📄 Long CV](/assets/documents/cv_long.pdf){: .btn} // [📃 <small>Shorter CV</small>](/assets/documents/cv_shorter.pdf){: .btn}
 

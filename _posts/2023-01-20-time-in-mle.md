@@ -328,7 +328,7 @@ Using Winstonian notation, we can easily produce a [data-centric](https://www.yo
 <center>
 <figure>
 <img src="/assets/images/data_pareto.jpg" width="75%"/>
-<figcaption>If you’re seeing 80/20 patterns everywhere, you may be suffering from <b>Paretolia</b> - a pareidolic tendency to see instances of Pareto’s principle where there are none — please consult your physician for personalized medical advice ⚕️ (source: <a href="https://medium.com/@joao.galego/time-in-machine-learning-engineering-a-faux-calculus-argument-90e197bfd17e">Forbes</a>)</figcaption>
+<figcaption>If you’re seeing 80/20 patterns everywhere, you may be suffering from <b>Paretolia</b> - a pareidolic tendency to see instances of Pareto’s principle where there are none  -  please consult your physician for personalized medical advice ⚕️ (source: <a href="https://medium.com/@joao.galego/time-in-machine-learning-engineering-a-faux-calculus-argument-90e197bfd17e">Forbes</a>)</figcaption>
 </figure>
 </center>
 
