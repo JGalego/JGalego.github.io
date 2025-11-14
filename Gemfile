@@ -35,3 +35,5 @@ gem "kramdown-math-katex", "~> 1.0"
 gem 'jekyll-latex'
 
 gem 'jekyll-katex'
+
+gem "rouge"

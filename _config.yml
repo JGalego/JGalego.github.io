@@ -29,6 +29,10 @@ kramdown:
   # For more information, please visit:
   # https://gendignoux.com/blog/2020/05/23/katex.html
   math_engine: katex
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    line_numbers: false
 
 plugins:
   - jekyll-katex
+  - rouge
