@@ -11,13 +11,14 @@ layout: default
 
 For AI practitioners 🧠
 
-* Here's a curated list of essential papers that every AI practitioner should read (though most won't):
+* Here's a short list of papers that every AI practitioner should read at some point:
     - [A Few Useful Things to Know about Machine Learning](https://dl.acm.org/doi/10.1145/2347736.2347755) by Domingos
     - [Machine Learning that Matters](https://arxiv.org/abs/1206.4656) by Wagstaff
     - [Tidy Data](https://vita.had.co.nz/papers/tidy-data.html) by Wickham
-    - [Hidden Technical Debt](https://papers.nips.cc/paper_files/paper/2015/hash/86df7dcfd896fcaf2674f757a2463eba-Abstract.html) (yes, that one!) by Sculley & Co.
-* [Awesome Safety-Critical AI](https://awesome.critical-ai.dev) is a curated collection of resources on AI applications in high-stakes domains
-* Some of my older articles on [AWS Community](https://community.aws/@jgalego)
+    - [Hidden Technical Debt](https://papers.nips.cc/paper_files/paper/2015/hash/86df7dcfd896fcaf2674f757a2463eba-Abstract.html) by Sculley et al.
+    - [The Unreasonable Effectiveness of Data](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/35179.pdf) by Halevy, Norvig, and Pereira
+* If you want to work on AI for high-stakes domains, check out [Awesome Safety-Critical AI](https://awesome.critical-ai.dev)
+* I can't edit them anymore, but some of my older articles are still available on [AWS Community](https://community.aws/@jgalego)
 
 <div align="center">
 <iframe width="70%" height="300px" src="https://critical-ai.dev/GenAI">
@@ -35,9 +36,8 @@ For startups 🐣
 
 * [Y Combinator Startup School](https://www.startupschool.org/) is a *free* 8-week online course covering the fundamentals of starting a company
 * [Paul Graham's essays](http://www.paulgraham.com/articles.html) on startups and entrepreneurship are absolute gems - be sure to check out his pieces on [how to get startup ideas](http://www.paulgraham.com/startupideas.html) and the [18 mistakes that kill startups](http://www.paulgraham.com/startupmistakes.html)
-* Peter Thiel's [Zero to One: Notes on Startups, or How to Build the Future](https://www.amazon.com/Zero-One-Notes-Startups-Future/dp/0804139296) is essential reading - you may not agree with everything he writes (I don't), but you won't stay indifferent
+* Peter Thiel's [Zero to One: Notes on Startups, or How to Build the Future](https://www.amazon.com/Zero-One-Notes-Startups-Future/dp/0804139296) is essential reading - you may not agree with everything he writes (I don't!), but you won't stay indifferent
 * [Startup Stash](https://startupstash.com/) offers an extensive collection of tools for startups and entrepreneurs
-* Perhaps not surprisingly, most AWS-flavored resources for startups can be found at [AWS Startups](https://aws.amazon.com/startups)
 
 <div align="center">
 <!-- Cartman's 4 point business plan -->

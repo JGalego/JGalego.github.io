@@ -4,7 +4,7 @@
     link: https://criticalsoftware.com/en
   roles:
     - name: Head of AI
-      desc: building dependable AI solutions for a better and safer world 🧠🤝🌍
+      desc: build AI that matters
       when:
         start: 2025
 
@@ -13,7 +13,7 @@
     link: https://aws.amazon.com
   roles:
     - name: Solutions Architect
-      desc: helping startups at every stage of their cloud journey 💡🎯🚀🦄
+      desc: help startups get to the cloud
       when:
         start: 2022
         end: 2025
@@ -23,12 +23,12 @@
     link: https://www.siemens.com/
   roles:
     - name: Lead ML Engineer
-      desc: help bring ML systems into production
+      desc: bring ML systems into production
       when:
         start: 2021
         end: 2022
     - name: DevOps Engineer
-      desc: help optimize the process from idea to production
+      desc: make ideas go to production faster
       when:
         start: 2019
         end: 2021
@@ -38,7 +38,7 @@
     link: https://www.innowave.tech/
   roles:
     - name: DevOps Engineer
-      desc: help optimize the process from idea to production
+      desc: make ideas go to production faster
       when:
         start: 2017
         end: 2019
@@ -48,7 +48,7 @@
     link: https://www.coriant.com/
   roles:
     - name: Software Tester
-      desc: help find bugs as early as possible and improve software quality
+      desc: break things to make them better
       when:
         start: 2014
         end: 2017
