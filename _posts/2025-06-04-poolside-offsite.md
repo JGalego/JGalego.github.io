@@ -8,14 +8,14 @@ excerpt_separator: <!-- excerpt-end -->
 
 <!-- excerpt-start -->
 
-Still buzzing from an incredible exchange with the leadership team poolside where we explored a (not-so-distant) future where humans and AI agents work side by side.
+Still energized from an extraordinary exchange with poolside's leadership team, exploring a not-so-distant future where humans and AI agents collaborate seamlessly.
 
 <!-- excerpt-end -->
 
-🏒 We both understand how critical it is to "skate to where the puck is going, not where it is today": AI innovation is a red queen's race that demands anticipation, quick adaptation, and a solid sense of direction.
+🏒 We both understand that success means "skating to where the puck is going, not where it is" — AI innovation is a Red Queen's race demanding anticipation, rapid adaptation, and unwavering vision.
 
-🙏 I'm very grateful for the insights, the energy, and the shared ambition to build what’s next
+🙏 Grateful for the insights, energy, and shared ambition to shape what comes next.
 
-👏 Kudos Jason Warner, Eiso Kant, Margarida Garcia, José Caldeira, Vítor Monteiro, Varun Randery and Paul St John for pushing the 'arc of the possible' to its limits!
+👏 Kudos to Jason Warner, Eiso Kant, Margarida Garcia, José Caldeira, Vítor Monteiro, Varun Randery, and Paul St John for pushing the boundaries of what's possible!
 
 <img src="/assets/images/poolside_offsite.jpg" width="50%"/>

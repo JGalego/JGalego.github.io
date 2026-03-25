@@ -8,7 +8,7 @@ excerpt_separator: <!-- excerpt-end -->
 
 <!-- excerpt-start -->
 
-Learn how to run [LangChain.js](https://js.langchain.com/v0.1/docs/introduction) apps powered by Amazon Bedrock on AWS Lambda using [function URLs](https://aws.amazon.com/blogs/aws/announcing-aws-lambda-function-urls-built-in-https-endpoints-for-single-function-microservices/) and [response streaming](https://aws.amazon.com/blogs/compute/introducing-aws-lambda-response-streaming/).
+Deploy [LangChain.js](https://js.langchain.com/v0.1/docs/introduction) applications powered by Amazon Bedrock on AWS Lambda using [function URLs](https://aws.amazon.com/blogs/aws/announcing-aws-lambda-function-urls-built-in-https-endpoints-for-single-function-microservices/) and [response streaming](https://aws.amazon.com/blogs/compute/introducing-aws-lambda-response-streaming/).
 
 📝 Read the full article on [AWS Community](https://community.aws/content/2grhh3vrinYLsg3xkFNCe4LCcUL/running-langchain-js-applications-on-aws-lambda).
 

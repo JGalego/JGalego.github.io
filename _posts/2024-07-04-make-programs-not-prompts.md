@@ -8,7 +8,7 @@ excerpt_separator: <!-- excerpt-end -->
 
 <!-- excerpt-start -->
 
-Learn how to create ML pipelines with DSPy powered by Meta's Llama 3 70B Instruct model running on Amazon SageMaker.
+Build ML pipelines with DSPy powered by Meta's Llama 3 70B Instruct running on Amazon SageMaker — shifting from prompt engineering to programmatic LLM workflows.
 
 📝 Read the full article on [AWS Community](https://community.aws/content/2im2sOOlZMSY5rCz2qZ1We3OPna/make-programs-not-prompts-dspy-pipelines-with-llama-3-on-amazon-sagemaker-jumpstart).
 

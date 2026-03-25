@@ -8,11 +8,11 @@ excerpt_separator: <!-- excerpt-end -->
 
 <!-- excerpt-start -->
 
-My adventures with RAGmap 🗺️🔍 and RAGxplorer 🦙🦺 with a light introduction to embeddings, vector databases, dimensionality reduction techniques and advanced retrieval mechanisms.
+My journey with RAGmap 🗺️🔍 and RAGxplorer 🦙🦺, featuring an accessible introduction to embeddings, vector databases, dimensionality reduction techniques, and advanced retrieval strategies.
 
 📝 Read the full article on [AWS Community](https://community.aws/content/2eoCtgociSBhGfirRM0Tk0PSgxH/mapping-embeddings-from-meaning-to-vectors-and-back).
 
-📢 **UPDATE:** A new interactive and extended version of this article is available [here](https://critical-ai.dev/MappingEmbeddings/).
+📢 **UPDATE:** An expanded, interactive version is now available at [critical-ai.dev/MappingEmbeddings](https://critical-ai.dev/MappingEmbeddings/).
 
 <div align="center">
 <iframe width="70%" height="300px" src="https://critical-ai.dev/MappingEmbeddings">

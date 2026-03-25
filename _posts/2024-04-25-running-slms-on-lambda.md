@@ -8,7 +8,7 @@ excerpt_separator: <!-- excerpt-end -->
 
 <!-- excerpt-start -->
 
-In this post, I'm going to show you a neat way to deploy small languages models (SLMs) or quantized versions of larger ones on [AWS Lambda](https://aws.amazon.com/lambda/) using [function URLs](https://aws.amazon.com/blogs/aws/announcing-aws-lambda-function-urls-built-in-https-endpoints-for-single-function-microservices/) and [response streaming](https://aws.amazon.com/blogs/compute/introducing-aws-lambda-response-streaming/).
+Discover an elegant way to deploy small language models (SLMs) or quantized versions of larger models on [AWS Lambda](https://aws.amazon.com/lambda/) using [function URLs](https://aws.amazon.com/blogs/aws/announcing-aws-lambda-function-urls-built-in-https-endpoints-for-single-function-microservices/) and [response streaming](https://aws.amazon.com/blogs/compute/introducing-aws-lambda-response-streaming/).
 
 📝 Read the full article on [AWS Community](https://community.aws/content/2eoCtgociSBhGfirRM0Tk0PSgxH/https://community.aws/content/2fTJuxaxuSwl64cVakqtuEK4tnl/running-small-language-models-on-aws-lambda).
 

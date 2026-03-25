@@ -8,7 +8,7 @@ excerpt_separator: <!-- excerpt-end -->
 
 <!-- excerpt-start -->
 
-Host a high-quality translation model at scale using [Amazon SageMaker Serverless Inference](https://docs.aws.amazon.com/sagemaker/latest/dg/serverless-endpoints.html).
+Deploy a high-quality translation model at scale using [Amazon SageMaker Serverless Inference](https://docs.aws.amazon.com/sagemaker/latest/dg/serverless-endpoints.html) — bringing machine translation to languages that need it most.
 
 📝 Read the full article on [AWS Community](https://community.aws/content/2ie755wmzuBOKCEu2YehiWE2dOA/leaving-no-language-behind-with-amazon-sagemaker-serverless-inference).
 

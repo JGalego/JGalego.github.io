@@ -8,9 +8,9 @@ excerpt_separator: <!-- excerpt-end -->
 
 <!-- excerpt-start -->
 
-In collaboration with the [AIHub by Unicorn Factory Lisboa](https://unicornfactorylisboa.com/), we’re organizing a semi-private red teaming exercise focused on AI that will take place in our Lisbon office. This will be a unique event that brings together enterprises and some of the most promising startups in the field to test the limits of AI systems in a controlled, ethical, and collaborative environment.
+In collaboration with the [AIHub by Unicorn Factory Lisboa](https://unicornfactorylisboa.com/), we're hosting a semi-private AI red teaming exercise in our Lisbon office — bringing together enterprises and leading startups to stress-test AI systems in a controlled, ethical, and collaborative setting.
 
-📨 Feel free to DM me if you'd like to know more.
+📨 DM me for more details.
 
 <img src="/assets/images/red_matrix.gif" width="50%"/>
 

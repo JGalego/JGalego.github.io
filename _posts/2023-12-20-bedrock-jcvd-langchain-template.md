@@ -8,7 +8,7 @@ excerpt_separator: <!-- excerpt-end -->
 
 <!-- excerpt-start -->
 
-The [Bedrock JCVD 🕺🥋](https://templates.langchain.com/new?integration_name=bedrock-jcvd) template is now officially part of LangChain!
+The [Bedrock JCVD 🕺🥋](https://templates.langchain.com/new?integration_name=bedrock-jcvd) template has officially joined the LangChain ecosystem!
 
 <!-- excerpt-end -->
 

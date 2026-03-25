@@ -10,7 +10,7 @@ excerpt_separator: <!-- excerpt-end -->
 
 <!-- excerpt-start -->
 
-An overview of ML highlighting some of its applications to the health sector - from the rise of expert systems in the 80s to the diagnosis, prognosis and treatment of [SARS‑CoV‑2](https://www.worldometers.info/coronavirus/). In this workshop, we'll explore how AI is shaping the present and how it may one day decide our future.
+An exploration of machine learning and its transformative impact on healthcare — from the expert systems revolution of the 1980s to today's AI-driven diagnosis, prognosis, and treatment of [SARS‑CoV‑2](https://www.worldometers.info/coronavirus/). Discover how AI is reshaping medicine and what the future might hold.
 
 📝 Full content available on [GitHub](https://github.com/JGalego/WBME-ML-Workshop)
 

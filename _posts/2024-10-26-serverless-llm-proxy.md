@@ -4,11 +4,11 @@ layout: default
 excerpt_separator: <!-- excerpt-end -->
 ---
 
-## Serverless LLM Proxy ✨
+## Serverless LLM Proxy ✨ /׎-Compatible/
 
 <!-- excerpt-start -->
 
-OpenAI-compatible proxy on [AWS Lambda](https://aws.amazon.com/lambda/) powered by [LiteLLM](https://litellm.vercel.app/) and [Amazon API Gateway](https://aws.amazon.com/api-gateway/) powered by [LiteLLM](https://litellm.vercel.app/).
+An OpenAI-compatible proxy running on [AWS Lambda](https://aws.amazon.com/lambda/) and [Amazon API Gateway](https://aws.amazon.com/api-gateway/), powered by [LiteLLM](https://litellm.vercel.app/) — seamless model switching without changing your code.
 
 👨‍💻 All code and documentation is available at [github.com/JGalego/Serverless-LLM-Proxy](https://github.com/JGalego/Serverless-LLM-Proxy).
 

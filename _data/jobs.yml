@@ -2,18 +2,25 @@
 - where:
     name: Critical Software
     link: https://criticalsoftware.com/en
+  skip: false
   roles:
     - name: Head of AI
+      desc: make brains go brrr
+      when:
+        start: 2025
+    - name: Principal AI Engineer
       desc: build AI that matters
       when:
         start: 2025
+        end: 2025
 
 - where:
     name: Amazon Web Services (AWS)
     link: https://aws.amazon.com
+  skip: false
   roles:
     - name: Solutions Architect
-      desc: help startups get to the cloud
+      desc: no startup left on-prem
       when:
         start: 2022
         end: 2025
@@ -21,14 +28,15 @@
 - where:
     name: Siemens
     link: https://www.siemens.com/
+  skip: false
   roles:
     - name: Lead ML Engineer
-      desc: bring ML systems into production
+      desc: turn notebooks into products
       when:
         start: 2021
         end: 2022
     - name: DevOps Engineer
-      desc: make ideas go to production faster
+      desc: automate boring stuff away or die trying
       when:
         start: 2019
         end: 2021
@@ -36,9 +44,10 @@
 - where:
     name: Innowave
     link: https://www.innowave.tech/
+  skip: true
   roles:
     - name: DevOps Engineer
-      desc: make ideas go to production faster
+      desc: build things faster
       when:
         start: 2017
         end: 2019
@@ -46,9 +55,10 @@
 - where:
     name: Coriant
     link: https://www.coriant.com/
+  skip: true
   roles:
     - name: Software Tester
-      desc: break things to make them better
+      desc: break things at scale
       when:
         start: 2014
         end: 2017

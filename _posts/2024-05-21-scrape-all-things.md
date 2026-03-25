@@ -8,7 +8,7 @@ excerpt_separator: <!-- excerpt-end -->
 
 <!-- excerpt-start -->
 
-Learn how to extract information from documents and websites using natural language prompts.
+Extract information from documents and websites using natural language prompts — no complex selectors or parsing logic required.
 
 📝 Read the full article on [AWS Community](https://community.aws/content/2gjRWwp4Eb51SXt6FRZNxVh71R7/scrape-all-things-ai-powered-web-scraping-with-scrapegraphai-and-amazon-bedrock).
 

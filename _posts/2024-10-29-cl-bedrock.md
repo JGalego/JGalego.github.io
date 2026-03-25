@@ -8,7 +8,7 @@ excerpt_separator: <!-- excerpt-end -->
 
 <!-- excerpt-start -->
 
-A simple Common Lisp library for Amazon Bedrock, a fully managed service that makes it easy to use foundation models from third-party providers and Amazon.
+A Common Lisp library for Amazon Bedrock — bringing the power of foundation models to one of programming's most elegant languages.
 
 👨‍💻 All code and documentation is available at [github.com/JGalego/cl-bedrock](https://github.com/JGalego/cl-bedrock).
 

@@ -8,7 +8,7 @@ excerpt_separator: <!-- excerpt-end -->
 
 <!-- excerpt-start -->
 
-Some random thoughts on managed AI services and their place in the GenAI stack... with examples.
+Reflections on managed AI services and their evolving role in the GenAI ecosystem — with practical examples.
 
 📝 Read the full article on [AWS Community](https://community.aws/content/2evcvfrOpxaXTIv3uPchFaKKjAf/tgifun-building-genai-apps-with-managed-ai-services).
 

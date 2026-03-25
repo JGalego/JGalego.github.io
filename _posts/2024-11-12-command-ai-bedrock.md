@@ -8,9 +8,9 @@ excerpt_separator: <!-- excerpt-end -->
 
 <!-- excerpt-start -->
 
-A Zsh plugin powered by Amazon Bedrock that analyzes command execution and provides instant feedback when commands fail or produce unexpected results.
+A Zsh plugin powered by Amazon Bedrock that analyzes failed commands and provides intelligent, context-aware suggestions instantly.
 
-🙌 This project was adapted from [Sean Smith](https://github.com/sean-smith)'s [Command AI Assistant](https://github.com/sean-smith/command-ai) powered by [Ollama](https://ollama.com/).
+🙌 Adapted from [Sean Smith](https://github.com/sean-smith)'s [Command AI Assistant](https://github.com/sean-smith/command-ai) powered by [Ollama](https://ollama.com/).
 
 👨‍💻 All code and documentation is available at [github.com/JGalego/command-ai-bedrock](https://github.com/JGalego/command-ai-bedrock).
 

@@ -8,7 +8,7 @@ excerpt_separator: <!-- excerpt-end -->
 
 <!-- excerpt-start -->
 
-Learn how to run GraphRAG pipelines backed by Amazon Bedrock using LiteLLM proxy.
+Run GraphRAG pipelines powered by Amazon Bedrock using LiteLLM proxy — combining knowledge graphs with retrieval-augmented generation.
 
 📝 Read the full article on [AWS Community](https://community.aws/content/2j0H7GskVBBq4UJznR0GEtVIeV8/everything-s-a-graph-hacking-graphrag-with-amazon-bedrock).
 

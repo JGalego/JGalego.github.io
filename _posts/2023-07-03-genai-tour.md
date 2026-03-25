@@ -8,9 +8,9 @@ excerpt_separator: <!-- excerpt-end -->
 
 <!-- excerpt-start -->
 
-My take on the GenAI narrative. *No hype, no hubris, no hogwash*.
+My perspective on the GenAI narrative — *no hype, no hubris, no hogwash*.
 
-📢 **UPDATE:** Now available at [critical-ai.dev/GenAI](https://critical-ai.dev/GenAI)!
+📢 **UPDATE:** Now live at [critical-ai.dev/GenAI](https://critical-ai.dev/GenAI)!
 
 <div align="center">
 <iframe width="70%" height="300px" src="https://critical-ai.dev/GenAI">

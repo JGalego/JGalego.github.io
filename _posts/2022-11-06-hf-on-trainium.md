@@ -8,17 +8,17 @@ excerpt_separator: <!-- excerpt-end -->
 
 <!-- excerpt-start -->
 
-A (not so deep) exploration of [🤗 Transformers](https://huggingface.co/docs/transformers/index) training on [AWS Trainium](https://aws.amazon.com/machine-learning/trainium/).
+A deep dive into training [🤗 Transformers](https://huggingface.co/docs/transformers/index) on [AWS Trainium](https://aws.amazon.com/machine-learning/trainium/) — AWS's custom chip designed for high-performance deep learning.
 
 📢 **UPDATE:** [🤗 on Trainium](https://github.com/JGalego/HF-on-Trainium) is now part of the [AWS Iberia AI/ML workshops](https://ml.aws-iberia.cloud)
 
 <!-- excerpt-end -->
 
-Inspired by Julien Simon's post on how to [Accelerate Transformer training with AWS Trainium](https://julsimon.medium.com/accelerate-transformer-training-with-aws-trainium-d20cd3f9dc08) 🙌, I've created a small project with a some Terraform configurations and PyTorch training scripts to help you get started ASAP. 
+Inspired by Julien Simon's excellent post on [Accelerate Transformer training with AWS Trainium](https://julsimon.medium.com/accelerate-transformer-training-with-aws-trainium-d20cd3f9dc08) 🙌, I built a project with Terraform configurations and PyTorch training scripts to get you up and running immediately.
 
-The goal is to show how little one has to change (code-wise) to run training jobs on `Trn1` instances, starting from Hugging Face's demo on [how to fine-tune a pretrained model](https://huggingface.co/docs/transformers/training). 
+The goal? Demonstrate how minimal the code changes are when moving training jobs to `Trn1` instances, using Hugging Face's [fine-tuning tutorial](https://huggingface.co/docs/transformers/training) as the baseline.
 
-It is still a WIP 🚧 so feel free to reach out if you have any suggestions on how to improve it.
+This is still a work in progress 🚧, so feedback and suggestions are always welcome.
 
 📚 Want to learn more about [AWS Trainium](https://aws.amazon.com/machine-learning/trainium/)? Check out the **References** section in the repo docs.
 
