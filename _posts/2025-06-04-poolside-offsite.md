@@ -1,6 +1,7 @@
 ---
 title: poolside Offsite in Peniche 🥽
 layout: default
+tags: [talks-events]
 excerpt_separator: <!-- excerpt-end -->
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: Chatting with Support - Cost Optimization with AWS 💰
 layout: default
+tags: [aws]
 excerpt_separator: <!-- excerpt-end -->
 ---
 

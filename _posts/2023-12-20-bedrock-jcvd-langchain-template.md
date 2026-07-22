@@ -1,6 +1,7 @@
 ---
 title: Bedrock JCVD 🕺🥋 on LangChain templates
 layout: default
+tags: [aws, bedrock, langchain]
 excerpt_separator: <!-- excerpt-end -->
 ---
 

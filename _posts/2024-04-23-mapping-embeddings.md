@@ -1,6 +1,7 @@
 ---
 title: "Mapping embeddings: from meaning to vectors and back"
 layout: default
+tags: [embeddings-rag, genai]
 excerpt_separator: <!-- excerpt-end -->
 ---
 

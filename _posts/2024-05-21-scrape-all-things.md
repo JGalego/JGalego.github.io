@@ -1,6 +1,7 @@
 ---
 title: "Scrape All Things: AI-powered scraping with ScrapeGraphAI 🕷️ and Amazon Bedrock ⛰️"
 layout: default
+tags: [aws, bedrock, agents]
 excerpt_separator: <!-- excerpt-end -->
 ---
 

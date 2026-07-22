@@ -1,6 +1,7 @@
 ---
 title: Safety-Critical AI is now Awesome 🚀
 layout: default
+tags: [safety-critical-ai, open-source]
 excerpt_separator: <!-- excerpt-end -->
 ---
 

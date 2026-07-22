@@ -1,6 +1,7 @@
 ---
 title: LLM Goblet 🍷 > LLM proxy application powered by AWS Chalice and LiteLLM
 layout: default
+tags: [aws, genai, open-source]
 excerpt_separator: <!-- excerpt-end -->
 ---
 

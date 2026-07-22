@@ -1,6 +1,7 @@
 ---
 title: Build AI that matters 🌱 is now live!
 layout: default
+tags: [safety-critical-ai, talks-events]
 excerpt_separator: <!-- excerpt-end -->
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: Running LangChain.js Applications on AWS Lambda 
 layout: default
+tags: [aws, langchain, serverless]
 excerpt_separator: <!-- excerpt-end -->
 ---
 

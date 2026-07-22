@@ -1,6 +1,7 @@
 ---
 title: Defect Detection with Amazon Lookout for Vision 🏭
 layout: default
+tags: [aws, machine-learning]
 excerpt_separator: <!-- excerpt-end -->
 ---
 

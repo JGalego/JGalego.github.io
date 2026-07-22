@@ -1,6 +1,7 @@
 ---
 title: Critical Software @ Liga dos Inovadores 💡
 layout: default
+tags: [safety-critical-ai, talks-events]
 excerpt_separator: <!-- excerpt-end -->
 ---
 

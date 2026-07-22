@@ -1,6 +1,7 @@
 ---
 title: Serverless LLM Proxy ✨ /֎-Compatible/
 layout: default
+tags: [aws, serverless, open-source]
 excerpt_separator: <!-- excerpt-end -->
 ---
 

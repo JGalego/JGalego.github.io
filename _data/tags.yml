@@ -1,0 +1,36 @@
+aws:
+  label: AWS
+  emoji: "🛰️"
+bedrock:
+  label: Bedrock
+  emoji: "⛰️"
+langchain:
+  label: LangChain
+  emoji: "🦜"
+genai:
+  label: GenAI
+  emoji: "🤖"
+agents:
+  label: Agents
+  emoji: "🕹️"
+embeddings-rag:
+  label: Embeddings & RAG
+  emoji: "🧭"
+safety-critical-ai:
+  label: Safety-Critical AI
+  emoji: "🛡️"
+serverless:
+  label: Serverless
+  emoji: "λ"
+open-source:
+  label: Open Source
+  emoji: "🌱"
+talks-events:
+  label: Talks & Events
+  emoji: "🎤"
+machine-learning:
+  label: Machine Learning
+  emoji: "📈"
+security:
+  label: Security
+  emoji: "🔒"
