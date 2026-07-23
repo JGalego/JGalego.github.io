@@ -1,6 +1,7 @@
 ---
 title: AI x Innovation @ AIHub 🧠
 layout: default
+tags: [talks-events]
 excerpt_separator: <!-- excerpt-end -->
 ---
 

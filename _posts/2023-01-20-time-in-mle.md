@@ -1,6 +1,7 @@
 ---
 title: Time in Machine Learning Engineering ⏳
 layout: default
+tags: [machine-learning]
 excerpt_separator: <!-- excerpt-end -->
 ---
 

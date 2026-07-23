@@ -1,6 +1,7 @@
 ---
 title: QHack Recap - PennyLane, Amazon Braket and Beyond 🚀
 layout: default
+tags: [talks-events, machine-learning]
 excerpt_separator: <!-- excerpt-end -->
 ---
 

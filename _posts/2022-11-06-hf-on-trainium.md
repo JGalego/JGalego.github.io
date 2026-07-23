@@ -1,6 +1,7 @@
 ---
 title: HuggingFace 🤗 on Trainium
 layout: default
+tags: [aws, machine-learning]
 excerpt_separator: <!-- excerpt-end -->
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: WBME Workshop - Machine Learning for Medicine and Healthcare 👨‍⚕️
 layout: default
+tags: [machine-learning, talks-events]
 excerpt_separator: <!-- excerpt-end -->
 ---
 

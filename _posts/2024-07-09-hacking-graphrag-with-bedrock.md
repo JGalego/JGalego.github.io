@@ -1,6 +1,7 @@
 ---
 title: Hacking GraphRAG with Amazon Bedrock 🌄
 layout: default
+tags: [aws, bedrock, embeddings-rag]
 excerpt_separator: <!-- excerpt-end -->
 ---
 

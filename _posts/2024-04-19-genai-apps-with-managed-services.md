@@ -1,6 +1,7 @@
 ---
 title: "#TGIFun🎈 Building GenAI apps with managed AI services"
 layout: default
+tags: [aws, genai]
 excerpt_separator: <!-- excerpt-end -->
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: Dependable AI in Airborne Systems ✈️
 layout: default
+tags: [safety-critical-ai, talks-events]
 excerpt_separator: <!-- excerpt-end -->
 ---
 

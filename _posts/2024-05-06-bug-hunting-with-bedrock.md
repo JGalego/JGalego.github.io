@@ -1,6 +1,7 @@
 ---
 title: Bug hunting with Amazon Bedrock and SWE-Agent 👨‍💻
 layout: default
+tags: [aws, bedrock, agents]
 excerpt_separator: <!-- excerpt-end -->
 ---
 

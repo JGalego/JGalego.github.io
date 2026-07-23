@@ -1,0 +1,31 @@
+---
+permalink: /llms.txt
+---
+# {{ site.title }}
+
+> {{ site.author }} leads AI at Critical Software, previously built ML at Siemens and worked with startups at AWS. This site collects writing and projects on AWS, GenAI, agents, and building AI that holds up under real-world pressure, especially in safety-critical and high-stakes domains.
+
+## Pages
+
+- [About]({{ site.url }}/about): background, current role, CV
+- [Blog]({{ site.url }}/blog): {{ site.posts.size }} posts, browsable by topic
+- [Stuff]({{ site.url }}/stuff): curated links on AI & learning, startups, and fun curiosities
+  - [AI & Learning]({{ site.url }}/stuff/ai-and-learning)
+  - [Startups]({{ site.url }}/stuff/startups)
+  - [Fun & Curiosities]({{ site.url }}/stuff/fun)
+
+## Topics
+{% assign sorted_tags = site.tags | sort %}
+{%- for tag in sorted_tags %}
+{%- assign key = tag[0] %}
+{%- assign meta = site.data.tags[key] %}
+- {% if meta %}{{ meta.label }}{% else %}{{ key }}{% endif %} ({{ tag[1].size }} posts): {{ site.url }}/blog#{{ key }}
+{%- endfor %}
+
+## Posts
+{% assign sorted_posts = site.posts | sort: 'date' | reverse %}
+{%- for post in sorted_posts %}
+{%- assign excerptParts = post.excerpt | split: "<!-- excerpt-start -->" %}
+{%- assign clean_excerpt = excerptParts[1] | strip_html | strip_newlines | strip %}
+- [{{ post.title | strip_html }}]({{ site.url }}{{ post.url }}) — {{ post.date | date: "%Y-%m-%d" }}, tags: {{ post.tags | join: ", " }}: {{ clean_excerpt }}
+{%- endfor %}

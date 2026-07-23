@@ -1,6 +1,7 @@
 ---
 title: Leaving no language behind with Amazon SageMaker Serverless Inference 🌍💬
 layout: default
+tags: [aws, machine-learning]
 excerpt_separator: <!-- excerpt-end -->
 ---
 

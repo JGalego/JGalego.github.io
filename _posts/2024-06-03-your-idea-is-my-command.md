@@ -1,6 +1,7 @@
 ---
 title: "Your idea is my command: multi-agent collaboration for software development 💡🚀"
 layout: default
+tags: [agents, genai]
 excerpt_separator: <!-- excerpt-end -->
 ---
 
