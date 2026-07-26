@@ -34,3 +34,6 @@ machine-learning:
 security:
   label: Security
   emoji: "🔒"
+futures:
+  label: Futures
+  emoji: "🔮"
