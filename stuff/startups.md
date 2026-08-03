@@ -12,5 +12,5 @@ layout: default
 
 <div align="center">
 <!-- Cartman's 4 point business plan -->
-<img src="assets/images/south_park_4point_plan.gif" width="25%"/>
+<img src="/assets/images/south_park_4point_plan.gif" width="25%"/>
 </div>

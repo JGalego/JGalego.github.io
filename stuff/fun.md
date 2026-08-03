@@ -34,7 +34,7 @@ layout: default
 
 <div align="center">
 <!-- ChatGPT on Quine Relay -->
-<img src="assets/images/chatgpt_on_quine_relay.jpg" width="75%"/>
+<img src="/assets/images/chatgpt_on_quine_relay.jpg" width="75%"/>
 </div>
 
 * GitHub hosts an [awesome list](https://github.com/sindresorhus/awesome) of awesome lists — cue [Russell's paradox](https://plato.stanford.edu/entries/russell-paradox/)
