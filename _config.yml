@@ -1,7 +1,24 @@
 title: João Galego
 author: João Galego
+description: >-
+  João Galego leads AI at Critical Software, previously built ML at Siemens and
+  worked with startups at AWS. Writing and projects on AWS, GenAI, agents, and
+  building AI that holds up under real-world pressure.
 url: https://jgalego.github.io
 baseurl: ""
+logo: /assets/images/avatar.jpg
+lang: en_US
+social:
+  name: João Galego
+  links:
+    - https://www.github.com/JGalego
+    - https://www.linkedin.com/in/jgalego
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/avatar.jpg
 
 markdown: kramdown
 
@@ -35,4 +52,7 @@ kramdown:
 
 plugins:
   - jekyll-katex
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
   - rouge
