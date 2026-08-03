@@ -13,6 +13,9 @@ body {
     margin: 0;
     font-family: "Inconsolata";
     height: 100%;
+    background-color: var(--bg);
+    color: var(--fg);
+    transition: background-color 0.15s ease, color 0.15s ease;
 }
 a {
     text-decoration: none;
@@ -21,11 +24,14 @@ a {
 a:hover {
     text-decoration: underline;
 }
+.footer-link {
+    color: var(--fg);
+}
 hr {
     border: 0;
     height: 0;
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    border-top: 1px solid var(--hr-top);
+    border-bottom: 1px solid var(--hr-bottom);
 }
 
 /*
@@ -34,7 +40,7 @@ hr {
 
 #author-name {
     font-size: 30px;
-    color: #272727;
+    color: var(--fg);
     display: inline-block;
 }
 .navbar {
