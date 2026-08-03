@@ -34,7 +34,7 @@ layout: default
 
 <div align="center">
 <!-- ChatGPT on Quine Relay -->
-<img src="/assets/images/chatgpt_on_quine_relay.jpg" width="75%"/>
+<img src="/assets/images/chatgpt_on_quine_relay.jpg" width="75%" alt="ChatGPT stuck in an infinite loop trying to process the Quine Relay repository"/>
 </div>
 
 * GitHub hosts an [awesome list](https://github.com/sindresorhus/awesome) of awesome lists — cue [Russell's paradox](https://plato.stanford.edu/entries/russell-paradox/)
@@ -45,5 +45,5 @@ layout: default
 
 <div align="center">
 <!-- Meta Warning Sign -->
-<img src="https://64.media.tumblr.com/tumblr_lphraa31Hk1qkg7s3o1_400.jpg" width="30%"/>
+<img src="https://64.media.tumblr.com/tumblr_lphraa31Hk1qkg7s3o1_400.jpg" width="30%" alt="A warning sign warning you about warning signs"/>
 </div>

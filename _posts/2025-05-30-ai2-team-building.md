@@ -19,4 +19,4 @@ The AI x Innovation team visited the AIHub by Unicorn Factory Lisboa for an insp
 
 🙏 Special thanks to Mariana Montenegro and the AIHub team for the warm hospitality.
 
-<img src="/assets/images/ai2_at_aihub.jpg" width="50%"/>
+<img src="/assets/images/ai2_at_aihub.jpg" width="50%" alt="AI2 team building event at AIHub"/>

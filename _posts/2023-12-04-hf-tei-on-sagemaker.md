@@ -22,4 +22,4 @@ Initial tests suggest it works quite well with text embedding and reranker model
 
 *Still under review, so stay tuned!*
 
-<img src="/assets/images/tei_reranker_sagemaker.png" width="700"/>
+<img src="/assets/images/tei_reranker_sagemaker.png" width="700" alt="Hugging Face Text Embeddings Inference reranker running on Amazon SageMaker diagram"/>

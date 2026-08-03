@@ -25,4 +25,4 @@ A Zsh plugin powered by Amazon Bedrock that analyzes failed commands and provide
 - ✨ Clean, colorized output in your terminal
 - ⚡ Lightweight and fast
 
-<img src="https://github.com/JGalego/command-ai-bedrock/blob/main/plugin.png?raw=true" width="100%"/>
+<img src="https://github.com/JGalego/command-ai-bedrock/blob/main/plugin.png?raw=true" width="100%" alt="command-ai-bedrock plugin terminal output with colorized text"/>

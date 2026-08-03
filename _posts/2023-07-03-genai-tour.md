@@ -33,4 +33,4 @@ This may seem paradoxical, but it's not. Hopefully, the slides will serve as pro
 
 Feel free to explore and just DM me if you find any bugs!
 
-<img src="/assets/images/genai_tour.png" width="100%"/>
+<img src="/assets/images/genai_tour.png" width="100%" alt="Screenshot of the 'A Tour of GenAI' interactive presentation"/>

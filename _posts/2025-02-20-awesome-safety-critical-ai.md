@@ -19,4 +19,4 @@ This isn't just another awesome list. It's a manifesto and a call to action!
 
 <!-- excerpt-end -->
 
-<img src="/assets/images/awesome_safety_critical_ai.jpg" width="50%"/>
+<img src="/assets/images/awesome_safety_critical_ai.jpg" width="50%" alt="Awesome Safety-Critical AI project banner"/>

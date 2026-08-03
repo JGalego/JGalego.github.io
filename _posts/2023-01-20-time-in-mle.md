@@ -19,7 +19,7 @@ This article started out as a joke and didn't wander very far in state space. It
 
 <div title="Lucy (2014)">
 <center>
-<img src="https://64.media.tumblr.com/2b5feaa49751740b2d3db53fa76c7de4/56de99839df08a15-ae/s500x750/4c03f53180d11e76555f733db7c69a679a31d59e.gif" width="50%"/>
+<img src="https://64.media.tumblr.com/2b5feaa49751740b2d3db53fa76c7de4/56de99839df08a15-ae/s500x750/4c03f53180d11e76555f733db7c69a679a31d59e.gif" width="50%" alt="Lucy (2014) film scene depicting time"/>
 </center>
 </div>
 
@@ -41,7 +41,7 @@ $$\texttt{SWE} ~=~ \int \texttt{Programming} ~dt$$
 
 <div title="Software engineering is programming integrated over time">
 <center>
-<img src="/assets/images/swe_integral.png" width="50%"/>
+<img src="/assets/images/swe_integral.png" width="50%" alt="Software engineering is programming integrated over time, illustrated as a calculus expression"/>
 </center>
 </div>
 
@@ -51,7 +51,7 @@ For lack of a better name, I'll call this method of using calculus (or something
 
 <center>
 <figure>
-<img src="/assets/images/winston_how_to_speak.png" width="50%"/>
+<img src="/assets/images/winston_how_to_speak.png" width="50%" alt="Patrick Winston delivering his annual 'How to Speak' talk at MIT"/>
 <figcaption>The late Patrick Winston using faux-calculus while delivering his annual talk on 'How to Speak' - an MIT tradition for over 40 years</figcaption>
 </figure>
 </center>
@@ -76,7 +76,7 @@ In case you haven't noticed, time *changes* everything ⌛ (Just read Percy Byss
 
 <center>
 <figure>
-<img src="/assets/images/ozymandias.webp" width="50%"/>
+<img src="/assets/images/ozymandias.webp" width="50%" alt="Ruined statue in the desert, evoking Shelley's poem Ozymandias"/>
 <figcaption>"My name is Ozymandias, King of Kings; / Look on my Works, ye Mighty, and despair! / Nothing beside remains. Round the decay / Of that colossal Wreck, boundless and bare / The lone and level sands stretch far away."</figcaption>
 </figure>
 </center>
@@ -92,7 +92,7 @@ In the world of SW development, the effects of the passage of time are especiall
 
 <center>
 <figure>
-<img src="/assets/images/heraclitus.jpg" width="50%"/>
+<img src="/assets/images/heraclitus.jpg" width="50%" alt="Bust of the philosopher Heraclitus"/>
 <figcaption>According to platonic lore, the pre-socratic philosopher Heraclitus (AKA the weeping philosopher 😭) was one of the first to propose the idea that change is the only constant in the Universe (Πάντα ῥεῖ).</figcaption>
 </figure>
 </center>
@@ -109,7 +109,7 @@ Unlike the Graeberian notion of debt as a *"perversion of a promise"* (Graeber, 
 
 <center>
 <figure>
-<img src="/assets/images/dilbert_spaghetti.png" width="50%"/>
+<img src="/assets/images/dilbert_spaghetti.png" width="50%" alt="Dilbert comic strip about throwing spaghetti at the wall until it sticks"/>
 <figcaption>Dilbert on the old 'keep throwing spaghetti at the wall until it sticks' approach</figcaption>
 </figure>
 </center>
@@ -126,7 +126,7 @@ Their simple representation of a ML system as a disjoint set of "boxes" is proba
 
 <center>
 <figure>
-<img src="/assets/images/sculley_hidden_technical_debt.png" width="50%"/>
+<img src="/assets/images/sculley_hidden_technical_debt.png" width="50%" alt="Diagram from Sculley et al. showing ML code as a small part of a real-world ML system"/>
 <figcaption>Real-world ML systems are more than just ML code (Sculley <i>et al.</i>, 2015)</figcaption>
 </figure>
 </center>
@@ -151,7 +151,7 @@ This often translates to something along the lines of
 
 <center>
 <figure>
-<img src="/assets/images/ml_vs_traditional_programming.png" width="50%"/>
+<img src="/assets/images/ml_vs_traditional_programming.png" width="50%" alt="Diagram comparing machine learning and traditional programming data flows"/>
 <figcaption>ML vs Traditional Programming (source: <a href="https://www.oreilly.com/library/view/deep-learning-with/9781788624336/a7a045c6-b0e2-437c-892d-1e61c11446bf.xhtml">O'Reilly</a>)</figcaption>
 </figure>
 </center>
@@ -160,7 +160,7 @@ or, focusing only on the ML portion
 
 <center>
 <figure>
-<img src="/assets/images/ml_code_plus_data.png" width="50%"/>
+<img src="/assets/images/ml_code_plus_data.png" width="50%" alt="Diagram illustrating ML = Code + Data"/>
 <figcaption>ML = Code + Data (source: <a href="https://builtin.com/machine-learning/mlops">BuiltIn</a>)</figcaption>
 </figure>
 </center>
@@ -177,7 +177,7 @@ A better alternative, put forward in Martin Fowler's [Continuous Delivery for ML
 
 <center>
 <figure>
-<img src="/assets/images/ml_axis_of_change.png" width="50%"/>
+<img src="/assets/images/ml_axis_of_change.png" width="50%" alt="Martin Fowler's three axes of change: Data, Model and Code"/>
 <figcaption>Martin Fowler's 3 axis of change - Data, Model and Code</figcaption>
 </figure>
 </center>
@@ -216,7 +216,7 @@ As any freshman calculus student knows (integration-wise, that's probably the on
 
 <center>
 <figure>
-<img src="/assets/images/xkcd_differentiation_and_integration.png" width="50%"/>
+<img src="/assets/images/xkcd_differentiation_and_integration.png" width="50%" alt="xkcd comic contrasting differentiation and integration"/>
 <figcaption>Differentiation vs Integration (source: <a href="https://xkcd.com/2117/">xkcd</a>)</figcaption>
 </figure>
 </center>
@@ -263,7 +263,7 @@ The first is that the definitions above don't really take into account the close
 
 <center>
 <figure>
-<img src="/assets/images/ml_axis_of_change_dependencies.png" width="30%"/>
+<img src="/assets/images/ml_axis_of_change_dependencies.png" width="30%" alt="Diagram of interdependencies between the three axes of change"/>
 <figcaption>Interdependencies between the 3 axis of change</figcaption>
 </figure>
 </center>
@@ -328,7 +328,7 @@ Using Winstonian notation, we can easily produce a [data-centric](https://www.yo
 
 <center>
 <figure>
-<img src="/assets/images/data_pareto.jpg" width="75%"/>
+<img src="/assets/images/data_pareto.jpg" width="75%" alt="Illustration of the Pareto principle (80/20 rule) applied to data"/>
 <figcaption>If you’re seeing 80/20 patterns everywhere, you may be suffering from <b>Paretolia</b> - a pareidolic tendency to see instances of Pareto’s principle where there are none  -  please consult your physician for personalized medical advice ⚕️ (source: <a href="https://medium.com/@joao.galego/time-in-machine-learning-engineering-a-faux-calculus-argument-90e197bfd17e">Forbes</a>)</figcaption>
 </figure>
 </center>
@@ -341,7 +341,7 @@ Mind you, some problems do have solutions (Lakshmanan, Robinson & Munn, 2021), b
 
 <center>
 <figure>
-<img src="/assets/images/burkov_mle_lifecycle.png" width="75%"/>
+<img src="/assets/images/burkov_mle_lifecycle.png" width="75%" alt="Diagram of a machine learning engineering lifecycle (Burkov, 2020)"/>
 <figcaption>An example of an MLE lifecycle (Burkov, 2020)</figcaption>
 </figure>
 </center>
@@ -356,7 +356,7 @@ Without getting into [variational calculus](https://en.wikipedia.org/wiki/Calcul
 
 <center>
 <figure>
-<img src="/assets/images/feynman_action_principle.jpg" width="75%"/>
+<img src="/assets/images/feynman_action_principle.jpg" width="75%" alt="Richard Feynman lecturing on the principle of least action"/>
 <figcaption>Feynman lecturing on the principle of least action (source: <a href="https://www.feynmanlectures.caltech.edu/II_19.html">Caltech</a>)</figcaption>
 </figure>
 </center>
@@ -382,7 +382,7 @@ As Wittgenstein famously wrote in his *[Tractatus Logico-Philosophicus](https://
 
 <div title="Mind blown!!!">
 <center>
-<img src="/assets/images/mind_blown_explosion.gif" width="50%"/>
+<img src="/assets/images/mind_blown_explosion.gif" width="50%" alt="Mind blown explosion animation"/>
 </center>
 </div>
 

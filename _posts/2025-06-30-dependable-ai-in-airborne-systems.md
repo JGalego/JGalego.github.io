@@ -19,4 +19,4 @@ Attendees will gain practical insights into overcoming AI integration hurdles in
 
 🛰️ **[Jornadas Aeroespaciais (7ª Ed.)](https://jornadasaeroespaciais.emfa.pt/)** <br> Inteligência Artificial no Domínio Aeroespacial | 10:30 AM Dependable AI in Airborne Systems
 
-<img src="/assets/images/jornadas_aeroespaciais_2025.jpg" width="50%"/>
+<img src="/assets/images/jornadas_aeroespaciais_2025.jpg" width="50%" alt="Jornadas Aeroespaciais 2025 event banner"/>

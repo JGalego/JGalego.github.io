@@ -13,7 +13,7 @@ The [Bedrock JCVD 🕺🥋](https://templates.langchain.com/new?integration_name
 
 <!-- excerpt-end -->
 
-<img src="/assets/images/langchain_templates_new.png" width="700"/>
+<img src="/assets/images/langchain_templates_new.png" width="700" alt="LangChain templates 'new' command output in a terminal"/>
 
 To use this package, you should first have the LangChain CLI installed:
 
@@ -54,4 +54,4 @@ We can see all templates at [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/d
 
 We can also access the playground at [http://127.0.0.1:8000/bedrock-jcvd/playground](http://127.0.0.1:8000/bedrock-jcvd/playground)
 
-<img src="/assets/images/bedrock_jcvd_langserve_playground.png" width="700"/>
+<img src="/assets/images/bedrock_jcvd_langserve_playground.png" width="700" alt="LangServe playground screenshot for the Bedrock JCVD template"/>

@@ -19,4 +19,4 @@ Still energized from an extraordinary exchange with poolside's leadership team, 
 
 👏 Kudos to Jason Warner, Eiso Kant, Margarida Garcia, José Caldeira, Vítor Monteiro, Varun Randery, and Paul St John for pushing the boundaries of what's possible!
 
-<img src="/assets/images/poolside_offsite.jpg" width="50%"/>
+<img src="/assets/images/poolside_offsite.jpg" width="50%" alt="Group photo from the Poolside offsite"/>

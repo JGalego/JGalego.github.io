@@ -15,4 +15,4 @@ A Common Lisp library for Amazon Bedrock — bringing the power of foundation mo
 
 <!-- excerpt-end -->
 
-<img src="https://github.com/JGalego/cl-bedrock/raw/main/cl-bedrock.png" width="70%">
+<img src="https://github.com/JGalego/cl-bedrock/raw/main/cl-bedrock.png" width="70%" alt="cl-bedrock project logo">

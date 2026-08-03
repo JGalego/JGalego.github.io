@@ -15,4 +15,4 @@ An OpenAI-compatible proxy running on [AWS Lambda](https://aws.amazon.com/lambda
 
 <!-- excerpt-end -->
 
-<img src="https://github.com/JGalego/Serverless-LLM-Proxy/raw/main/assets/serverless_litellm.png" width="70%">
+<img src="https://github.com/JGalego/Serverless-LLM-Proxy/raw/main/assets/serverless_litellm.png" width="70%" alt="Serverless LLM Proxy architecture diagram with LiteLLM on AWS Lambda">

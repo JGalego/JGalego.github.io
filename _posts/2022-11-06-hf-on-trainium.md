@@ -23,4 +23,4 @@ This is still a work in progress 🚧, so feedback and suggestions are always we
 
 📚 Want to learn more about [AWS Trainium](https://aws.amazon.com/machine-learning/trainium/)? Check out the **References** section in the repo docs.
 
-<img src="/assets/images/hf_on_trainium.png" width="700"/>
+<img src="/assets/images/hf_on_trainium.png" width="700" alt="Hugging Face Transformers training on AWS Trainium diagram"/>

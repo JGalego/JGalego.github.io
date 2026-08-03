@@ -19,4 +19,4 @@ This article introduces [AWS for Industrial](https://aws.amazon.com/industrial/)
 
 <!-- excerpt-end -->
 
-<img src="/assets/images/amazon_lookout_for_vision.png" width="700"/>
+<img src="/assets/images/amazon_lookout_for_vision.png" width="700" alt="Amazon Lookout for Vision console screenshot"/>

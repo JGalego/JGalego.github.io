@@ -15,7 +15,7 @@ LLM proxy application powered by [AWS Chalice](https://aws.github.io/chalice/) a
 
 <!-- excerpt-end -->
 
-<img src="https://github.com/JGalego/LLM-Goblet/raw/main/assets/goblet.jpg" width="50%"/>
+<img src="https://github.com/JGalego/LLM-Goblet/raw/main/assets/goblet.jpg" width="50%" alt="LLM Goblet project logo"/>
 
 ## Prerequisites
 

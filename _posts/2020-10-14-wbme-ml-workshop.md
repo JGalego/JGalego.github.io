@@ -7,7 +7,7 @@ excerpt_separator: <!-- excerpt-end -->
 
 ### Machine Learning for Medicine and Healthcare 👨‍⚕️
 
-<img src="/assets/images/wbme.png" width="300"/>
+<img src="/assets/images/wbme.png" width="300" alt="Workshop on Machine Learning for Medicine and Healthcare banner"/>
 
 <!-- excerpt-start -->
 

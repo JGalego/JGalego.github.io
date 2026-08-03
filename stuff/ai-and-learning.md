@@ -34,5 +34,5 @@ Every practitioner should read these at least once:
 
 <div align="center">
 <!-- Ernie rubber duck debugging -->
-<img src="https://media2.giphy.com/media/CGMcKCEy4Dct2/giphy.gif" width="25%"/>
+<img src="https://media2.giphy.com/media/CGMcKCEy4Dct2/giphy.gif" width="25%" alt="Ernie from Sesame Street rubber duck debugging"/>
 </div>

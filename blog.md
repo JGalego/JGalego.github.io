@@ -4,7 +4,7 @@ layout: default
 ---
 
 <div title="Meet BOSS, the Largest Structure in the Universe (https://www.smithsonianmag.com/smart-news/meet-boss-largest-structure-universe-180958378/) 🤯 Now that's what I call the fullest feeling of the sublime!">
-<img src="assets/images/boss.jpg" width="100%"/>
+<img src="assets/images/boss.jpg" width="100%" alt="Baryon Oscillation Spectroscopic Survey (BOSS) map, the largest known structure in the universe"/>
 </div>
 
 <p>{{ site.posts.size }} posts on AWS, GenAI, agents and building AI that actually holds up. Pick a topic below, or browse everything.</p>

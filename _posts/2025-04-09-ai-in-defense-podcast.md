@@ -21,4 +21,4 @@ The [Liga dos Inovadores](https://expresso.pt/podcasts/liga-dos-inovadores) podc
 
 Special thanks to [Expresso](https://expresso.pt/) and the podcast team (Elisabete Miranda, Pedro Lima, Gustavo Carvalho, and José Fonseca Fernandes) for the opportunity to discuss AI in high-stakes domains openly.
 
-<img src="/assets/images/ldi_podcast.png" width="50%"/>
+<img src="/assets/images/ldi_podcast.png" width="50%" alt="AI in Defense podcast episode cover art"/>

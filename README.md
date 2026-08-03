@@ -4,7 +4,7 @@
 
 Personal website built on top of [Jekyll](https://jekyllrb.com/) and [GitHub pages](https://pages.github.com/).
 
-<img src="https://thumbs.gfycat.com/BareRespectfulBarasinga-size_restricted.gif" width="200"/>
+<img src="https://thumbs.gfycat.com/BareRespectfulBarasinga-size_restricted.gif" width="200" alt="Construction/under-development animation"/>
 
 ## Setup
 

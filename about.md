@@ -25,7 +25,7 @@ layout: default
 {% endfor %}
 
 <div title="If you hovered this far, you may like to know that this pastiche was created way back in 2015 using Google's DeepDream (https://github.com/google/deepdream), not one of those fancy new diffusion models - I'm old school like that! 👴">
-<img src="assets/images/profile_pastiche.png" width="100%"/>
+<img src="assets/images/profile_pastiche.png" width="100%" alt="AI-generated DeepDream pastiche portrait of João Galego"/>
 </div>
 
 My name is {% redact %}{{ firstName }} {{ lastName }}{% endredact %}, I'm `0x{{ dob | age | hex }}` years old, and I'm based in {% redact %}{{ city }}{% endredact %}, {% redact %}{{ country }}{% endredact %}.
@@ -36,4 +36,4 @@ I'm on a mission to [build AI that solves real problems for real people](https:/
 
 [📄 Long CV](/assets/documents/cv_long.pdf){: .btn} // [<small>📃 shorter cv</small>](/assets/documents/cv_shorter.pdf){: .btn}
 
-<img src="/assets/images/sonic.gif" width="10%"/>
+<img src="/assets/images/sonic.gif" width="10%" alt="Sonic the Hedgehog running animation"/>

@@ -19,4 +19,4 @@ Because dependability isn't a feature. It's a foundation.
 
 🌟 Check it out and [star it on GitHub](https://github.com/JGalego/DependableAI)!
 
-<img src="/assets/images/real_engineering.png" width="50%"/>
+<img src="/assets/images/real_engineering.png" width="50%" alt="DependableAI project banner"/>
