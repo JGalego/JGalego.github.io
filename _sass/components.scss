@@ -7,16 +7,22 @@
 .tag-filter {
     display: flex;
     flex-wrap: wrap;
-    gap: 8px;
-    margin: 20px 0 30px 0;
+    gap: 4px;
+    margin: 12px 0 18px 0;
 }
 .tag-chip {
+    appearance: none;
+    -webkit-appearance: none;
+    box-sizing: border-box;
+    margin: 0;
+    display: inline-block;
     font-family: "Inconsolata";
-    font-size: 14px;
+    font-size: 11px;
+    line-height: 1.2;
     background: none;
     border: 1px solid var(--border-strong);
     border-radius: 999px;
-    padding: 5px 12px;
+    padding: 2px 8px;
     cursor: pointer;
     color: var(--fg);
     transition: 0.15s ease all;
@@ -56,34 +62,57 @@
 }
 
 /*
- * Stuff hub
+ * Photo carousel (posts)
  */
 
-.stuff-links {
-    display: grid;
-    gap: 16px;
-    margin: 20px 0;
+.photo-carousel {
+    position: relative;
+    margin-top: 1em;
 }
-.stuff-link-card {
-    border: 1px solid var(--border);
-    border-radius: 10px;
-    padding: 14px 18px;
-    transition: 0.15s ease border-color;
+.photo-carousel-track {
+    display: flex;
+    gap: 8px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
 }
-.stuff-link-card:hover {
+.photo-carousel-track::-webkit-scrollbar {
+    display: none;
+}
+.photo-carousel-track img {
+    scroll-snap-align: start;
+    flex: none;
+    width: min(85%, 480px);
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 32px;
+    height: 32px;
+    border: 1px solid var(--border-strong);
+    border-radius: 50%;
+    background: var(--bg);
+    color: var(--fg);
+    font-size: 18px;
+    line-height: 1;
+    cursor: pointer;
+    opacity: 0.85;
+    transition: 0.15s ease all;
+}
+.carousel-btn:hover {
+    opacity: 1;
     border-color: $accent;
-}
-.stuff-link-card h3 {
-    margin: 0 0 4px 0;
-}
-.stuff-link-card h3 a {
-    color: inherit;
-}
-.stuff-link-card h3 a:hover {
     color: $accent;
 }
-.stuff-link-card p {
-    margin: 0;
-    color: var(--muted-strong);
-    font-size: 14px;
+.carousel-prev {
+    left: 4px;
 }
+.carousel-next {
+    right: 4px;
+}
+

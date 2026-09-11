@@ -10,9 +10,6 @@ permalink: /llms.txt
 - [About]({{ site.url }}/about): background, current role, CV
 - [Blog]({{ site.url }}/blog): {{ site.posts.size }} posts, browsable by topic
 - [Stuff]({{ site.url }}/stuff): curated links on AI & learning, startups, and fun curiosities
-  - [AI & Learning]({{ site.url }}/stuff/ai-and-learning)
-  - [Startups]({{ site.url }}/stuff/startups)
-  - [Fun & Curiosities]({{ site.url }}/stuff/fun)
 
 ## Topics
 {% assign sorted_tags = site.tags | sort %}

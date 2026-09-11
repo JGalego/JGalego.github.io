@@ -13,10 +13,10 @@ My journey with RAGmap 🗺️🔍 and RAGxplorer 🦙🦺, featuring an accessi
 
 📝 Read the full article on [AWS Community](https://community.aws/content/2eoCtgociSBhGfirRM0Tk0PSgxH/mapping-embeddings-from-meaning-to-vectors-and-back).
 
-📢 **UPDATE:** An expanded, interactive version is now available at [critical-ai.dev/MappingEmbeddings](https://critical-ai.dev/MappingEmbeddings/).
+📢 **UPDATE:** An expanded, interactive version is now available at [jgalego.github.io/MappingEmbeddings](https://jgalego.github.io/MappingEmbeddings/).
 
 <div align="center">
-<iframe width="70%" height="300px" src="https://critical-ai.dev/MappingEmbeddings">
+<iframe width="70%" height="300px" src="https://jgalego.github.io/MappingEmbeddings">
 Your browser doesn't support iframes? Really?!
 </iframe>
 </div>

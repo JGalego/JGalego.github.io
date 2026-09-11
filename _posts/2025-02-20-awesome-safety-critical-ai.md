@@ -9,7 +9,7 @@ excerpt_separator: <!-- excerpt-end -->
 
 <!-- excerpt-start -->
 
-[Awesome Safety-Critical AI](https://awesome.critical-ai.dev) is a curated collection exploring AI's role in safety-critical systems — where failure means loss of life, major property damage, or environmental harm.
+[Awesome Safety-Critical AI](https://awesome.jgalego.github.io) is a curated collection exploring AI's role in safety-critical systems — where failure means loss of life, major property damage, or environmental harm.
 
 This isn't about polishing demos or chasing benchmarks. It's about anticipating chaos and designing systems that can withstand it.
 

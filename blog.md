@@ -7,8 +7,6 @@ layout: default
 <img src="assets/images/boss.jpg" width="100%" alt="Baryon Oscillation Spectroscopic Survey (BOSS) map, the largest known structure in the universe"/>
 </div>
 
-<p>{{ site.posts.size }} posts on AWS, GenAI, agents and building AI that actually holds up. Pick a topic below, or browse everything.</p>
-
 <div class="tag-filter">
 <button class="tag-chip is-active" data-tag="all">All ({{ site.posts.size }})</button>
 {% assign sorted_tags = site.tags | sort %}

@@ -32,7 +32,7 @@ My name is {% redact %}{{ firstName }} {{ lastName }}{% endredact %}, I'm `0x{{ 
 
 I've built ML at [Siemens](https://www.siemens.com/), wrangled startups at [AWS](https://aws.amazon.com/), and now lead AI at [Critical Software](https://www.criticalsoftware.com/en).
 
-I'm on a mission to [build AI that solves real problems for real people](https://dependable.critical-ai.dev).
+I'm on a mission to [build AI that solves real problems for real people](https://dependable.jgalego.github.io).
 
 [📄 Long CV](/assets/documents/cv_long.pdf){: .btn} // [<small>📃 shorter cv</small>](/assets/documents/cv_shorter.pdf){: .btn}
 

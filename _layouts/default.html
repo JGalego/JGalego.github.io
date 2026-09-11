@@ -45,6 +45,25 @@
                 {% endif %}
             </div>
     </div>
+    <script>
+    (function () {
+      document.querySelectorAll(".photo-carousel").forEach(function (carousel) {
+        var track = carousel.querySelector(".photo-carousel-track");
+        var prev = carousel.querySelector(".carousel-prev");
+        var next = carousel.querySelector(".carousel-next");
+        if (!track || !prev || !next) return;
+
+        function scrollByAmount(dir) {
+          var img = track.querySelector("img");
+          var amount = img ? img.getBoundingClientRect().width + 8 : track.clientWidth * 0.8;
+          track.scrollBy({ left: dir * amount, behavior: "smooth" });
+        }
+
+        prev.addEventListener("click", function () { scrollByAmount(-1); });
+        next.addEventListener("click", function () { scrollByAmount(1); });
+      });
+    })();
+    </script>
 </body>
 <footer>
 </footer>

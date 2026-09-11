@@ -9,7 +9,7 @@ excerpt_separator: <!-- excerpt-end -->
 
 <!-- excerpt-start -->
 
-[Build AI that matters](https://dependable.critical-ai.dev) is a deck focused on building AI that doesn't just work in demos - it works in the real world, under pressure, when it matters most.
+[Build AI that matters](https://dependable.jgalego.github.io) is a deck focused on building AI that doesn't just work in demos - it works in the real world, under pressure, when it matters most.
 
 This isn't about chasing state-of-the-art or shipping fast. It's about building AI systems you can actually trust.
 

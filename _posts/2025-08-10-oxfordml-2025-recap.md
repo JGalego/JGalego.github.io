@@ -19,17 +19,21 @@ Days 3 and 4 brought some of the best lectures I've seen in this school 🗣 Ash
 
 🏆 As it is by now a sort of tradition, it's time to give out some medals for the best talks: Yali takes bronze 🥉, Ashley and Christian take the 🥈 (ex aequo), and gold goes to Valentina 🥇 for the supreme importance of her work and for waking everyone up in the last session of the school. Honorable mentions go to Abdul Fatir Ansari / Amazon Web Services (AWS) and Fazl Barez / University of Oxford 📜 for delivering amazing sessions on time series and AI safety 🙏 Finally, I'd like tl thank AI for Global Goals, the organizers (Mona Alinejad, D.Phil. (Oxon) , Reza Khorshidi, D.Phil. (Oxon) and Rochelle Enriquez Radiša), the TA team (Pelin Balcı, Vlad Timu and Yitai Cheng), and all the online and onsite participants for making this event such a huge success! 🏞 #QotD comes from something I saw carved on a nearby park bench: "Learn from yesterday, live for today, hope for tomorrow"
 
-<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:1em">
-  <img src="/assets/images/oxml25_1.jpg" style="width:100%;object-fit:cover" alt="Oxford ML Summer School 2025 photo 1"/>
-  <img src="/assets/images/oxml25_2.jpg" style="width:100%;object-fit:cover" alt="Oxford ML Summer School 2025 photo 2"/>
-  <img src="/assets/images/oxml25_3.jpg" style="width:100%;object-fit:cover" alt="Oxford ML Summer School 2025 photo 3"/>
-  <img src="/assets/images/oxml25_4.jpg" style="width:100%;object-fit:cover" alt="Oxford ML Summer School 2025 photo 4"/>
-  <img src="/assets/images/oxml25_5.jpg" style="width:100%;object-fit:cover" alt="Oxford ML Summer School 2025 photo 5"/>
-  <img src="/assets/images/oxml25_6.jpg" style="width:100%;object-fit:cover" alt="Oxford ML Summer School 2025 photo 6"/>
-  <img src="/assets/images/oxml25_7.jpg" style="width:100%;object-fit:cover" alt="Oxford ML Summer School 2025 photo 7"/>
-  <img src="/assets/images/oxml25_8.jpg" style="width:100%;object-fit:cover" alt="Oxford ML Summer School 2025 photo 8"/>
-  <img src="/assets/images/oxml25_9.jpg" style="width:100%;object-fit:cover" alt="Oxford ML Summer School 2025 photo 9"/>
-  <img src="/assets/images/oxml25_10.jpg" style="width:100%;object-fit:cover" alt="Oxford ML Summer School 2025 photo 10"/>
+<div class="photo-carousel" markdown="0">
+<button class="carousel-btn carousel-prev" type="button" aria-label="Previous photo">‹</button>
+<div class="photo-carousel-track">
+  <img src="/assets/images/oxml25_1.jpg" alt="Oxford ML Summer School 2025 photo 1"/>
+  <img src="/assets/images/oxml25_2.jpg" alt="Oxford ML Summer School 2025 photo 2"/>
+  <img src="/assets/images/oxml25_3.jpg" alt="Oxford ML Summer School 2025 photo 3"/>
+  <img src="/assets/images/oxml25_4.jpg" alt="Oxford ML Summer School 2025 photo 4"/>
+  <img src="/assets/images/oxml25_5.jpg" alt="Oxford ML Summer School 2025 photo 5"/>
+  <img src="/assets/images/oxml25_6.jpg" alt="Oxford ML Summer School 2025 photo 6"/>
+  <img src="/assets/images/oxml25_7.jpg" alt="Oxford ML Summer School 2025 photo 7"/>
+  <img src="/assets/images/oxml25_8.jpg" alt="Oxford ML Summer School 2025 photo 8"/>
+  <img src="/assets/images/oxml25_9.jpg" alt="Oxford ML Summer School 2025 photo 9"/>
+  <img src="/assets/images/oxml25_10.jpg" alt="Oxford ML Summer School 2025 photo 10"/>
+</div>
+<button class="carousel-btn carousel-next" type="button" aria-label="Next photo">›</button>
 </div>
 
 
