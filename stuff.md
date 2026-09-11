@@ -79,6 +79,14 @@ layout: default
     - Naturally, RFC 1149 got a sequel: [RFC 2549](https://datatracker.ietf.org/doc/html/rfc2549) adds Quality of Service to the avian carrier protocol via priority pigeons
 * [Dinosaur Comics](https://www.qwantz.com/) reuses the same six panels every single strip, somehow gets more absurdist and philosophical every time
 * Gary Bernhardt's [Wat](https://www.destroyallsoftware.com/talks/wat) is 4 minutes of pure, legendary JavaScript/Ruby type coercion comedy
+    - Its serious-but-absurd sequel, [The Birth & Death of JavaScript](https://www.destroyallsoftware.com/talks/the-birth-and-death-of-javascript), imagines a future where JS eats the operating system
+    - [wtfjs](https://github.com/denysdovhan/wtfjs) is a book-length, well-explained catalog of the same insanity — `0.1 + 0.2 !== 0.3`, `NaN !== NaN`, `"b" + "a" + +"a" + "a"` → `"baNaNa"`
+    - [wtfpython](https://github.com/satwikkansal/wtfpython) does it for Python, and surprises even seasoned devs (string interning, mutable default args, `is` vs `==`)
+    - [wtfjs.com](https://wtfjs.com/) — Brian Leroux's running blog of "that language we love despite giving us so much to hate"
+    - [JavaScript Equality Table](https://dorey.github.io/JavaScript-Equality-Table/) visualizes `==` chaos versus `===` sanity
+    - Eevee's [PHP: a fractal of bad design](https://eev.ee/blog/2012/04/09/php-a-fractal-of-bad-design/) and [PHP Sadness](https://phpsadness.com/) carry the torch for PHP
+    - [Bash Pitfalls](https://mywiki.wooledge.org/BashPitfalls) — same energy, much higher stakes
+    - Kevlin Henney's [The Most Bogus Sort](https://kevlinhenney.medium.com/the-most-bogus-sort-3879e2e98e67) is a loving tour of bogosort and friends
 * [The Daily WTF](https://thedailywtf.com/) collects real (anonymized) programming horror stories — "IT Happens," and it's tragically funny
 * [The eXtreme Go Horse Process](https://brunomb.com/xgh/) satirizes the software methodology you've definitely worked under at least once
 
