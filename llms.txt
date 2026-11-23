@@ -3,7 +3,7 @@ permalink: /llms.txt
 ---
 # {{ site.title }}
 
-> {{ site.author }} leads AI at Critical Software, previously built ML at Siemens and worked with startups at AWS. This site collects writing and projects on AWS, GenAI, agents, and building AI that holds up under real-world pressure, especially in safety-critical and high-stakes domains.
+> {{ site.description }}
 
 ## Pages
 
