@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Redirecting to {{ page.redirect_name }}…</title>
+<link rel="canonical" href="{{ site.url }}{{ page.redirect_to }}">
+<meta name="robots" content="noindex">
+<meta http-equiv="refresh" content="0; url={{ page.redirect_to }}">
+<script>location.replace("{{ page.redirect_to }}" + location.search + location.hash);</script>
+</head>
+<body>
+<p>Redirecting to <a href="{{ page.redirect_to }}">{{ page.redirect_to }}</a>…</p>
+</body>
+</html>

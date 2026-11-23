@@ -1,0 +1,21 @@
+# Short / legacy paths that redirect to a project site hosted under
+# jgalego.github.io. Each entry becomes <from>/index.html at build time
+# (see _plugins/redirects.rb and _layouts/redirect.html).
+
+- from: /NavierStokesAndEuler/
+  to: /navier-stokes/
+
+- from: /embeddings/
+  to: /MappingEmbeddings/
+
+- from: /garden/
+  to: /VectorGarden/
+
+- from: /genai/
+  to: /GenAI/
+
+- from: /hyperlab/
+  to: /HyperLab/
+
+- from: /runnx/
+  to: /RunNX/
