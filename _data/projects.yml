@@ -1,127 +1,159 @@
-# Projects shown on /projects, in display order.
+# Projects shown on /projects.
+#
+# The page orders them by GitHub stars (most first), then by most recent push.
+# Both are fetched from the GitHub API at build time (_plugins/project_stats.rb),
+# so the order refreshes on every deploy. If the API can't be reached, the
+# order in this file is used as is.
+#
+# repo:  GitHub repository (owner/name) the stars and last push are read from
 # image: file in assets/images/projects/ (640x400 WebP screenshot of the landing page)
 
 - name: ACT Protocol
   url: https://act-protocol.org/
+  repo: JGalego/ACT-protocol
   image: act-protocol.webp
   description: Open protocol for accountable human–AI collaboration
 
 - name: AI-to-ZX
   url: https://ai-to-zx.com/
+  repo: JGalego/AI-to-ZX
   image: ai-to-zx.webp
   description: AI brains on the 8-bit ZX Spectrum
 
 - name: Awesome Safety-Critical AI
   url: https://awesome.critical-ai.dev/
+  repo: JGalego/awesome-safety-critical-ai
   image: awesome-safety-critical-ai.webp
   description: Curated resources for safety-critical AI
 
 - name: Awesome Vericoding
   url: https://jgalego.github.io/awesome-vericoding/
+  repo: JGalego/awesome-vericoding
   image: awesome-vericoding.webp
   description: Curated resources for formally verified code
 
 - name: Claudeholic
   url: https://claudeholic.me/
+  repo: JGalego/Claudeholic
   image: claudeholic.webp
   description: A satirical intervention for heavy AI use
 
 - name: Dependable AI
   url: https://dependable.critical-ai.dev/
+  repo: JGalego/DependableAI
   image: dependable-ai.webp
   description: Dependable AI systems for real-world impact
 
 - name: Football
   url: https://jgalego.github.io/football/
+  repo: JGalego/football
   image: football.webp
   description: Interactive marimo field guide to football data
 
 - name: GenAI
   url: https://jgalego.github.io/genai/
+  repo: JGalego/GenAI
   image: genai.webp
   description: A guided tour of generative AI
 
 - name: Hyperion
   url: https://try-hyperion.org/
+  repo: JGalego/HyperionOS
   image: hyperion.webp
   description: The first intent-native operating system
 
 - name: HyperLab
   url: https://jgalego.github.io/hyperlab/
+  repo: JGalego/HyperLab
   image: hyperlab.webp
   description: HyperCard reimagined for the AI era
 
 - name: Jongo
   url: https://jgalego.github.io/jongo/
+  repo: JGalego/jongo
   image: jongo.webp
   description: Shipping Java agents to MongoDB Atlas
 
 - name: Joy
   url: https://joyskill.co/
+  repo: JGalego/Joy
   image: joy.webp
   description: Claude Code skill for keeping the joy in work
 
 - name: Latent Machines
   url: https://jgalego.github.io/latent-machines/
+  repo: JGalego/latent-machines
   image: latent-machines.webp
   description: Neural models as programmable machines
 
 - name: Mapping Embeddings
   url: https://jgalego.github.io/embeddings/
+  repo: JGalego/MappingEmbeddings
   image: embeddings.webp
   description: From meaning to vectors and back
 
 - name: Navier-Stokes
   url: https://jgalego.github.io/navier-stokes/
+  repo: JGalego/navier-stokes
   image: navier-stokes.webp
   description: Lean certificates for Navier-Stokes and Euler results
 
 - name: Riemann
   url: https://jgalego.github.io/riemann/
+  repo: JGalego/riemann
   image: riemann.webp
   description: Lean 4 formalization of a Riemann Hypothesis proof
 
 - name: RunNX
   url: https://jgalego.github.io/runnx/
+  repo: JGalego/RunNX
   image: runnx.webp
   description: Fast, verifiable ONNX runtime in Rust
 
 - name: shem
   url: https://jgalego.github.io/shem/
+  repo: JGalego/shem
   image: shem.webp
   description: Run containers and VMs inside a model's weights
 
 - name: slopcop
   url: https://slopcop.me/
+  repo: JGalego/slopcop
   image: slopcop.webp
   description: Catch and stop AI slop
 
 - name: Songs
   url: https://jgalego.github.io/songs/
+  repo: JGalego/songs
   image: songs.webp
   description: AI songs with live-rendered three.js music videos
 
 - name: TeamAPI
   url: https://teamapi.dev/
+  repo: JGalego/TeamAPI
   image: teamapi.webp
   description: Find who owns what by curling your org chart
 
 - name: text2scad
   url: https://jgalego.github.io/text2scad/
+  repo: JGalego/text2scad
   image: text2scad.webp
   description: Turn plain English into OpenSCAD 3D models
 
 - name: Ulexite
   url: https://ulexite.dev/
+  repo: JGalego/ulexite
   image: ulexite.webp
   description: Conversation-first language for LLM interactions
 
 - name: VectorGarden
   url: https://jgalego.github.io/garden/
+  repo: JGalego/VectorGarden
   image: garden.webp
   description: Mathematics grown into living digital art
 
 - name: Year2525
   url: https://year2525.xyz/
+  repo: JGalego/Year2525
   image: year2525.webp
   description: Apocalyptic thoughts on the future of software
