@@ -42,3 +42,8 @@ gem "rouge"
 
 # Reads image dimensions at build time (see _plugins/image_attrs.rb)
 gem "fastimage", "~> 2.3"
+
+# Checks the built site for broken links and images (see .github/workflows)
+group :test do
+  gem "html-proofer", "~> 5.0"
+end

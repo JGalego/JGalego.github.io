@@ -30,7 +30,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 📂 Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
       - name: 💎 Setup Ruby
         uses: ruby/setup-ruby@be3c7df29b3349ec6bcfc6b4792f1cf9f5237d18 # v1.343.0
         with:
@@ -39,7 +39,7 @@ jobs:
           cache-version: 0 # Increment this number if you need to re-download cached gems
       - name: Setup Pages
         id: pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d # v6.0.0
       - name: 🔨 Build with Jekyll
         # Outputs to the './_site' directory by default
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
@@ -47,9 +47,13 @@ jobs:
           JEKYLL_ENV: production
           # Used to read star counts for the Projects page (_plugins/project_stats.rb)
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: 🔗 Check internal links and images
+        # External links are checked weekly by links.yml, so that someone
+        # else's outage can't block a deploy
+        run: bundle exec htmlproofer ./_site --disable-external --no-enforce-https --ignore-urls "/^\/(navier-stokes|MappingEmbeddings|VectorGarden|GenAI|HyperLab|RunNX)\/$/"
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
 
   # Deployment job
   deploy:
@@ -61,4 +65,4 @@ jobs:
     steps:
       - name: 🚀 Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346 # v5.0.1

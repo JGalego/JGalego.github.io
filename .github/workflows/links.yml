@@ -1,0 +1,47 @@
+# Weekly check for link rot: builds the site and verifies every external link.
+# Runs separately from the deploy so a third-party outage never blocks a push.
+# (Internal links and images are checked on every push by jekyll.yml.)
+
+name: Check external links
+
+on:
+  schedule:
+    - cron: "0 6 * * 1" # Mondays, 06:00 UTC
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 📂 Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - name: 💎 Setup Ruby
+        uses: ruby/setup-ruby@be3c7df29b3349ec6bcfc6b4792f1cf9f5237d18 # v1.343.0
+        with:
+          ruby-version: '3.2'
+          bundler-cache: true
+      - name: 🔨 Build with Jekyll
+        run: bundle exec jekyll build
+        env:
+          JEKYLL_ENV: production
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: 🔗 Check external links
+        uses: lycheeverse/lychee-action@e7477775783ea5526144ba13e8db5eec57747ce8 # v2.9.0
+        with:
+          # 403/429/999 come from sites that block automated clients (LinkedIn, Medium, ...)
+          args: >-
+            --no-progress
+            --scheme https --scheme http
+            --accept "200..=299,403,429,999"
+            --exclude "localhost|127\.0\.0\.1"
+            --max-concurrency 10
+            --timeout 30
+            "./_site/**/*.html"
+          fail: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
