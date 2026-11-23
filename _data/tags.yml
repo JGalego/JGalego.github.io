@@ -37,3 +37,6 @@ security:
 futures:
   label: Futures
   emoji: "🔮"
+hugging-face:
+  label: Hugging Face
+  emoji: "🤗"
