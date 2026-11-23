@@ -1,9 +1,10 @@
-# Projects shown on /projects.
+# Candidate projects for /projects.
 #
-# The page orders them by GitHub stars (most first), then by most recent push.
-# Both are fetched from the GitHub API at build time (_plugins/project_stats.rb),
-# so the order refreshes on every deploy. If the API can't be reached, the
-# order in this file is used as is.
+# Only projects whose repo has at least one GitHub star are shown, ordered by
+# stars (most first), then by most recent push. Both are fetched from the
+# GitHub API at build time (_plugins/project_stats.rb), and the Pages workflow
+# rebuilds weekly, so a project appears on its own once it gets its first star.
+# The order of entries in this file doesn't matter.
 #
 # repo:  GitHub repository (owner/name) the stars and last push are read from
 # image: file in assets/images/projects/ (640x400 WebP screenshot of the landing page)

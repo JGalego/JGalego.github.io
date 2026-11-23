@@ -10,6 +10,11 @@ on:
     branches:
       - master  # before October 2020
 
+  # Weekly rebuild to refresh the Projects page (star counts are read from the
+  # GitHub API at build time; see _plugins/project_stats.rb)
+  schedule:
+    - cron: "0 5 * * 1" # Mondays, 05:00 UTC
+
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
