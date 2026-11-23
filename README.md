@@ -34,6 +34,19 @@ We recommend using [RVM](https://github.com/rvm/rvm) to manage different Rubu ve
     bundle exec jekyll serve
     ```
 
+## How it's put together
+
+* **Posts** use `layout: post`, which renders the title, date, reading time, tags and older/newer links, so a post's body starts straight with its content. Optional front matter: `heading` (page heading, if it should differ from `title`), `heading_link` (makes the heading a link) and `image` (social card; defaults to the first local JPG/PNG in the post).
+* **Images** only need `src` and `alt` (plus an optional `width="50%"`). Dimensions, `loading="lazy"` and `decoding="async"` are added at build time by `_plugins/image_attrs.rb`. Prefer WebP for screenshots and MP4 (in `assets/videos/`) over GIFs.
+* **Projects** live in `_data/projects.yml` and are ordered by GitHub stars, then most recent push, fetched at build time by `_plugins/project_stats.rb`.
+* **Redirects** from short or legacy paths live in `_data/redirects.yml`.
+* **Links**: internal links and images are checked on every push; external links are checked weekly (see `.github/workflows/`). To run the internal check locally:
+
+    ```bash
+    bundle exec jekyll build
+    bundle exec htmlproofer ./_site --disable-external --no-enforce-https --ignore-urls "/^\/(navier-stokes|MappingEmbeddings|VectorGarden|GenAI|HyperLab|RunNX)\/$/"
+    ```
+
 ## References
 
 * (Jekyll) [Documentation](https://jekyllrb.com/docs/)
