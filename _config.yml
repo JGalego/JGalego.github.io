@@ -37,6 +37,8 @@ nav:
     link: /blog
   - name: About ✨
     link: /about
+  - name: Projects 🛠️
+    link: /projects
   - name: Stuff 💡
     link: /stuff
 

@@ -186,3 +186,68 @@ $sidebar-gap: 28px;
     right: 4px;
 }
 
+
+/*
+ * Project grid (projects page)
+ */
+
+.project-grid {
+    list-style: none;
+    padding: 0;
+    margin: 24px 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    gap: 18px;
+}
+.project-card a {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    overflow: hidden;
+    color: var(--fg);
+    transition: 0.15s ease all;
+}
+.project-card a:hover {
+    text-decoration: none;
+    border-color: $accent;
+    transform: translateY(-2px);
+}
+.project-card img {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 10;
+    object-fit: cover;
+    object-position: top;
+    border-bottom: 1px solid var(--border);
+}
+.project-body {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 10px 12px 12px 12px;
+}
+.project-name {
+    font-weight: 700;
+}
+.project-card a:hover .project-name {
+    color: $accent;
+}
+.project-desc {
+    font-size: 14px;
+    line-height: 1.35;
+}
+.project-url {
+    margin-top: auto;
+    padding-top: 4px;
+    color: var(--muted);
+    font-size: 12px;
+    overflow-wrap: anywhere;
+}
+@media (prefers-reduced-motion: reduce) {
+    .project-card a:hover {
+        transform: none;
+    }
+}

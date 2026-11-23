@@ -9,6 +9,7 @@ permalink: /llms.txt
 
 - [About]({{ site.url }}/about): background, current role, CV
 - [Blog]({{ site.url }}/blog): {{ site.posts.size }} posts, browsable by topic
+- [Projects]({{ site.url }}/projects): {{ site.data.projects.size }} side projects with live demos
 - [Stuff]({{ site.url }}/stuff): curated links on AI & learning, startups, and fun curiosities
 
 ## Topics
