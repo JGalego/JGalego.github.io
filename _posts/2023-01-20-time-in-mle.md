@@ -51,7 +51,7 @@ For lack of a better name, I'll call this method of using calculus (or something
 
 <center>
 <figure>
-<img src="/assets/images/winston_how_to_speak.png" width="50%" alt="Patrick Winston delivering his annual 'How to Speak' talk at MIT"/>
+<img src="/assets/images/winston_how_to_speak.webp" width="50%" alt="Patrick Winston delivering his annual 'How to Speak' talk at MIT"/>
 <figcaption>The late Patrick Winston using faux-calculus while delivering his annual talk on 'How to Speak' - an MIT tradition for over 40 years</figcaption>
 </figure>
 </center>
@@ -76,7 +76,7 @@ In case you haven't noticed, time *changes* everything ⌛ (Just read Percy Byss
 
 <center>
 <figure>
-<img src="/assets/images/ozymandias.webp" width="50%" alt="Ruined statue in the desert, evoking Shelley's poem Ozymandias"/>
+<video src="/assets/videos/ozymandias.mp4" width="500" height="200" style="width:50%" autoplay loop muted playsinline aria-label="Ruined statue in the desert, evoking Shelley's poem Ozymandias"></video>
 <figcaption>"My name is Ozymandias, King of Kings; / Look on my Works, ye Mighty, and despair! / Nothing beside remains. Round the decay / Of that colossal Wreck, boundless and bare / The lone and level sands stretch far away."</figcaption>
 </figure>
 </center>
@@ -341,7 +341,7 @@ Mind you, some problems do have solutions (Lakshmanan, Robinson & Munn, 2021), b
 
 <center>
 <figure>
-<img src="/assets/images/burkov_mle_lifecycle.png" width="75%" alt="Diagram of a machine learning engineering lifecycle (Burkov, 2020)"/>
+<img src="/assets/images/burkov_mle_lifecycle.webp" width="75%" alt="Diagram of a machine learning engineering lifecycle (Burkov, 2020)"/>
 <figcaption>An example of an MLE lifecycle (Burkov, 2020)</figcaption>
 </figure>
 </center>
@@ -382,7 +382,7 @@ As Wittgenstein famously wrote in his *[Tractatus Logico-Philosophicus](https://
 
 <div title="Mind blown!!!">
 <center>
-<img src="/assets/images/mind_blown_explosion.gif" width="50%" alt="Mind blown explosion animation"/>
+<video src="/assets/videos/mind_blown_explosion.mp4" width="350" height="232" style="width:50%" autoplay loop muted playsinline aria-label="Mind blown explosion animation"></video>
 </center>
 </div>
 

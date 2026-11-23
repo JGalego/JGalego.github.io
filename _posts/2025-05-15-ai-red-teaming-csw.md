@@ -13,7 +13,7 @@ In collaboration with the [AIHub by Unicorn Factory Lisboa](https://unicornfacto
 
 📨 DM me for more details.
 
-<img src="/assets/images/red_matrix.gif" width="50%" alt="Red-tinted matrix-style digital rain animation"/>
+<video src="/assets/videos/red_matrix.mp4" width="540" height="220" style="width:50%" autoplay loop muted playsinline aria-label="Red-tinted matrix-style digital rain animation"></video>
 
 <!-- excerpt-end -->
  

@@ -25,7 +25,7 @@ layout: default
 {% endfor %}
 
 <div title="If you hovered this far, you may like to know that this pastiche was created way back in 2015 using Google's DeepDream (https://github.com/google/deepdream), not one of those fancy new diffusion models - I'm old school like that! 👴">
-<img src="assets/images/profile_pastiche.png" width="100%" alt="AI-generated DeepDream pastiche portrait of João Galego"/>
+<img src="assets/images/profile_pastiche.webp" width="100%" alt="AI-generated DeepDream pastiche portrait of João Galego"/>
 </div>
 
 My name is {% redact %}{{ firstName }} {{ lastName }}{% endredact %}, I'm `0x{{ dob | age | hex }}` years old, and I'm based in {% redact %}{{ city }}{% endredact %}, {% redact %}{{ country }}{% endredact %}.

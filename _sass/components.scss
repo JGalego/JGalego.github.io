@@ -127,6 +127,17 @@ $sidebar-gap: 28px;
     padding: 2px 9px;
 }
 
+/*
+ * Media: never wider than the column, and keep the aspect ratio given by
+ * the width/height attributes (added at build time by _plugins/image_attrs.rb).
+ */
+
+.content img,
+.content video {
+    max-width: 100%;
+    height: auto;
+}
+
 .hidden {
     display: none;
 }

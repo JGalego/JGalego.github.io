@@ -39,3 +39,6 @@ gem 'jekyll-latex'
 gem 'jekyll-katex'
 
 gem "rouge"
+
+# Reads image dimensions at build time (see _plugins/image_attrs.rb)
+gem "fastimage", "~> 2.3"
