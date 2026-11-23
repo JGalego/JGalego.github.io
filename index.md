@@ -1,12 +1,11 @@
 ---
-title: Home 🏠
 layout: default
 ---
 
 {% assign random = "now" | date: "%s%N" | modulo: site.data.quotes.size %}
 
 <div title="Did you know? 🧐 The developers of the 'Dinosaur Game' chose the dinosaur theme as a reference to the game's function, a joke that not having an internet connection is equivalent to living in the 'prehistoric ages'. Talk about 'Rawr!' 🦖">
-<img src="assets/images/dinosaur.gif" width="100%" alt="Chrome offline dinosaur game animation"/>
+<img src="assets/images/dino-agent.gif" width="100%" alt="A Q-learning agent playing the Chrome dino game"/>
 </div>
 
 > <span id="quote"></span>
