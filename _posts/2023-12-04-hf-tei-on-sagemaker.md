@@ -1,11 +1,9 @@
 ---
 title: Bringing 🤗 Text Embeddings Inference to Amazon SageMaker
-layout: default
+layout: post
 tags: [aws, embeddings-rag]
 excerpt_separator: <!-- excerpt-end -->
 ---
-
-## Bringing 🤗 Text Embeddings Inference to Amazon SageMaker
 
 <!-- excerpt-start -->
 

@@ -1,11 +1,9 @@
 ---
 title: Dependable AI in Airborne Systems ✈️
-layout: default
+layout: post
 tags: [safety-critical-ai, talks-events]
 excerpt_separator: <!-- excerpt-end -->
 ---
-
-## Dependable AI in Airborne Systems ✈️
 
 <!-- excerpt-start -->
 

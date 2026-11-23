@@ -1,11 +1,9 @@
 ---
 title: "🧪 The Rise of the LLM OS: From AIOS to MemGPT and beyond"
-layout: default
+layout: post
 tags: [genai, agents]
 excerpt_separator: <!-- excerpt-end -->
 ---
-
-## 🧪 The Rise of the LLM OS: From AIOS to MemGPT and beyond
 
 <!-- excerpt-start -->
 

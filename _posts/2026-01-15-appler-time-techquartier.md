@@ -1,11 +1,9 @@
 ---
 title: "ÄpplerTime @ TechQuartier in Frankfurt 🥨"
-layout: default
+layout: post
 tags: [aws, talks-events]
 excerpt_separator: <!-- excerpt-end -->
 ---
-
-## ÄpplerTime @ TechQuartier in Frankfurt 🥨
 
 <!-- excerpt-start -->
 

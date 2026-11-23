@@ -1,11 +1,10 @@
 ---
 title: Serverless LLM Proxy ✨ /֎-Compatible/
-layout: default
+heading: "Serverless LLM Proxy ✨ /׎-Compatible/"
+layout: post
 tags: [aws, serverless, open-source]
 excerpt_separator: <!-- excerpt-end -->
 ---
-
-## Serverless LLM Proxy ✨ /׎-Compatible/
 
 <!-- excerpt-start -->
 

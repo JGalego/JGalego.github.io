@@ -1,13 +1,12 @@
 ---
 title: Time in Machine Learning Engineering ⏳
-layout: default
+heading: "Time in Machine Learning Engineering ⏳ - A Faux-Calculus Argument"
+layout: post
 tags: [machine-learning]
 excerpt_separator: <!-- excerpt-end -->
 ---
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.css" crossorigin="anonymous">
-
-## Time in Machine Learning Engineering ⏳ - A Faux-Calculus Argument
 
 <!-- excerpt-start -->
 

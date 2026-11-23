@@ -1,11 +1,10 @@
 ---
 title: Chatting with Support - Cost Optimization with AWS 💰
-layout: default
+heading: "Chatting with Support: Cost Optimization with AWS 💰"
+layout: post
 tags: [aws]
 excerpt_separator: <!-- excerpt-end -->
 ---
-
-## Chatting with Support: Cost Optimization with AWS 💰
 
 <!-- excerpt-start -->
 

@@ -1,11 +1,9 @@
 ---
 title: AI Red Teaming @ Critical Software 🟥
-layout: default
+layout: post
 tags: [security, genai]
 excerpt_separator: <!-- excerpt-end -->
 ---
-
-## AI Red Teaming @ Critical Software 🟥
 
 <!-- excerpt-start -->
 

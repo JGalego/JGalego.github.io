@@ -1,11 +1,9 @@
 ---
 title: A Tour of GenAI 🚀 - There and Back Again
-layout: default
+layout: post
 tags: [genai, talks-events]
 excerpt_separator: <!-- excerpt-end -->
 ---
-
-## A Tour of GenAI 🚀 - There and Back Again
 
 <!-- excerpt-start -->
 

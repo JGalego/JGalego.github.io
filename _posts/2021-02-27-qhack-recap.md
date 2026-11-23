@@ -1,11 +1,10 @@
 ---
 title: QHack Recap - PennyLane, Amazon Braket and Beyond 🚀
-layout: default
+heading_link: https://medium.com/@joao.galego/qhack-recap-pennylane-amazon-braket-and-beyond-a2c153d50a88
+layout: post
 tags: [talks-events, machine-learning]
 excerpt_separator: <!-- excerpt-end -->
 ---
-
-## [QHack Recap  -  PennyLane, Amazon Braket and Beyond 🚀](https://medium.com/@joao.galego/qhack-recap-pennylane-amazon-braket-and-beyond-a2c153d50a88)
 
 <!-- excerpt-start -->
 

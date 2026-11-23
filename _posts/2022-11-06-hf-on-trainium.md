@@ -1,11 +1,10 @@
 ---
 title: HuggingFace 🤗 on Trainium
-layout: default
+heading_link: https://github.com/JGalego/HF-on-Trainium
+layout: post
 tags: [aws, machine-learning]
 excerpt_separator: <!-- excerpt-end -->
 ---
-
-## [HuggingFace 🤗 on Trainium](https://github.com/JGalego/HF-on-Trainium)
 
 <!-- excerpt-start -->
 

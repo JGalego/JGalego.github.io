@@ -1,11 +1,9 @@
 ---
 title: "Your idea is my command: multi-agent collaboration for software development 💡🚀"
-layout: default
+layout: post
 tags: [agents, genai]
 excerpt_separator: <!-- excerpt-end -->
 ---
-
-## Your idea is my command: multi-agent collaboration for software development 💡🚀
 
 <!-- excerpt-start -->
 

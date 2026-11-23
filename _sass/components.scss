@@ -126,6 +126,13 @@ $sidebar-gap: 28px;
     border-radius: 999px;
     padding: 2px 9px;
 }
+a.tag-label {
+    color: inherit;
+}
+a.tag-label:hover {
+    color: $accent;
+    text-decoration: none;
+}
 
 /*
  * Media: never wider than the column, and keep the aspect ratio given by
@@ -136,6 +143,52 @@ $sidebar-gap: 28px;
 .content video {
     max-width: 100%;
     height: auto;
+}
+
+/*
+ * Post page (_layouts/post.html)
+ */
+
+.post-title {
+    font-size: 1.5em;
+    margin: 0.83em 0;
+}
+.post-title a {
+    color: inherit;
+}
+.post-header .post-meta {
+    margin-bottom: 20px;
+}
+.post-nav {
+    margin-top: 40px;
+    padding-top: 15px;
+    border-top: 1px solid var(--border);
+}
+.post-nav-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+    margin-top: 15px;
+}
+.post-nav-links small {
+    display: block;
+    color: var(--muted);
+    font-size: 12px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+.post-nav-next {
+    grid-column: 2;
+    text-align: right;
+}
+@media (max-width: $small-width) {
+    .post-nav-links {
+        grid-template-columns: 1fr;
+    }
+    .post-nav-next {
+        grid-column: 1;
+        text-align: left;
+    }
 }
 
 .hidden {

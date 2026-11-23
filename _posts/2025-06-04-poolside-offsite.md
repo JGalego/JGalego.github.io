@@ -1,11 +1,9 @@
 ---
 title: poolside Offsite in Peniche 🥽
-layout: default
+layout: post
 tags: [talks-events]
 excerpt_separator: <!-- excerpt-end -->
 ---
-
-## poolside Offsite in Peniche 🥽
 
 <!-- excerpt-start -->
 

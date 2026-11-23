@@ -1,11 +1,9 @@
 ---
 title: Deploy LangChain 🦜🔗 applications on AWS with LangServe 🦜️🏓
-layout: default
+layout: post
 tags: [aws, langchain]
 excerpt_separator: <!-- excerpt-end -->
 ---
-
-## Deploy LangChain 🦜🔗 applications on AWS with LangServe 🦜️🏓
 
 <!-- excerpt-start -->
 

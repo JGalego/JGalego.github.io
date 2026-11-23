@@ -1,11 +1,11 @@
 ---
 title: Defect Detection with Amazon Lookout for Vision 🏭
-layout: default
+heading: "Defect Detection with Amazon Lookout for Vision"
+heading_link: https://medium.com/@joao.galego/defect-detection-with-amazon-lookout-for-vision-58184badfcb5
+layout: post
 tags: [aws, machine-learning]
 excerpt_separator: <!-- excerpt-end -->
 ---
-
-## [Defect Detection with Amazon Lookout for Vision](https://medium.com/@joao.galego/defect-detection-with-amazon-lookout-for-vision-58184badfcb5)
 
 At [re:Invent](https://reinvent.awsevents.com/), AWS unveiled a suite of industrial-focused products and services designed to accelerate digital transformation for manufacturing partners.
 

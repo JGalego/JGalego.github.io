@@ -1,11 +1,9 @@
 ---
 title: Fighting Hallucinations with LLM Cascades 🍄
-layout: default
+layout: post
 tags: [genai]
 excerpt_separator: <!-- excerpt-end -->
 ---
-
-## Fighting Hallucinations with LLM Cascades 🍄
 
 <!-- excerpt-start -->
 

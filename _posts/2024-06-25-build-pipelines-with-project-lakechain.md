@@ -1,11 +1,9 @@
 ---
 title: Build Document Processing Pipelines with Project Lakechain
-layout: default
+layout: post
 tags: [aws, open-source]
 excerpt_separator: <!-- excerpt-end -->
 ---
-
-## Build Document Processing Pipelines with Project Lakechain
 
 <!-- excerpt-start -->
 

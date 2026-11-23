@@ -1,11 +1,9 @@
 ---
 title: "#TGIFun🎈 Building GenAI apps with managed AI services"
-layout: default
+layout: post
 tags: [aws, genai]
 excerpt_separator: <!-- excerpt-end -->
 ---
-
-## \#TGIFun🎈 Building GenAI apps with managed AI services
 
 <!-- excerpt-start -->
 

@@ -1,11 +1,9 @@
 ---
 title: "Mapping embeddings: from meaning to vectors and back"
-layout: default
+layout: post
 tags: [embeddings-rag, genai]
 excerpt_separator: <!-- excerpt-end -->
 ---
-
-## Mapping embeddings: from meaning to vectors and back
 
 <!-- excerpt-start -->
 

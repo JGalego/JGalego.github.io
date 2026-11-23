@@ -1,11 +1,9 @@
 ---
 title: cl-bedrock 👽⛰️ > Amazon Bedrock meets Lisp
-layout: default
+layout: post
 tags: [aws, bedrock, open-source]
 excerpt_separator: <!-- excerpt-end -->
 ---
-
-## cl-bedrock 👽⛰️ > Amazon Bedrock meets Lisp
 
 <!-- excerpt-start -->
 

@@ -1,11 +1,9 @@
 ---
 title: Command AI Assistant (Bedrock Edition) ⛰️👨‍💻
-layout: default
+layout: post
 tags: [aws, bedrock, agents]
 excerpt_separator: <!-- excerpt-end -->
 ---
-
-## Command AI Assistant (Bedrock Edition) ⛰️👨‍💻
 
 <!-- excerpt-start -->
 

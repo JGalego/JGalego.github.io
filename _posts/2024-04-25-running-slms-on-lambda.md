@@ -1,11 +1,9 @@
 ---
 title: "Running Small Language Models on AWS Lambda 🤏"
-layout: default
+layout: post
 tags: [aws, serverless, genai]
 excerpt_separator: <!-- excerpt-end -->
 ---
-
-## Running Small Language Models on AWS Lambda 🤏
 
 <!-- excerpt-start -->
 

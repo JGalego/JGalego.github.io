@@ -1,11 +1,9 @@
 ---
 title: Oxford ML Summer School 2025 // Recap 🎓
-layout: default
+layout: post
 tags: [machine-learning, talks-events]
 excerpt_separator: <!-- excerpt-end -->
 ---
-
-## Oxford ML Summer School 2025 // Recap 🎓
 
 <!-- excerpt-start -->
 

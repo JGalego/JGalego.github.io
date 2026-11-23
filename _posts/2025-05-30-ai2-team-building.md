@@ -1,11 +1,9 @@
 ---
 title: AI x Innovation @ AIHub 🧠
-layout: default
+layout: post
 tags: [talks-events]
 excerpt_separator: <!-- excerpt-end -->
 ---
-
-## AI x Innovation @ AIHub 🧠
 
 <!-- excerpt-start -->
 

@@ -1,11 +1,9 @@
 ---
 title: "Make Programs, not Prompts: DSPy Pipelines with Llama 3 on Amazon SageMaker JumpStart"
-layout: default
+layout: post
 tags: [aws, genai]
 excerpt_separator: <!-- excerpt-end -->
 ---
-
-## Make Programs, not Prompts: DSPy Pipelines with Llama 3 on Amazon SageMaker JumpStart
 
 <!-- excerpt-start -->
 
