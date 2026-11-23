@@ -7,15 +7,20 @@ layout: default
 <img src="assets/images/boss.jpg" width="100%" alt="Baryon Oscillation Spectroscopic Survey (BOSS) map, the largest known structure in the universe"/>
 </div>
 
-<div class="tag-filter">
-<button class="tag-chip is-active" data-tag="all">All ({{ site.posts.size }})</button>
+<div class="blog-layout">
+
+<nav class="tag-filter" aria-label="Filter posts by topic" markdown="0">
+<span class="tag-filter-title">Topics</span>
+<button class="tag-chip is-active" data-tag="all"><span>All</span> <span class="n">{{ site.posts.size }}</span></button>
 {% assign sorted_tags = site.tags | sort %}
 {% for tag in sorted_tags %}
 {% assign key = tag[0] %}
 {% assign meta = site.data.tags[key] %}
-<button class="tag-chip" data-tag="{{ key }}">{% if meta %}{{ meta.emoji }} {{ meta.label }}{% else %}{{ key }}{% endif %} ({{ tag[1].size }})</button>
+<button class="tag-chip" data-tag="{{ key }}"><span>{% if meta %}{{ meta.emoji }} {{ meta.label }}{% else %}{{ key }}{% endif %}</span> <span class="n">{{ tag[1].size }}</span></button>
 {% endfor %}
-</div>
+</nav>
+
+<div class="blog-posts">
 
 <div id="post-list">
 {% for post in site.posts %}
@@ -39,6 +44,10 @@ layout: default
 </div>
 
 <p id="empty-state" class="hidden">Nothing tagged with that topic yet — try another one.</p>
+
+</div>
+
+</div>
 
 <script>
 (function () {
