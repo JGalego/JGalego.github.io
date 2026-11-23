@@ -3,20 +3,19 @@ title: Blog ✍️
 layout: default
 ---
 
-<div title="Meet BOSS, the Largest Structure in the Universe (https://www.smithsonianmag.com/smart-news/meet-boss-largest-structure-universe-180958378/) 🤯 Now that's what I call the fullest feeling of the sublime!">
-<img src="assets/images/boss.jpg" width="100%" alt="Baryon Oscillation Spectroscopic Survey (BOSS) map, the largest known structure in the universe"/>
-</div>
+{% capture egg %}Meet <a href="https://www.smithsonianmag.com/smart-news/meet-boss-largest-structure-universe-180958378/">BOSS, the Largest Structure in the Universe</a> 🤯 Now that's what I call the fullest feeling of the sublime!{% endcapture %}
+{% include egg.html src="/assets/images/boss.jpg" alt="Baryon Oscillation Spectroscopic Survey (BOSS) map, the largest known structure in the universe" text=egg %}
 
 <div class="blog-layout">
 
 <nav class="tag-filter" aria-label="Filter posts by topic" markdown="0">
 <span class="tag-filter-title">Topics</span>
-<button class="tag-chip is-active" data-tag="all"><span>All</span> <span class="n">{{ site.posts.size }}</span></button>
+<button type="button" class="tag-chip is-active" data-tag="all" aria-pressed="true"><span>All</span> <span class="n">{{ site.posts.size }}</span></button>
 {% assign sorted_tags = site.tags | sort %}
 {% for tag in sorted_tags %}
 {% assign key = tag[0] %}
 {% assign meta = site.data.tags[key] %}
-<button class="tag-chip" data-tag="{{ key }}"><span>{% if meta %}{{ meta.emoji }} {{ meta.label }}{% else %}{{ key }}{% endif %}</span> <span class="n">{{ tag[1].size }}</span></button>
+<button type="button" class="tag-chip" id="{{ key }}" data-tag="{{ key }}" aria-pressed="false"><span>{% if meta %}{{ meta.emoji }} {{ meta.label }}{% else %}{{ key }}{% endif %}</span> <span class="n">{{ tag[1].size }}</span></button>
 {% endfor %}
 </nav>
 
@@ -32,7 +31,7 @@ layout: default
 <time>{{ post.date | date: "%Y-%m-%d" }}</time>
 {% for t in post.tags %}
 {% assign meta = site.data.tags[t] %}
-<span class="tag-label">{% if meta %}{{ meta.emoji }} {{ meta.label }}{% else %}{{ t }}{% endif %}</span>
+<a class="tag-label" href="#{{ t }}">{% if meta %}{{ meta.emoji }} {{ meta.label }}{% else %}{{ t }}{% endif %}</a>
 {% endfor %}
 </div>
 
@@ -56,9 +55,13 @@ layout: default
   var empty = document.getElementById("empty-state");
 
   function applyTag(tag) {
-    var chip = document.querySelector('.tag-chip[data-tag="' + tag + '"]') || chips[0];
-    chips.forEach(function (c) { c.classList.remove("is-active"); });
-    chip.classList.add("is-active");
+    var chip = chips[0];
+    chips.forEach(function (c) { if (c.getAttribute("data-tag") === tag) chip = c; });
+    tag = chip.getAttribute("data-tag");
+    chips.forEach(function (c) {
+      c.classList.toggle("is-active", c === chip);
+      c.setAttribute("aria-pressed", c === chip ? "true" : "false");
+    });
 
     var visible = 0;
     cards.forEach(function (card) {
@@ -70,13 +73,20 @@ layout: default
     empty.classList.toggle("hidden", visible !== 0);
   }
 
+  // Keep the selected topic in the URL (/blog#aws) so a filtered view can be
+  // shared or bookmarked.
   chips.forEach(function (chip) {
     chip.addEventListener("click", function () {
-      applyTag(chip.getAttribute("data-tag"));
+      var tag = chip.getAttribute("data-tag");
+      applyTag(tag);
+      history.replaceState(null, "", tag === "all" ? window.location.pathname + window.location.search : "#" + tag);
     });
   });
 
-  var hashTag = window.location.hash.replace("#", "");
-  if (hashTag) applyTag(hashTag);
+  function applyHash() {
+    applyTag(decodeURIComponent(window.location.hash.replace("#", "")) || "all");
+  }
+  window.addEventListener("hashchange", applyHash);
+  if (window.location.hash) applyHash();
 })();
 </script>

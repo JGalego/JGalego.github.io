@@ -24,9 +24,8 @@ layout: default
 	{% endfor %}
 {% endfor %}
 
-<div title="If you hovered this far, you may like to know that this pastiche was created way back in 2015 using Google's DeepDream (https://github.com/google/deepdream), not one of those fancy new diffusion models - I'm old school like that! 👴">
-<img src="assets/images/profile_pastiche.webp" width="100%" alt="AI-generated DeepDream pastiche portrait of João Galego"/>
-</div>
+{% capture egg %}If you hovered this far, you may like to know that this pastiche was created way back in 2015 using <a href="https://github.com/google/deepdream">Google's DeepDream</a>, not one of those fancy new diffusion models - I'm old school like that! 👴{% endcapture %}
+{% include egg.html src="/assets/images/profile_pastiche.webp" alt="AI-generated DeepDream pastiche portrait of João Galego" text=egg %}
 
 My name is {% redact %}{{ firstName }} {{ lastName }}{% endredact %}, I'm `0x{{ dob | age | hex }}` years old, and I'm based in {% redact %}{{ city }}{% endredact %}, {% redact %}{{ country }}{% endredact %}.
 

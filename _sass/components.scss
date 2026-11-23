@@ -16,7 +16,7 @@
     box-sizing: border-box;
     margin: 0;
     display: inline-block;
-    font-family: "Inconsolata";
+    font-family: $font;
     font-size: 11px;
     line-height: 1.2;
     background: none;
@@ -34,7 +34,7 @@
 .tag-chip.is-active {
     background: $accent;
     border-color: $accent;
-    color: white;
+    color: $on-accent;
 }
 .tag-chip .n {
     opacity: 0.6;
@@ -96,7 +96,7 @@ $sidebar-gap: 28px;
     }
     .tag-chip.is-active:hover {
         background: $accent;
-        color: white;
+        color: $on-accent;
     }
     .tag-chip .n {
         font-variant-numeric: tabular-nums;
@@ -143,6 +143,42 @@ a.tag-label:hover {
 .content video {
     max-width: 100%;
     height: auto;
+}
+
+/*
+ * Easter-egg hero (_includes/egg.html): click / tap the image for the caption
+ */
+
+.egg summary {
+    display: block;
+    list-style: none;
+    cursor: pointer;
+}
+.egg summary::-webkit-details-marker {
+    display: none;
+}
+.egg img,
+.egg video {
+    display: block;
+    width: 100%;
+}
+.egg p {
+    margin: 8px 0 0 0;
+    color: var(--muted-strong);
+    font-size: 14px;
+}
+
+/*
+ * Redacted text ({% redact %})
+ */
+
+.redact {
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+}
+.redact-mask {
+    -webkit-user-select: none;
+    user-select: none;
 }
 
 /*

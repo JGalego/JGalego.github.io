@@ -3,9 +3,8 @@ title: Stuff 💡
 layout: default
 ---
 
-<div title="Panel from Metamorphosis II (1939-1940) by M. C. Escher">
-<img src="assets/images/escher.webp" width="100%" alt="Panel from Metamorphosis II (1939-1940) by M. C. Escher"/>
-</div>
+{% capture egg %}Panel from Metamorphosis II (1939-1940) by M. C. Escher{% endcapture %}
+{% include egg.html src="/assets/images/escher.webp" alt="Panel from Metamorphosis II (1939-1940) by M. C. Escher" text=egg %}
 
 ### Old Stuff in the Attic 📦
 

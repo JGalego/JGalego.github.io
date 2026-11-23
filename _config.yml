@@ -31,15 +31,20 @@ sass:
   sass_dir: _sass
 
 nav:
-  - name: Home 🏠
+  - name: Home
+    emoji: 🏠
     link: /
-  - name: Blog ✍️
+  - name: Blog
+    emoji: ✍️
     link: /blog
-  - name: About ✨
+  - name: About
+    emoji: ✨
     link: /about
-  - name: Projects 🛠️
+  - name: Projects
+    emoji: 🛠️
     link: /projects
-  - name: Stuff 💡
+  - name: Stuff
+    emoji: 💡
     link: /stuff
 
 kramdown:

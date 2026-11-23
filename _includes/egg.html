@@ -1,0 +1,19 @@
+{%- comment -%}
+  Hero image (or looping video) with a hidden "easter egg" caption.
+  Hovering shows the caption as a tooltip, like before; clicking, tapping or
+  pressing Enter on the image toggles it below, so it also works on touch
+  screens and with a keyboard.
+
+  Params: text (caption, may contain links), alt, and either
+          src (image) or video + width + height.
+{%- endcomment -%}
+<details class="egg" markdown="0">
+<summary title="{{ include.text | strip_html | strip | escape }}">
+{%- if include.video -%}
+<video src="{{ include.video | relative_url }}" width="{{ include.width }}" height="{{ include.height }}" autoplay loop muted playsinline aria-label="{{ include.alt | escape }}"></video>
+{%- else -%}
+<img src="{{ include.src | relative_url }}" alt="{{ include.alt | escape }}">
+{%- endif -%}
+</summary>
+<p>{{ include.text | strip }}</p>
+</details>
